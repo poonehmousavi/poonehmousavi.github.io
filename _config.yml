@@ -1,8 +1,9 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /~msaveski
+#baseurl: /~poonehmousavi
 
 collections:
   projects:
     output: true
+
