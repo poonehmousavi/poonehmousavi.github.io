@@ -4,5 +4,6 @@ papers:
     authors: "<b>Pooneh Mousavi</b>, Jessica Ouyang"
     venue: "ACL | IJCNLP | NLP4PosImpact"
     paper_pdf: "https://aclanthology.org/2021.nlp4posimpact-1.9.pdf"
+    poster: "/assets/publications/2021.nlp4posimpact-1.9/Detecting_Hashtag_Hijacking_for_Hashtag_Activism_poster.pdf"
     selected: y
 
