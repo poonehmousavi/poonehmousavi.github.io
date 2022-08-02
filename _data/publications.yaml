@@ -5,6 +5,7 @@ papers:
     venue: "ACL | IJCNLP | NLP4PosImpact"
     paper_pdf: "https://aclanthology.org/2021.nlp4posimpact-1.9.pdf"
     poster: "/assets/publications/2021.nlp4posimpact-1.9/Detecting_Hashtag_Hijacking_for_Hashtag_Activism_poster.pdf"
+    code: "https://github.com/poonehmousavi/Detecting-Hashtag-Hijacking-for-Hashtag-Activism"
     selected: y
 
   - title: "Please Donate for the Affected:Supporting Emergency Managers in Finding Volunteers and Donations in Twitter Across Disasters"
@@ -12,10 +13,12 @@ papers:
     venue: "ISCRAM 2022"
     paper_pdf: "/assets/publications/2022_ISCRAM/iscram_2021_Please Donate for the Affected.pdf"
     slides: "/assets/publications/2022_ISCRAM/iscram_2021_Please Donate for the Affected_slides.pdf"
+    code: "https://github.com/poonehmousavi/VolunteerismTransfer"
     selected: y
 
   - title: "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series "
     authors: "Jean-Christophe Gagnon-Audet, Kartik Ahuja, Mohammad Javad Darvishi Bayazi, <b>Pooneh Mousavi</b>, Guillaume Dumas, Irina Rish"
     venue: "NeurIPS 2022 | Track Datasets and Benchmarks Submission"
     paper_pdf: "https://openreview.net/forum?id=x72kLyW1OG"
+    code: "https://woods-benchmarks.github.io/"
     selected: y
