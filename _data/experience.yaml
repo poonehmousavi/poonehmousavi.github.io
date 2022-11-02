@@ -1,7 +1,13 @@
 experiences:
 
+- place: "Concordia University"
+  time: "Sep. 2022 - "
+  title: "Research/Teaching Assistant"
+  subtitle: "Conversational AI, SpeechBrain Project"
+  category: "work"
+
 - place: "UKP Lab@TU Darmstadt"
-  time: "Oct. 2021 - "
+  time: "Oct. 2021 - Aug 2022 "
   title: "Research Assistant"
   subtitle: "Severely Missing Multimodal Data for Affective Analytics Project"
   category: "work"
