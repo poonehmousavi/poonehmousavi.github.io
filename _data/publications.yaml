@@ -13,18 +13,18 @@ papers:
     code: "https://poonehmousavi.github.io/DASB-website/"
     selected: y
 
+  - title: "Open-Source Conversational AI with SpeechBrain 1.0"
+    authors: "Mirco Ravanelli, Titouan Parcollet, et al"
+    venue: "Submitted to JMLR (Machine Learning Open Source Software)"
+    paper_pdf: "https://arxiv.org/abs/2407.00463"
+    code: "https://speechbrain.github.io/"
+    selected: y
+
   - title: "CL-MASR: A Continual Learning Benchmark for Multilingual ASR"
     authors: "Luca Della Libera‡, <b>Pooneh Mousavi</b>‡, Salah Zaiem, Cem Subakan, Mirco Ravanelli"
     venue: "Submitted to Transactions on Audio, Speech and Language Processing"
     paper_pdf: "https://arxiv.org/abs/2310.16931"
     code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/CL_MASR"
-    selected: y
-
-  - title: "Open-Source Conversational AI with SpeechBrain 1.0"
-    authors: "Mirco Ravanelli, Titouan Parcollet, et al"
-    venue: "Submitted to JMLR (Machine Learning Open Source Software"
-    paper_pdf: "https://arxiv.org/abs/2407.00463"
-    code: "https://speechbrain.github.io/"
     selected: y
 
   - title: "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series"
