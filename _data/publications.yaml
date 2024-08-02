@@ -1,4 +1,38 @@
 papers:
+  - title: "How Should We Extract Discrete Audio Tokens from Self-Supervised Models?"
+    authors: "<b>Pooneh Mousavi</b>, Jarod Duret and , Salah Zaiem, Luca Della Libera, Artem Ploujnikov, Cem Subakan, Mirco Ravanelli"
+    venue: "Proc. of Interspeech, 2024, Oral Session"
+    paper_pdf: "https://arxiv.org/abs/2406.10735"
+    code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/DASB"
+    selected: y
+
+  - title: "DASB - Discrete Audio and Speech Benchmark."
+    authors: "<b>Pooneh Mousavi</b>, Luca Della Libera, Jarod Duret, Artem Ploujnikov, Cem Subakan, Mirco Ravanell"
+    venue: "Submitted to NeurIPS 2024 | Track Datasets and Benchmarks Submission"
+    paper_pdf: "https://arxiv.org/abs/2406.14294v2"
+    code: "https://poonehmousavi.github.io/DASB-website/"
+    selected: y
+
+  - title: "CL-MASR: A Continual Learning Benchmark for Multilingual ASR"
+    authors: "Luca Della Libera‡, <b>Pooneh Mousavi</b>‡, Salah Zaiem, Cem Subakan, Mirco Ravanelli"
+    venue: "Submitted to Transactions on Audio, Speech and Language Processing"
+    paper_pdf: "https://arxiv.org/abs/2310.16931"
+    code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/CL_MASR"
+    selected: y
+
+  - title: "Open-Source Conversational AI with SpeechBrain 1.0"
+    authors: "Mirco Ravanelli, Titouan Parcollet, et al"
+    venue: "Submitted to JMLR (Machine Learning Open Source Software"
+    paper_pdf: "https://arxiv.org/abs/2407.00463"
+    code: "https://speechbrain.github.io/"
+    selected: y
+
+  - title: "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series"
+    authors: "Jean-Christophe Gagnon-Audet, Kartik Ahuja, Mohammad Javad Darvishi Bayazi, <b>Pooneh Mousavi</b>, Guillaume Dumas, Irina Rish"
+    venue: "Transactions on Machine Learning Research"
+    paper_pdf: "https://arxiv.org/abs/2203.09978"
+    code: "https://woods-benchmarks.github.io/"
+    selected: y
 
   - title: "Detecting Hashtag Hijacking for Hashtag Activism"
     authors: "<b>Pooneh Mousavi</b>, Jessica Ouyang"
@@ -16,9 +50,4 @@ papers:
     code: "https://github.com/poonehmousavi/VolunteerismTransfer"
     selected: y
 
-  - title: "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series "
-    authors: "Jean-Christophe Gagnon-Audet, Kartik Ahuja, Mohammad Javad Darvishi Bayazi, <b>Pooneh Mousavi</b>, Guillaume Dumas, Irina Rish"
-    venue: "NeurIPS 2022 | Track Datasets and Benchmarks Submission"
-    paper_pdf: "https://openreview.net/forum?id=x72kLyW1OG"
-    code: "https://woods-benchmarks.github.io/"
-    selected: y
+
