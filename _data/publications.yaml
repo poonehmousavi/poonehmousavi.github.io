@@ -1,4 +1,10 @@
 papers:
+  - title: "What Are They Doing? Joint Audio-Speech Co-Reasoning"
+    authors: "Yingzhi Wang, <b>Pooneh Mousavi</b>, Artem Ploujnikov, Mirco Ravanelli"
+    venue: "Proc. of ICASSP, 2025"
+    paper_pdf: "https://arxiv.org/abs/2409.14526"
+    selected: y
+
   - title: "How Should We Extract Discrete Audio Tokens from Self-Supervised Models?"
     authors: "<b>Pooneh Mousavi</b>, Jarod Duret and , Salah Zaiem, Luca Della Libera, Artem Ploujnikov, Cem Subakan, Mirco Ravanelli"
     venue: "Proc. of Interspeech, 2024, Oral Session"
@@ -8,7 +14,7 @@ papers:
 
   - title: "DASB - Discrete Audio and Speech Benchmark."
     authors: "<b>Pooneh Mousavi</b>, Luca Della Libera, Jarod Duret, Artem Ploujnikov, Cem Subakan, Mirco Ravanell"
-    venue: "Submitted to NeurIPS 2024 | Track Datasets and Benchmarks Submission"
+    venue:
     paper_pdf: "https://arxiv.org/abs/2406.14294v2"
     code: "https://poonehmousavi.github.io/DASB-website/"
     selected: y
