@@ -21,7 +21,7 @@ papers:
 
   - title: "Open-Source Conversational AI with SpeechBrain 1.0"
     authors: "Mirco Ravanelli, Titouan Parcollet, et al"
-    venue: "Submitted to JMLR (Machine Learning Open Source Software)"
+    venue: "JMLR (Machine Learning Open Source Software)"
     paper_pdf: "https://arxiv.org/abs/2407.00463"
     code: "https://speechbrain.github.io/"
     selected: y
