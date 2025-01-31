@@ -67,14 +67,14 @@ title: RG
       </a>
   <div class="collapse" id="feb06">
   <div class="card card-body">
-  <p>In today's landscape of natural language processing (NLP) and speech processing, developing applications often begins with fine-tuning a foundation model. However, teaching a foundation model new skills is not as straightforward as it seems. Despite the sophistication of current models, introducing new capabilities can often impair their original functions, a phenomenon known as catastrophic forgetting. While experience replay is a common solution, the lack of open-source training data for models like LLaMA poses challenges for continuous training. This talk will delve into recent research on fine-tuning language models, including their spoken counterparts, focusing on preserving their initial capabilities. This talk will also share some benchmarks related to the ongoing fine-tuning of foundation models</p>     
+  <p>In today's landscape of natural language processing (NLP) and speech processing, developing applications often begins with fine-tuning a foundation model. However, teaching a foundation model new skills is not as straightforward as it seems. Despite the sophistication of current models, introducing new capabilities can often impair their original functions, a phenomenon known as catastrophic forgetting. While experience replay is a common solution, the lack of open-source training data for models like LLaMA poses challenges for continuous training. This talk will delve into recent research on fine-tuning language models, including their spoken counterparts, focusing on preserving their initial capabilities. This talk will also share some benchmarks related to the ongoing fine-tuning of foundation models.</p>     
   </div>
   </li>
   
   <h4>[Feb 13th, 2025]</h4>
   <li>
     <b>
-        <a href=""> TBA </a>
+        <a href=""> Scalable and Efficient Speech Enhancement </a>
     </b>
     <br> Presenter:<a href="https://minjekim.com/"><u> Minje Kim</u></a> University of Illinois at Urbana-Champaign
     <a class="btn btn-info btn-xs" data-toggle="collapse" href="#feb13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -82,7 +82,7 @@ title: RG
     </a>
     <div class="collapse" id="feb13bio">
       <div class="card card-body">
-        <p>TBA.</p>
+        <p><u>Minje Kim</u> is an Associate Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign and a Visiting Academic at Amazon Lab126. Prior to that, he was an Associate Professor at Indiana University. He earned his Ph.D. in CS from UIUC after working as a researcher at ETRI, a national lab in Korea (2006–2011). His research focuses on developing machine learning models for speech and audio problems. He has been recognized with various awards, including the NSF Career Award (2021), the Indiana University Trustees Teaching Award (2021), and the IEEE SPS Best Paper Award (2020), among others. He is the Chair of the IEEE SPS Audio and Acoustic Signal Processing Technical Committee, a Senior Area Editor for IEEE SPL and IEEE/ACM TASLP, an Associate Editor for EURASIP JASMP, and a Consulting Associate Editor for IEEE OJSP. He is also on the program committees of many machine learning and audio/speech conferences, including NeurIPS, ICLR, AAAI, ICASSP, Interspeech, ISMIR, etc. He holds over 50 patents as an inventor.</p>
       </div>
     </div>
     <br> 
@@ -92,7 +92,7 @@ title: RG
       </a>
   <div class="collapse" id="feb13">
   <div class="card card-body">
-  <p>TBA   </p>     
+  <p>Recent advances in single-channel speech enhancement have yielded substantial performance gains but often at the cost of prohibitive model sizes or inference complexity. In this talk, I present a three-part framework addressing these challenges by unifying speaker-agnostic compression, personalized modeling, and scalable architectures. First, we discuss speaker-agnostic model compression via low-bit quantization. Drawing on Bitwise Neural Networks (BNN) and Incremental Binarization on RNNs, we show how feedforward and recurrent networks can be quantized to binary parameters, thereby drastically reducing computational complexity with only a minor degradation in enhancement quality. We also explore discriminative hashing approaches (e.g., Boosted Locality Sensitive Hashing) to represent audio spectra as highly compact binary codes—enabling efficient lookups for source separation in resource-constrained devices. Next, we shift toward personalized speech enhancement—a speaker-aware model compression paradigm. Here, zero-shot approaches that exploit speaker embeddings or knowledge distillation serve to adapt compact models on-the-fly without requiring any clean speech data from the user. By selecting or distilling knowledge from large teacher networks, these personalized systems can adapt to new speakers or recurring noise conditions at test time, thus bridging the performance gap between large, general-purpose models and lightweight, specialized models. Finally, we introduce scalable and efficient enhancement architectures. Building on blockwise optimization (BLOOM-Net) and modified cold diffusion, we design flexible models whose internal blocks or iterative steps can be selectively engaged based on real-time resource constraints. This scalability lets the same network accommodate diverse deployment scenarios—ranging from low-power embedded devices to higher-capacity servers—while maintaining strong enhancement performance. </p>     
   </div>
   </li>
 
