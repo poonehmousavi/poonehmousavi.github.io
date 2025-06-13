@@ -19,12 +19,11 @@ title: Home
 
 <div class="docs-section" id="bio">
   <h4>📢 News!</h4>
+  <p>Happy to share a preprint from our recent work <a href="https://arxiv.org/abs/2506.10274">"Discrete Audio Tokens: More Than a Survey!"</a>. Huge thanks to all our amazing collaborators. Explore our <a href="https://poonehmousavi.github.io/dates-website/">website</a> to browse the tokenizer database or submit your own tokenizer to be featured! <a></a></p>
+  <p>Excited to annouce our paper <a href="https://arxiv.org/abs/2505.18517">"LiSTEN: Learning Soft Token Embeddings for Neural Audio LLMs?"</a> has been accepted at Interspeech 2025.</p>
+  <p>Our paper <a href="https://arxiv.org/abs/2505.19937">"ALAS: Measuring Latent Speech-Text Alignment For Spoken Language Understanding In Multimodal LLMs"</a> has been accepted at ICML 2025 Workshop on Machine Learning for Audio.</p>
   <p>Join our <a href="https://poonehmousavi.github.io/rg">Conversational AI Reading Group</a>! Every Thursday, leading scientists share insights on the latest advancements in the field. Everyone is welcome to join.</p>
   <p>Excited to annouce our paper<a href="https://arxiv.org/abs/2409.14526">"What Are They Doing? Joint Audio-Speech Co-Reasoning"</a> has been accepted at ICASSP 2025.</p>
-  <p>We are excited to announce the launch of our <a href="https://poonehmousavi.github.io/DASB-website/">DASB leaderboard</a>!</p>
-  <p>Excited to annouce our paper<a href="https://arxiv.org/abs/2406.10735">"How Should We Extract Discrete Audio Tokens from Self-Supervised Models?"</a> has been accepted at Interspeech 2024 for an oral presentation.</p>
-  <p>Happy to share a preprint from our recent work <a href="https://arxiv.org/abs/2406.14294v2">"DASB - Discrete Audio and Speech Benchmark"</a>. Thanks to all my amazing collaborators.</p>
-
 
 </div>
 
@@ -78,6 +77,10 @@ title: Home
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
 
+            {% if paper.website %}
+            <a class="button" href="{{ paper.website | prepend: site.baseurl }}" target="_blank">Website</a>
+            {% endif %}
+
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
@@ -112,6 +115,10 @@ title: Home
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.website %}
+            <a class="button" href="{{ paper.website | prepend: site.baseurl }}" target="_blank">Website</a>
             {% endif %}
 
             {% if paper.slides %}

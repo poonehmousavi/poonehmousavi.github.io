@@ -1,4 +1,23 @@
 papers:
+  - title: "Discrete Audio Tokens: More Than a Survey!"
+    authors: "<b>Pooneh Mousavi</b>, Gallil Maimon, Adel Moumen, Darius Petermann, Jiatong Shi, Haibin Wu, Haici Yang, Anastasia Kuznetsova,Artem Ploujnikov, Ricard Marxer, Bhuvana Ramabhadran, Benjamin Elizalde, Loren Lugosch, Jinyu Li, Cem Subakan, Phil Woodland, Minje Kim, Hung-yi Lee, Shinji Watanabe, Yossi Adi, Mirco Ravanelli"
+    venue: "preprint"
+    paper_pdf: "https://arxiv.org/abs/2506.10274"
+    website: "https://poonehmousavi.github.io/dates-website/"
+    selected: y
+
+  - title: "ALAS: Measuring Latent Speech-Text Alignment For Spoken Language Understanding In Multimodal LLMs"
+    authors: "<b>Pooneh Mousavi</b>, Yingzhi Wang, Mirco Ravanelli, Cem Subakan"
+    venue: "ICML Workshop on Machine Learning for Audio, 2025"
+    paper_pdf: "https://arxiv.org/abs/2505.19937"
+    selected: y
+
+  - title: "LiSTEN: Learning Soft Token Embeddings for Neural Audio LLMs"
+    authors: "<b>Pooneh Mousavi‡</b>, Shubham Gupta‡, Cem Subakan, Mirco Ravanelli"
+    venue: "Proc. of Interpeech, 2025"
+    paper_pdf: "https://arxiv.org/abs/2505.18517"
+    selected: y
+
   - title: "What Are They Doing? Joint Audio-Speech Co-Reasoning"
     authors: "Yingzhi Wang, <b>Pooneh Mousavi</b>, Artem Ploujnikov, Mirco Ravanelli"
     venue: "Proc. of ICASSP, 2025"
