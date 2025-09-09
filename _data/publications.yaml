@@ -1,8 +1,8 @@
 papers:
   - title: "Discrete Audio Tokens: More Than a Survey!"
     authors: "<b>Pooneh Mousavi</b>, Gallil Maimon, Adel Moumen, Darius Petermann, Jiatong Shi, Haibin Wu, Haici Yang, Anastasia Kuznetsova,Artem Ploujnikov, Ricard Marxer, Bhuvana Ramabhadran, Benjamin Elizalde, Loren Lugosch, Jinyu Li, Cem Subakan, Phil Woodland, Minje Kim, Hung-yi Lee, Shinji Watanabe, Yossi Adi, Mirco Ravanelli"
-    venue: "preprint"
-    paper_pdf: "https://arxiv.org/abs/2506.10274"
+    venue: "Transactions on Machine Learning Research (TMLR 2025)"
+    paper_pdf: "https://openreview.net/pdf?id=eqNchtvc6v"
     website: "https://poonehmousavi.github.io/dates-website/"
     selected: y
 
