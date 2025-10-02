@@ -70,42 +70,6 @@ title: RG
           }
         }
         </style>
-              <h4>[Oct 2nd, 2025]</h4>
-              <li>
-                <b>
-                    <a href="https://arxiv.org/abs/2502.15657"> A safety case for the Scientist AI </a>
-                </b>
-                <br> Presenter:<a href="https://yoshuabengio.org/"><u>Yoshua Bengio</u></a> LawZero
-                <a class="btn btn-info btn-xs" data-toggle="collapse" href="#oct226bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-                 Speaker Bio
-                </a>
-                <div class="collapse" id="oct226bio">
-                  <div class="card card-body">
-                    <p> <u>Yoshua Bengio</u> is Full Professor in the Department of Computer Science and Operations Research at Université de Montreal, Co-President and Scientific Director of LawZero, as well as Founder and Scientific Advisor of Mila and Special Advisor and Founding Scientific Director of IVADO. Considered one of the world’s leaders in artificial intelligence and deep learning, he is the recipient of the 2018 A.M. Turing Award with Geoff Hinton and Yann LeCun, known as the Nobel prize of computing.
-
-                      He is a Canada CIFAR AI Chair, a Fellow of both the Royal Society of London and Canada, an Officer of the Order of Canada, Knight of the Legion of Honor of France, Member of the UN’s Scientific Advisory Board for Independent Advice on Breakthroughs in Science and Technology,  and Chair of the International Scientific Report on the Safety of Advanced AI.</p>
-                  </div>
-                </div>
-                <br> 
-                <a href="https://arxiv.org/abs/2502.15657"><img src="https://img.shields.io/badge/Paper-link-important"></a>
-                <a href={{ "assets/slides/SAI-safety-case.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Paper-link-important"></a>
-                <!-- <a href="https://youtu.be/P_ra5WjdZTE?si=VIid977CPneupSN5"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>-->
-                <a href={{ "assets/slides/MilaReadingGroup2oct2025.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a> 
-                <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#oct226" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Abstract
-                  </a>
-              <div class="collapse" id="oct226">
-              <div class="card card-body">
-              <p>  Deep learning systems can acquire uncontrolled goals, e.g., instrumental subgoals of human-specified objectives or imitated human aims, that conflict with human norms. We propose a safety case for the<i>Scientist AI</i>, a purely non-agentic predictor whose sole function is to estimate the conditional probability of properties of the world, not what action to take to achieve a goal nor acting like a ChatBot which answers questions. 
-                Our safety case rests on two design claims. (1) The training setup prevents any learning signal that depends on changes the model could induce in the external world, eliminating incentives to select outputs that steer the world toward preferred states, as would happen with typical reinforcement learning. 
-                (2) A "truthification" pipeline converts data into atomic claims labelled by trust tiers, with the highest tier corresponding to claims verified by human science, to avoid uncontrolled agency arising from human imitation. While total honesty cannot be guaranteed in general, we argue that a sufficiently capable <i>Scientist AI</i> trained and calibrated using this pipeline is <em> epistemically correct</em>: 
-                When it issues a high-confidence claim, it is trustworthy. This differs from total honesty and solving the challenge of eliciting latent knowledge, as it leaves open the possibility that the AI expresses uncertainty despite knowing the answer. However, this asymmetric guarantee supports conservative decision-making and turns increased capability from a misalignment risk into higher reliability of confident claims. 
-                As an application, a <i>Scientist AI</i> could act as a guardrail for untrusted agents by predicting the probability of harm from candidate actions and vetoing any action whose predicted harm exceeds a threshold. To support this safety case, a set of Scientist AI design properties is proposed, including a latent variable model of the truthified claims. Every statement, latent or observed, that makes a claim in natural language about a property of the world, corresponds to a random variable. The anticipated improvement in generalization and explainability would ride on the language-understanding abilities of modern deep learning. 
-                Latent variable modeling would both increase the quantity of training signals for rarely or never observed claims and allow the generation and validation of interpretable explanations for any target statement.
-                </p>     
-              </div>
-              </li>
-
               <h4>[Oct 9th, 2025]</h4>
               <li>
                 <b>
@@ -137,7 +101,7 @@ title: RG
               <h4>[Oct 16th, 2025]</h4>
               <li>
                 <b>
-                    <a href=""> TBA </a>
+                    <a href=""> The development of spoken LM </a>
                 </b>
                 <br> Presenter:<a href="https://www.microsoft.com/en-us/research/people/jinyli/"><u>Jinyu Li</u></a> Microsoft 
                 <a class="btn btn-info btn-xs" data-toggle="collapse" href="#oct1626bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -145,7 +109,7 @@ title: RG
                 </a>
                 <div class="collapse" id="oct1626bio">
                   <div class="card card-body">
-                    <p> TBA </p>
+                    <p> <u>Jinyu Li</u> currently serves as a Partner Applied Science Manager for Microsoft, Redmond, WA, USA since 2008 and leads a science team dedicated to designing and enhancing speech modeling algorithms and technologies. Dr. Li is an IEEE Fellow, for contributions to deep-learning-based speech technology innovation and commercialization. His major research interests cover several topics in speech processing, including end-to-end modeling, multimodal modeling, speech recognition, speech translation, and robustness, etc. Dr. Li has been a Member, IEEE Speech and Language Processing Technical Committee from 2018 to 2023; Associate Editor, IEEE/ACM Transactions on Audio, Speech and Language Processing from 2015 to 2020; Technical Program Chairs for IEEE Spoken Language Technology Workship SLT 2021 and IEEE Workshop of Automatic Speech Recognition and Understanding 2023 and 2025. </p>
                   </div>
                 </div>
                 <br> 
@@ -157,7 +121,7 @@ title: RG
                   </a>
               <div class="collapse" id="oct1626">
               <div class="card card-body">
-              <p>  TBA
+              <p>  Large Language Models (LLMs) have significantly influenced natural language processing (NLP) and are increasingly affecting speech processing. This talk examines the effects of LLMs on speech processing and multimodal intelligence. It reviews the progression from spoken language models (SLMs) to multimodal LLMs (MLLMs), referencing the model development process at Microsoft. The discussion includes comparisons of model architectures, advances in speech generation and understanding, and the integration of speech and text modalities. The talk concludes by presenting the recent Phi-4-multimodal model as an example.
                 </p>     
               </div>
               </li>
@@ -232,6 +196,41 @@ title: RG
         <div class="listing" style="clear:both;">
         <div class="left">
       <h3 style="text-align:center">Past Talks, Fall 2025</h3>
+      <h4>[Oct 2nd, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2502.15657"> A safety case for the Scientist AI </a>
+        </b>
+        <br> Presenter:<a href="https://yoshuabengio.org/"><u>Yoshua Bengio</u></a> LawZero
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#oct226bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+         Speaker Bio
+        </a>
+        <div class="collapse" id="oct226bio">
+          <div class="card card-body">
+            <p> <u>Yoshua Bengio</u> is Full Professor in the Department of Computer Science and Operations Research at Université de Montreal, Co-President and Scientific Director of LawZero, as well as Founder and Scientific Advisor of Mila and Special Advisor and Founding Scientific Director of IVADO. Considered one of the world’s leaders in artificial intelligence and deep learning, he is the recipient of the 2018 A.M. Turing Award with Geoff Hinton and Yann LeCun, known as the Nobel prize of computing.
+
+              He is a Canada CIFAR AI Chair, a Fellow of both the Royal Society of London and Canada, an Officer of the Order of Canada, Knight of the Legion of Honor of France, Member of the UN’s Scientific Advisory Board for Independent Advice on Breakthroughs in Science and Technology,  and Chair of the International Scientific Report on the Safety of Advanced AI.</p>
+          </div>
+        </div>
+        <br> 
+        <a href="https://arxiv.org/abs/2502.15657"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+        <a href={{ "assets/slides/SAI-safety-case.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Paper-link-important"></a>
+        <a href="https://youtu.be/bzORaP6cAGI"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>
+        <a href={{ "assets/slides/MilaReadingGroup2oct2025.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a> 
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#oct226" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Abstract
+          </a>
+      <div class="collapse" id="oct226">
+      <div class="card card-body">
+      <p>  Deep learning systems can acquire uncontrolled goals, e.g., instrumental subgoals of human-specified objectives or imitated human aims, that conflict with human norms. We propose a safety case for the<i>Scientist AI</i>, a purely non-agentic predictor whose sole function is to estimate the conditional probability of properties of the world, not what action to take to achieve a goal nor acting like a ChatBot which answers questions. 
+        Our safety case rests on two design claims. (1) The training setup prevents any learning signal that depends on changes the model could induce in the external world, eliminating incentives to select outputs that steer the world toward preferred states, as would happen with typical reinforcement learning. 
+        (2) A "truthification" pipeline converts data into atomic claims labelled by trust tiers, with the highest tier corresponding to claims verified by human science, to avoid uncontrolled agency arising from human imitation. While total honesty cannot be guaranteed in general, we argue that a sufficiently capable <i>Scientist AI</i> trained and calibrated using this pipeline is <em> epistemically correct</em>: 
+        When it issues a high-confidence claim, it is trustworthy. This differs from total honesty and solving the challenge of eliciting latent knowledge, as it leaves open the possibility that the AI expresses uncertainty despite knowing the answer. However, this asymmetric guarantee supports conservative decision-making and turns increased capability from a misalignment risk into higher reliability of confident claims. 
+        As an application, a <i>Scientist AI</i> could act as a guardrail for untrusted agents by predicting the probability of harm from candidate actions and vetoing any action whose predicted harm exceeds a threshold. To support this safety case, a set of Scientist AI design properties is proposed, including a latent variable model of the truthified claims. Every statement, latent or observed, that makes a claim in natural language about a property of the world, corresponds to a random variable. The anticipated improvement in generalization and explainability would ride on the language-understanding abilities of modern deep learning. 
+        Latent variable modeling would both increase the quantity of training signals for rarely or never observed claims and allow the generation and validation of interpretable explanations for any target statement.
+        </p>     
+      </div>
+      </li>
       <h4>[Sep 25th, 2025]</h4>
       <li>
         <b>
