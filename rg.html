@@ -70,35 +70,6 @@ title: RG
           }
         }
         </style>
-              <h4>[Oct 23rd, 2025]</h4>
-              <li>
-                <b>
-                    <a href="https://arxiv.org/abs/2502.16936"> Supervised contrastive learning from weakly-labeled audio segments for musical version matching </a>
-                </b>
-                <br> Presenter:<a href="https://serrjoa.github.io/"><u>Joan Serrà</u></a> Sony AI 
-                <a class="btn btn-info btn-xs" data-toggle="collapse" href="#oct2326bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-                 Speaker Bio
-                </a>
-                <div class="collapse" id="oct2326bio">
-                  <div class="card card-body">
-                    <p> <u>Joan Serrà</u> is a staff research scientist and team lead with Sony AI (since 2024), where he does research on machine learning with a focus on audio and multimedia analysis, synthesis, and retrieval. He holds an MSc and PhD in machine learning for audio from the Music Technology Group of Universitat Pompeu Fabra (2006-2011), and did a postdoc in artificial intelligence at IIIA-CSIC (2011-2015). After that, he joined Telefónica R&D as a machine learning researcher (2015-2019) and Dolby Laboratories as an AI researcher and manager (2019-2024). He has been involved in several research projects, co-invented over 20 patents, and co-authored over 150 publications, many of them highly cited and/or in top tier venues.  </p>
-                  </div>
-                </div>
-                <br> 
-                <a href="https://arxiv.org/abs/2502.16936"><img src="https://img.shields.io/badge/Paper-link-important"></a>
-                <!-- <a href="https://youtu.be/P_ra5WjdZTE?si=VIid977CPneupSN5"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>
-                <a href={{ "assets/slides/june26.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a> -->
-                <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#oct2326" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Abstract
-                  </a>
-              <div class="collapse" id="oct2326">
-              <div class="card card-body">
-              <p>  Detecting musical versions (different renditions of the same piece) is a challenging task with important applications. Because of the ground truth nature, existing approaches match musical versions at the track level (e.g., whole song). However, most applications require to match them at the segment level (e.g., 20s chunks). In addition, existing approaches resort to classification and triplet losses, disregarding more recent losses that could bring meaningful improvements. In this paper, we propose a method to learn from weakly annotated segments, together with a contrastive loss variant that outperforms well-studied alternatives. The former is based on pairwise segment distance reductions, while the latter modifies an existing loss following decoupling, hyper-parameter, and geometric considerations. With these two elements, we do not only achieve state-of-the-art results in the standard track-level evaluation, but we also obtain a breakthrough performance in a segment-level evaluation. We believe that, due to the generality of the challenges addressed here, the proposed methods may find utility in domains beyond audio or musical version matching.
-                </p>     
-              </div>
-            </li>
-
-
               <h4>[Oct 30th, 2025]</h4>
               <li>
                 <b>
@@ -155,11 +126,10 @@ title: RG
               </div>
               </li>
 
-
               <h4>[Nov 13th, 2025]</h4>
               <li>
                 <b>
-                    <a href=""> TBA </a>
+                    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35453"> Efficient and resource-constrained dynamic neural networks </a>
                 </b>
                 <br> Presenter:<a href="https://www.sscardapane.it/"><u>Simone Scardapane</u></a> Sapienza University of Rome.
                 <a class="btn btn-info btn-xs" data-toggle="collapse" href="#nov1325bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -167,11 +137,12 @@ title: RG
                 </a>
                 <div class="collapse" id="nov1325bio">
                   <div class="card card-body">
-                    <p> TBA </p>
+                    <p> <u>Simone Scardapane</u> is an associate professor at Sapienza University of Rome. His research focus includes the design of efficient and explainable neural network models, topological and geometric deep learning, and continual learning, as well as applications to scientific discovery, intelligent telecommunications, medicine, and environmental monitoring. He is an affiliate researcher at the National Institute for Nuclear Physics (INFN), a junior fellow at the Sapienza School for Advanced Studies, and a member of the National Inter-University Consortium for Telecommunications (CNIT) and the ELLIS society. He has published over 150 publications on these topics, and he currently serves as action editor for Transactions on Machine Learning Research, and as area chair for NeurIPS and ICLR. Outside of university, he was involved for a long time in dissemination activities for AI, ranging from organizing local Meetups to participating in podcasts and conferences. </p>
                   </div>
                 </div>
                 <br> 
-                <a href=""><img src="https://img.shields.io/badge/Paper-link-important"></a>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35453"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+                <a href="https://openreview.net/forum?id=38UFpdt3Tr"><img src="https://img.shields.io/badge/Paper-link-important"></a>
                 <!-- <a href="https://youtu.be/P_ra5WjdZTE?si=VIid977CPneupSN5"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>
                 <a href={{ "assets/slides/june26.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a> -->
                 <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#nov1325" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -179,11 +150,54 @@ title: RG
                   </a>
               <div class="collapse" id="nov1325">
               <div class="card card-body">
-              <p>  TBA
+              <p>  In many scenarios, AI models have to satisfy external constraints on, e.g., energy consumption, communication, allocated GPU hours, or time. In addition, many of these constraints can vary over time, due to variable network conditions, equipment failure, or peak energy use. In this talk we overview recent work on "dynamic" architecture that are able to satisfy these constraints by reducing their internal computations (e.g., number of layers) dynamically. This is in contrast with standard efficient techniques for AI, which require to selectively retrain or quantize larger models and target only static constraint requirements. We overview a number of applications including audio modelling, and we show how dynamicity allows for more explainability and modularity.
                 </p>     
               </div>
               </li>
-          
+              
+              <h4>[Nov 20th, 2025]</h4>
+              <div style="
+              background: linear-gradient(90deg, #ff4d4f 0%, #ff7875 100%);
+              color: white;
+              padding: 10px 14px;
+              border-radius: 6px;
+              margin: 8px 0 12px 0;
+              font-weight: 600;
+              font-size: 15px;
+              box-shadow: 0 2px 6px rgba(255, 77, 79, 0.25);
+              display: flex;
+              align-items: center;
+              gap: 8px;
+            ">
+              <span style="font-size: 18px;">⚠️</span>
+              <span>This talk starts at <b>10:00 AM (EST)</b> as an exception.</span>
+            </div>
+              <li>
+                <b>
+                    <a href="https://arxiv.org/abs/2301.13341">Neural Target Speech and Sound Extraction</a>
+                </b>
+                <br> Presenter:<a href="https://www.kecl.ntt.co.jp/icl/signal/member/marcd/"><u>Marc Delcroix</u></a> NTT Communication Science Laboratories.
+                <a class="btn btn-info btn-xs" data-toggle="collapse" href="#nov2025bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+                 Speaker Bio
+                </a>
+                <div class="collapse" id="nov2025bio">
+                  <div class="card card-body">
+                    <p> <u>Marc Delcroix</u> is a Distinguished Researcher with NTT Communication Science Laboratories, NTT Corporation, Japan. He received the M.Eng. degree from the Free University of Brussels, Brussels, Belgium, and Ecole Centrale Paris, Paris, France, in 2003, and the Ph.D. degree from the Graduate School of Information Science and Technology, Hokkaido University, Sapporo, Japan, in 2007. His research interests include various aspects of speech and audio processing, such as target speech and sound extraction, speech enhancement, robust speech recognition, model adaptation, and speaker diarization. He is a member of the CHiME challenge steering committee, AASP-TC, HSCMA-CHiME 2026 Joint workshop, associate editor of IEEE TASLP, a past member of the SL-TC from 2018 to 2023 and the organizing committees of the REVERB Challenge 2014, the ASRU 2017, and SLT 2022. </p>
+                  </div>
+                </div>
+                <br> 
+                <a href="https://arxiv.org/abs/2301.13341"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+                <!-- <a href="https://youtu.be/P_ra5WjdZTE?si=VIid977CPneupSN5"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>
+                <a href={{ "assets/slides/june26.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a> -->
+                <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#nov2025" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Abstract
+                  </a>
+              <div class="collapse" id="nov2025">
+              <div class="card card-body">
+              <p>  Humans possess the remarkable ability to listen to a desired sound in a complex acoustic scene composed of numerous competing sounds. This phenomenon, known as the cocktail party effect or selective hearing, enables us to understand an interlocutor in a noisy cafe, focus on a particular instrument in a song, or notice a siren on the road. In this talk, I will discuss target speech/sound extraction (TSE), a computational approach that aims to functionally emulate selective hearing. TSE isolates the signal of a target speaker or a specific target sound from a mixture of several speakers or sounds, using clues that identify the target within the mixture. Such clues might include a prerecorded enrollment audio from which the speaker’s vocal characteristics or the target sound's properties can be derived. I will introduce the foundations of neural TSE and present recent research on neural-based approaches for extracting both speech and arbitrary sounds.
+                </p>     
+              </div>
+              </li>
     </div>
   </div>
 </section>
@@ -196,7 +210,33 @@ title: RG
         <div class="listing" style="clear:both;">
         <div class="left">
       <h3 style="text-align:center">Past Talks, Fall 2025</h3>
-
+      <h4>[Oct 23rd, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2502.16936"> Supervised contrastive learning from weakly-labeled audio segments for musical version matching </a>
+        </b>
+        <br> Presenter:<a href="https://serrjoa.github.io/"><u>Joan Serrà</u></a> Sony AI 
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#oct2326bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+         Speaker Bio
+        </a>
+        <div class="collapse" id="oct2326bio">
+          <div class="card card-body">
+            <p> <u>Joan Serrà</u> is a staff research scientist and team lead with Sony AI (since 2024), where he does research on machine learning with a focus on audio and multimedia analysis, synthesis, and retrieval. He holds an MSc and PhD in machine learning for audio from the Music Technology Group of Universitat Pompeu Fabra (2006-2011), and did a postdoc in artificial intelligence at IIIA-CSIC (2011-2015). After that, he joined Telefónica R&D as a machine learning researcher (2015-2019) and Dolby Laboratories as an AI researcher and manager (2019-2024). He has been involved in several research projects, co-invented over 20 patents, and co-authored over 150 publications, many of them highly cited and/or in top tier venues.  </p>
+          </div>
+        </div>
+        <br> 
+        <a href="https://arxiv.org/abs/2502.16936"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+        <a href="https://youtu.be/1sOh7xx06vQ"><img src="https://img.shields.io/badge/Youtube-Recording-red"></a>
+        <a href={{ "assets/slides/musical-version-matching-CLEWS.pdf" | prepend: site.baseurl }}><img src="https://img.shields.io/badge/Slides-green"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#oct2326" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Abstract
+          </a>
+      <div class="collapse" id="oct2326">
+      <div class="card card-body">
+      <p>  Detecting musical versions (different renditions of the same piece) is a challenging task with important applications. Because of the ground truth nature, existing approaches match musical versions at the track level (e.g., whole song). However, most applications require to match them at the segment level (e.g., 20s chunks). In addition, existing approaches resort to classification and triplet losses, disregarding more recent losses that could bring meaningful improvements. In this paper, we propose a method to learn from weakly annotated segments, together with a contrastive loss variant that outperforms well-studied alternatives. The former is based on pairwise segment distance reductions, while the latter modifies an existing loss following decoupling, hyper-parameter, and geometric considerations. With these two elements, we do not only achieve state-of-the-art results in the standard track-level evaluation, but we also obtain a breakthrough performance in a segment-level evaluation. We believe that, due to the generality of the challenges addressed here, the proposed methods may find utility in domains beyond audio or musical version matching.
+        </p>     
+      </div>
+    </li>
       <h4>[Oct 16th, 2025]</h4>
       <li>
         <b>
