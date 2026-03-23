@@ -1,4 +1,11 @@
 papers:
+  - title: "Investigating Faithfulness in Large Audio Language Models"
+    authors: "<b>Pooneh Mousavi</b>, Lovenya Jain, Cem Subakan, Mirco Ravanelli"
+    venue: "preprint"
+    paper_pdf: "https://arxiv.org/abs/2509.22363"
+    website: "https://poonehmousavi.github.io/faithfulness/"
+    selected: y
+
   - title: "Discrete Audio Tokens: More Than a Survey!"
     authors: "<b>Pooneh Mousavi</b>, Gallil Maimon, Adel Moumen, Darius Petermann, Jiatong Shi, Haibin Wu, Haici Yang, Anastasia Kuznetsova,Artem Ploujnikov, Ricard Marxer, Bhuvana Ramabhadran, Benjamin Elizalde, Loren Lugosch, Jinyu Li, Cem Subakan, Phil Woodland, Minje Kim, Hung-yi Lee, Shinji Watanabe, Yossi Adi, Mirco Ravanelli"
     venue: "Transactions on Machine Learning Research (TMLR 2025)"
