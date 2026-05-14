@@ -39,9 +39,9 @@ papers:
     selected: y
 
   - title: "DASB - Discrete Audio and Speech Benchmark."
-    authors: "<b>Pooneh Mousavi</b>, Luca Della Libera, Jarod Duret, Artem Ploujnikov, Cem Subakan, Mirco Ravanell"
-    venue:
-    paper_pdf: "https://arxiv.org/abs/2406.14294v2"
+    authors: "<b>Pooneh Mousavi</b>, Jarod Duret, Darius Petermann, Artem Ploujnikov, Luca Della Libera, Anastasia Kuznetsova, Cem Subakan, Mirco Ravanelli"
+    venue: "Transactions on Machine Learning Research (TMLR 2026)"
+    paper_pdf: "https://arxiv.org/abs/2406.14294"
     code: "https://poonehmousavi.github.io/DASB-website/"
     selected: y
 
