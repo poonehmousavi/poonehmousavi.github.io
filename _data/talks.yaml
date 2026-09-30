@@ -1,0 +1,1811 @@
+# Past talks, newest first. Talks are grouped on the page by "term".
+# To archive a talk after it happens: move it from upcoming.yaml to the TOP of this list
+# and add video / slides links.
+talks:
+- date: "2026-05-14"
+  term: "Spring 2026"
+  title: "The Grand Design Challenge of Music GenAI"
+  url: "https://arxiv.org/abs/2603.11042"
+  speakers:
+  - name: "Nicholas J. Bryan"
+    url: "https://njb.github.io/"
+  affiliation: "Adobe Research"
+  video: "https://youtu.be/kjuTpV6ffBs?si=NJa_RZ4fIHDt6ryU"
+  slides: "/assets/slides/2026_05_13_Conversational_AI_Reading_Group_Share.pdf"
+  papers:
+  - "https://arxiv.org/abs/2603.11042"
+  - "https://arxiv.org/abs/2602.15749"
+  - "https://arxiv.org/abs/2602.09891"
+  - "https://arxiv.org/abs/2602.03023"
+  abstract: >-
+    In the coming years, AI-generated music will outnumber all human-recorded music in history. Yet, this
+    explosion of AI music faces a critical legal and philosophical issue: the requirement of human authorship
+    for copyright, which limits the commercial value and legal protection of such works, and impacts the
+    broader music industry. Thus, in the first part of this talk, I argue that the most important challenge
+    in Music GenAI is designing the "co-creation loop" — building AI models as highly controllable tools
+    rather than one-button algorithms. In the remainder of the talk, I will overview a selection of recent
+    works where key areas of focus will include: (1) Control: Time-varying control over melody, dynamics,
+    and rhythm (Music ControlNet), music generation with inference-time control (DITTO), and/or multi-track
+    generation in a single pass with iterative accompaniment generation (Stemphonic). (2) Efficiency:
+    Building faster, more efficient generative engines through Generative-First Neural Audio Autoencoders
+    (GenAE) and step/layer distillation (Presto!). (3) Multi-Modal Alignment: Bridging modalities via
+    metadata captioning (Music Metadata LLMs) and time-aligned video-to-music generation with zero-paired
+    data (V2M-Zero). Such work demonstrates how we can build the technical controls needed to invite human
+    iteration back into the creation process, and serves to build AI that enables verifiable proof of
+    human creativity.
+  bio: >-
+    Nicholas J. Bryan is the Head of the Music AI team at Adobe Research, where he leads the development
+    of music x generative AI, focusing on human x AI music co-creation. Most recently, he led the cross-team
+    effort to ship Adobe’s Generate Soundtrack feature—a music generation tool designed to be commercially-safe
+    for any use. Nick holds a PhD, MA, and MS in Electrical Engineering from Stanford University (CCRMA)
+    and earned his undergraduate degrees in both Music and Electrical Engineering from the University
+    of Miami, graduating summa cum laude. He is an Adobe Distinguished Inventor, an IEEE Senior Member,
+    and a recipient of two Best Paper awards. To date, he has published 43 peer-reviewed papers and holds
+    14 patents, with over 20 more patents pending. Nick has also remains deeply committed to the academic
+    research community, having served as General Co-Chair of IEEE WASPAA 2023, two terms on the IEEE Audio
+    and Acoustic Signal Processing Technical Committee, and as a member on five PhD thesis committees.
+    Nick also been a musician since childhood, performed at Carnegie Hall, and has been on the front-page
+    of the New York Times.
+- date: "2026-04-30"
+  term: "Spring 2026"
+  title: "Large Audio-Language Models: Algorithms and Applications"
+  speakers:
+  - name: "Wenwu Wang"
+    url: "https://personalpages.surrey.ac.uk/w.wang/"
+  affiliation: "University of Surrey"
+  video: "https://youtu.be/WLFwgsotsBI"
+  slides: "/assets/slides/ConversationalAIreading_30April2026_Mila.pdf"
+  papers:
+  - "https://personalpages.surrey.ac.uk/w.wang/papers/Liu%20et%20al_TASLP_2024.PDF"
+  - "https://personalpages.surrey.ac.uk/w.wang/papers/Liang%20et%20al_TASLP_2025.PDF"
+  abstract: >-
+    Large Language Models (LLMs) are increasingly being applied to audio processing, where they help interpret
+    and generate meaningful patterns from complex sound inputs such as speech, music, and sound effects.
+    When combined with acoustic models, LLMs offer significant potential for solving a wide range of challenges
+    in audio processing, understanding and generation. This talk will highlight several recent developments
+    in large audio-language models (LALMs), focusing on new algorithms and their applications to audio-centric
+    tasks. Topics will include audio-text fusion and alignment, cross-modality audio applications, the
+    construction of audio-language datasets, and emerging research directions in audio-language learning.
+    We will showcase our recent work in areas such as audio generation and storytelling (e.g., AudioLDM,
+    AudioLDM2, WavJourney), audio source separation (e.g., AudioSep), audio captioning and reasoning/question
+    answering (e.g., ACTUAL and APT-LLMs), neural audio coding (e.g., SemantiCodec), audio editing (e.g.,
+    WavCraft), and the datasets (e.g., WavCaps, Sound-VECaps, AudioSetCaps) used to train and evaluate
+    large audio- language models.
+  bio: >-
+    Wenwu Wang is a Professor in Signal Processing and Machine Learning, Associate Head of External Engagement,
+    School of Computer Science and Electronic Engineering, University of Surrey, UK. He is also an AI
+    Fellow at the Surrey Institute for People Centred Artificial Intelligence. His current research interests
+    include signal processing, machine learning/AI, and machine audition (listening). He has (co)-authored
+    over 400 papers in these areas. His work has been recognized with more than 15 accolades, including
+    the Meta Distinguished Faculty Award (2026), Audio Engineering Society Best Technical Paper Award
+    (2025), IEEE Signal Processing Society Young Author Best Paper Award (2022), DCASE Judge’s Award (2020,
+    2023, and 2024), DCASE Reproducible System Award (2019 and 2020), and LVA/ICA Best Student Paper Award
+    (2018). He has been elected to IEEE Fellow for contributions to audio classification, generation and
+    source separation, since 2026. He has been an invited Keynote or Plenary Speaker for about 30 international
+    conferences and workshops.
+- date: "2026-04-23"
+  term: "Spring 2026"
+  title: "Improving spoken language identification for non-native speech"
+  url: "https://www.isca-archive.org/interspeech_2022/kukk22_interspeech.html"
+  speakers:
+  - name: "Tanel Alumäe"
+    url: "https://taltech.ee/en/person/tanel-alumae/"
+  affiliation: "TalTech"
+  video: "https://youtu.be/AGQHctzH4RU?si=O3Xp6Zpl7DhoitJ1"
+  slides: "/assets/slides/april232026.pdf"
+  papers:
+  - "https://www.isca-archive.org/interspeech_2022/kukk22_interspeech.html"
+  - "https://www.isca-archive.org/interspeech_2025/alumae25_interspeech.html"
+  abstract: >-
+    In this talk, I will present recent work on making spoken language recognition more robust across
+    accented, multilingual, and previously unseen-language settings. I will begin by showing that standard
+    language identification systems degrade dramatically on non-native speech, and that combining acoustic
+    models with ASR-derived features substantially improves robustness to accent. I will then discuss
+    hybrid systems for large-scale multilingual language identification and speech recognition, where
+    combining embedding-based and generative methods improves performance across languages and dialects
+    and helped to produce a top-ranked system in the Interspeech 2025 ML-SUPERB 2.0 challenge. Finally,
+    I will cover our recent work on hybrid and LLM-based language verification, including systems that
+    reason over multiple transcriptions and fuse acoustic and language-model signals for improved spoken
+    language recognition and few-shot language verification. This approach resulted in top scores in the
+    recent Speaker Odyssey TidyLang 2026 Challenge.
+  bio: >-
+    Tanel Alumäe is a Tenured Associate Professor and Head of the Laboratory of Language Technology at
+    Tallinn University of Technology. His research focuses on speech and language processing, including
+    automatic speech recognition, speaker and language recognition, and spoken language translation, with
+    a particular emphasis on low-resource and real-world multilingual settings. His work combines neural
+    and hybrid approaches to build practical systems for under-resourced languages, and has led to state-of-the-art
+    results in international evaluations such as NIST and IARPA challenges.
+- date: "2026-04-16"
+  term: "Spring 2026"
+  title: "Toward Trustworthy Voice Agents: Speech-Native Evaluation, Safety, and Security"
+  url: "https://iclr.cc/virtual/2026/poster/10006884"
+  speakers:
+  - name: "Amir Ivry"
+    url: "https://amir-ivry.github.io//"
+  affiliation: "Technion, incoming CMU"
+  video: "https://youtu.be/adYg43xZG0c"
+  slides: "/assets/slides/AmirIvry_Talk_RG_16Apr26.pdf"
+  papers:
+  - "https://iclr.cc/virtual/2026/poster/10006884"
+  - "https://arxiv.org/pdf/2602.04796"
+  abstract: >-
+    As spoken interface shifts from pipeline-style speech systems to interactive voice agents, text-centric
+    evaluation becomes increasingly inadequate. In this talk, I will argue that trustworthy spoken agents
+    require speech-native thinking along three axes: evaluation, safety, and security. I will focus on
+    recent work on LALM-as-a-Judge for spoken dialogue, showing that safety evaluation decomposes into
+    distinct capabilities - such as detection sensitivity, severity ranking, and temporal stability -
+    and that these behave differently under audio degradation and transcription errors. I will then connect
+    this perspective to earlier work on perceptual evaluation in speech processing (MAPSS, ICLR 26'),
+    where misaligned metrics can obscure meaningful trade-offs, and conclude with emerging directions
+    on speaker-representation security and voice privacy. Overall, the talk argues that spoken agents
+    should not be treated as text systems with audio attached, but as audio-native systems with their
+    own risks, failure modes, and evaluation requirements.
+  bio: >-
+    Dr. Amir Ivry is an Incoming Postdoctoral Researcher at Carnegie Mellon University’s Language Technologies
+    Institute, working with Prof. Shinji Watanabe. His research focuses on how to make spoken dialogue
+    systems and voice agents trustworthy across three pillars: evaluation, safety, and security. This
+    involves developing mathematically principled and perceptually grounded evaluation methods to compare
+    systems reliably under realistic conditions and investigating safety guardrails and security threats
+    in human-agent voice interactions, including misuse and manipulation.
+- date: "2026-04-09"
+  term: "Spring 2026"
+  title: "Faithful and Grounded Audio Language Models"
+  url: "https://arxiv.org/abs/2509.22363"
+  speakers:
+  - name: "Cem Subakan"
+    url: "https://ycemsubakan.github.io/"
+  affiliation: "Laval University & Mila"
+  video: "https://youtu.be/xsLMbhelOIk"
+  slides: "/assets/slides/pres.pdf"
+  papers:
+  - "https://arxiv.org/abs/2509.22363"
+  - "https://arxiv.org/abs/2603.19468"
+  abstract: >-
+    Large Audio Language Models has been a recent research focus in the audio community. These models
+    exhibit impressive capabilities for audio understanding tasks such as question answering. Moreover
+    they reveal a reasoning chain for their decisions, which is promising for explainability of these
+    models. It is however unclear whether these reasoning chains truly reveal the inner decision mechanisms.
+    I will talk talk about measuring the faithfulness of these reasoning chains, to assess if they can
+    be used as trustworthy explanations. I will also later talk about our recent work grounding the the
+    reasoning chains in the audio input, in order to make the model more closely listen to the audio.
+  bio: >-
+    Cem Subakan is a tenure-track assistant professor in Laval University, and Mila-Quebec AI Institute.
+    He has a PhD in Computer Science from UIUC. His research interests are in machine learning for speech
+    / audio and more recently in explainability and AI safety. He’s a current member of the IEEE Machine
+    Learning for Signal Processing Technical Committee, and was the lead general chair for IEEE MLSP 2025.
+- date: "2026-04-02"
+  term: "Spring 2026"
+  title: "Voice-Based Psychiatric Assessment in the Real World and the Case for Production-Aligned Speech\
+    \ Frontends"
+  url: "https://www.nature.com/articles/s41598-025-33331-w"
+  speakers:
+  - name: "George Fairs"
+  - name: "Stefano Goria"
+    url: "https://www.calmstorm.vc/founders/stefano-goria"
+  affiliation: "thymia"
+  video: "https://youtu.be/XA5AXa9xStc"
+  slides: "/assets/slides/april22026.pdf"
+  papers:
+  - "https://www.nature.com/articles/s41598-025-33331-w"
+  abstract: >-
+    We present a multimodal Bayesian network for symptom-level prediction of depression and anxiety from
+    speech and voice data, developed and deployed as a real-world clinical product and evaluated on over
+    30,000 unique speakers. The model integrates paralinguistic and linguistic features through symptom-specific
+    surrogate models into a joint Bayesian network that learns posterior distributions over individual
+    symptom severities, inter-symptom relationships, and overall condition probabilities (depression ROC-AUC
+    = 0.842, anxiety = 0.831; ECE ≤ 0.018). We examine multimodal integration, cross-channel redundancy,
+    demographic fairness across multiple axes, direct clinician intervention in model predictions, and
+    service user acceptability — arguing that Bayesian networks offer a principled, explainable, and intervenable
+    framework for clinical translation of digital phenotyping. Real-world deployment also demands efficient
+    inference. The acoustic embeddings underpinning our model inherit the standard mel-scaled, phase-discarded
+    speech frontend — but is this optimal for the task? As a concrete example of challenging inherited
+    assumptions, we show that downstream performance is preserved under significant bandwidth reduction,
+    and that the resulting redundancy can be surgically removed — yielding up to 2× inference speedup
+    with no retraining. This opens a wider question: perceptual frontends are designed to model what a
+    listener hears, but for biomarker tasks where the clinical signal is imperceptible to human listeners,
+    this may be the wrong prior. We outline what production-aligned alternatives could offer instead.
+  bio: >-
+    George Fairs is a Machine Learning Researcher at thymia. George has a background in both engineering
+    and cognitive science and is passionate about using his skills in shaping the future of health technologies.
+    At thymia, he has helped design, train, and evaluate the company's core biomarker models, along the
+    way contributing to clinically publishable research. He works within the full model lifecycle - from
+    experimental design and rigorous validation through to production deployment - ensuring that models
+    meet the high bar required for clinical application. Working closely with science and engineering,
+    he helps bridge research insights and real-world clinical impact, translating cutting-edge methods
+    into robust tools. His core interest lies in pushing the boundaries of what voice and language biomarkers
+    can achieve for health assessment. Stefano Goria is a Chief Technology Officer & Co-Founder at thymia.
+    Stefano leads thymia's engineering and ML research teams, building voice AI and speech biomarkers
+    for mental and physical health. PhD in Theoretical Physics (University of Turin), over eight years
+    as a quant at Citi and J.P. Morgan (heading structured products quant research, EMEA), shipping production
+    ML systems including autonomous market-making agents. Publications span particle physics, reinforcement
+    learning for biodiversity conservation, speech biomarkers, and mathematical foundations of machine
+    learning. Builds robots in his spare time to experiment with embodied intelligence.
+- date: "2026-03-26"
+  term: "Spring 2026"
+  title: "Prompt-Conditioned Unified Audio Modeling: From Source Separation to Source-Aware Codecs"
+  url: "https://www.merl.com/publications/TR2025-032"
+  speakers:
+  - name: "Jonathan Le Roux"
+    url: "https://www.jonathanleroux.org/"
+  affiliation: "Mitsubishi Electric Research Laboratories (MERL)"
+  video: "https://youtu.be/bfuT5-MhuHE"
+  slides: "/assets/slides/Conv-AI_Flexible-Separation.pdf"
+  papers:
+  - "https://www.merl.com/publications/TR2025-032"
+  - "https://www.merl.com/publications/TR2025-143"
+  - "https://merl.com/publications/TR2026-034"
+  - "https://merl.com/publications/TR2026-032"
+  abstract: >-
+    Audio source separation has traditionally been approached as a collection of specialized tasks, each
+    requiring dedicated models and datasets. This talk presents a unified, prompt-conditioned framework
+    that reformulates source separation as a task-aware problem, enabling a single model to flexibly handle
+    multiple, even contradictory, objectives. Starting from Task-Aware Unified Source Separation (TUSS),
+    I will show how learnable prompts enable explicit control over both the number and type of extracted
+    sources, addressing the ill-posed nature of separation by incorporating task information directly
+    into the model. I will then discuss FasTUSS, which significantly reduces computational cost while
+    maintaining strong performance, and FlexIO, which extends prompt-based conditioning to jointly support
+    variable input (microphones) and output (sources) configurations. Finally, I will introduce SUNAC,
+    a source-aware neural audio codec that unifies separation and representation learning, enabling direct
+    encoding of selected sources from mixtures with improved efficiency. These contributions highlight
+    a general paradigm for controllable audio modeling and open new directions for integrating audio processing
+    with downstream systems such as large language models and conversational agents.
+  bio: >-
+    Jonathan Le Roux is a Distinguished Research Scientist and the Speech and Audio Senior Team Leader
+    at Mitsubishi Electric Research Laboratories (MERL) in Cambridge, Massachusetts. He received his B.Sc.
+    and M.Sc. in Mathematics at the École Normale Supérieure in Paris, and his Ph.D. at the University
+    of Tokyo and Sorbonne Université (formerly Université Pierre et Marie Curie), and was a postdoctoral
+    researcher at NTT’s Communication Science Laboratories from 2009 to 2011. His research interests include
+    signal processing and machine learning for speech and audio. He has authored over 190 peer-reviewed
+    papers and holds 45 granted patents in these areas. He is an IEEE Fellow and currently serves as Vice
+    Chair of the IEEE Signal Processing Society’s Audio and Acoustic Signal Processing Technical Committee
+    (AASP-TC), where he previously served two terms as a member. He is a founder and chair of the Speech
+    and Audio in the Northeast (SANE) workshop series, and was a General Co-Chair of the 2025 IEEE Workshop
+    on Applications of Signal Processing to Audio and Acoustics (WASPAA).
+- date: "2026-03-19"
+  term: "Spring 2026"
+  title: "SAM Audio: Segment Anything in Audio"
+  url: "https://arxiv.org/abs/2512.18099"
+  speakers:
+  - name: "Andros Tjandra"
+    url: "https://androstj.github.io/"
+  - name: "Bowen Shi"
+    url: "https://bw-shi.github.io/"
+  affiliation: "FAIR (Meta AI)"
+  video: "https://youtu.be/EW5stmW2kbM"
+  slides: "/assets/slides/march_19_2026.pdf"
+  papers:
+  - "https://arxiv.org/abs/2512.18099"
+  abstract: >-
+    General audio source separation is a key capability for multimodal AI systems that can perceive and
+    reason about sound. Despite substantial progress in recent years, existing separation models are either
+    domain-specific, designed for fixed categories such as speech or music, or limited in controllability,
+    supporting only a single prompting modality such as text. In this work, we present SAM Audio, a foundation
+    model for general audio separation that unifies text, visual, and temporal span prompting within a
+    single framework. Built on a diffusion transformer architecture, SAM Audio is trained with flow matching
+    on large-scale audio data spanning speech, music, and general sounds, and can flexibly separate target
+    sources described by language, visual masks, or temporal spans. The model achieves state-of-the-art
+    performance across a diverse suite of benchmarks, including general sound, speech, music, and musical
+    instrument separation in both in-the-wild and professionally produced audios, substantially outperforming
+    prior general-purpose and specialized systems. Furthermore, we introduce a new real-world separation
+    benchmark with human-labeled multimodal prompts and a reference-free evaluation model that correlates
+    strongly with human judgment.
+  bio: >-
+    Andros Tjandra is a Research Scientist at Meta. He earned his PhD in 2020 from the Graduate School
+    of Information Science at NAIST, Japan, during which he held research internships at both Google Brain
+    and Facebook, and served as a student researcher at RIKEN AIP. He holds a B.S. and M.S. in Computer
+    Science from Universitas Indonesia, receiving cum laude honors for both. His award-winning work has
+    been recognized by the IEEE ASRU Best Student Paper Award and the ASJ Student Excellence Presentation
+    Award. Currently, his research focuses on the intersection of speech & audio recognition, generation,
+    self-supervised learning and multimodal machine learning. He has served as a core contributor to several
+    high-impact audio projects, including XLS-R and MMS, as well as the Audiobox and Audiobox Aesthetic,
+    MovieGen (Audio), and SAM-Audio. Bowen Shi a research scientist at Meta SuperIntelligence Labs, working
+    on speech and audio. He is a core contributor to Meta’s foundational audio generation models, including
+    SAM Audio, MovieGen Audio, AudioBox, VoiceBox and MMS. He obtained his Ph.D. from TTIC where he worked
+    on automatic sign language understanding under the advisement of Prof. Karen Livescu.
+- date: "2026-03-12"
+  term: "Spring 2026"
+  title: "Advancing the Linguistic Capabilities of Speech Language Models"
+  url: "https://arxiv.org/abs/2404.00685"
+  speakers:
+  - name: "Ricard Marxer"
+    url: "https://www.ricardmarxer.com/"
+  affiliation: "Université de Toulon"
+  video: "https://youtu.be/m65SiSnsZ3g"
+  slides: "/assets/slides/march_12_2026.pdf"
+  papers:
+  - "https://arxiv.org/abs/2404.00685"
+  - "https://arxiv.org/abs/2503.06211"
+  - "https://arxiv.org/abs/2603.06373"
+  - "https://arxiv.org/abs/2506.10622"
+  abstract: >-
+    Over the past few years, our work has focused on assessing and improving the linguistic capabilities
+    of speech language models (LMs). In this talk, I will present our progress in this area, beginning
+    with the derivation of the first scaling laws for speech language models and continuing with recent
+    efforts to align speech (or image) and text modalities in order to leverage the knowledge captured
+    by text-based large language models.I will also review recent work, including methods for generating
+    and processing conversational speech, with a particular focus on medical settings. Finally, I will
+    discuss our ongoing efforts to develop a speech-based large language model that can be used for various
+    applications, including conversational agents and assistive technologies.
+  bio: >-
+    Ricard Marxer is a professor at the University of Toulon and a researcher at the Laboratoire d’Informatique
+    et Systèmes (LIS), CNRS UMR 7020. He previously served as head of the Dynamics of Information (DYNI)
+    research team. He was formerly a postdoctoral researcher with the Speech and Hearing Group at the
+    University of Sheffield and earned his PhD from the Music Technology Group at Universitat Pompeu Fabra.
+    He is currently on research leave at the ILLS laboratory of CNRS in Montreal, a visiting professor
+    at ETS, and a collaborating researcher at Mila. A central focus of his research is the development
+    of machine learning methods for modeling and processing signals, particularly sound, spanning domains
+    from music and speech to bioacoustics. Marxer is a co-founder and steering committee member of the
+    VIHAR community and the founding director of the Erasmus Mundus Master’s in Marine and Maritime Intelligent
+    Robotics (MIR).
+- date: "2026-03-05"
+  term: "Spring 2026"
+  title: "Auden: Where is the “GPT moment” for audio?"
+  url: "https://arxiv.org/pdf/2601.06086"
+  speakers:
+  - name: "Yiwen Shao"
+    url: "https://yiwenshaostephen.github.io/yiwenshao.github.io/"
+  affiliation: "Tencent AI Lab"
+  video: "https://youtu.be/BJ3L0Kmz7Jw"
+  slides: "/assets/slides/Yiwen_Shao_talk.pdf"
+  papers:
+  - "https://arxiv.org/pdf/2601.06086"
+  abstract: >-
+    This talk takes a deep dive into the evolution of audio foundation models—from large-scale audio encoder
+    pretraining to their integration with large audio language models (LALMs). Through the Auden project,
+    we systematically decompose audio representation learning into five domains: speech semantics, paralinguistics,
+    general audio, music, and spatial acoustics. We conduct comprehensive evaluations of audio encoders
+    across this spectrum, from linear probing and downstream task transfer to full integration with LALMs.
+    Our findings consistently highlight the central role of audio encoders as the foundation of LALM performance.
+    Building on this insight, we further develop improved alignment methods to more effectively connect
+    pretrained audio encoders with language models, enabling stronger multimodal reasoning and generation.
+  bio: >-
+    Yiwen Shao is a Senior Research Scientist at Tencent (Bellevue), where he led research on audio foundation
+    models and large audio language models (LALMs) under Dong Yu at Tencent AI Lab from 2024-2025 and
+    is now leading the encoder development at the Tencent Hunyuan Speech team. At Tencent, he also initiated
+    and leads Auden, an evolving research and open-source framework for audio understanding, speech modeling,
+    and multimodal learning. During his Ph.D. at the Center for Language and Speech Processing (CLSP)
+    at Johns Hopkins University, supervised by Daniel Povey and Sanjeev Khudanpur, his research focused
+    on automatic speech recognition and related areas. He leads several open-source efforts in audio understanding
+    and ASR toolkits, and has published extensively at top-tier AI conferences, including ICASSP, Interspeech,
+    AAAI, CVPR, SLT, and ASRU. Title: Auden: From Audio Encoders to Large Audio-Language Models
+- date: "2026-02-26"
+  term: "Spring 2026"
+  title: "Conversational Speech Processing: Challenges & Opportunities"
+  url: "https://arxiv.org/abs/2310.01688 "
+  speakers:
+  - name: "Samuele Cornell"
+    url: "https://popcornell.github.io/"
+  affiliation: "Carnegie Mellon University"
+  video: "https://youtu.be/2iIXUEnVkAA?si=w1kRC8rhGxDEA24B"
+  slides: "/assets/slides/Samuele_Cornell_ConversationalAI_MILA_Concordia_2026.pdf"
+  papers:
+  - "https://arxiv.org/abs/2310.01688"
+  - "https://arxiv.org/abs/2408.09215"
+  abstract: >-
+    State-of-the-art ASR systems excel on close-talk benchmarks but struggle with far-field conversational
+    speech, where error rates remain above 20%. Current benchmark datasets inadequately assess generalization
+    across domains and real-world conditions, often relying on oracle segmentation that yields overly
+    optimistic results. Distant ASR (DASR) faces unique challenges including overlapping speech, long-form
+    processing and varied recording setups, and dynamic speaker interactions that significantly complicate
+    system development. Despite these difficulties, spontaneous conversational speech represents the next
+    frontier for developing more human-like AI agents capable of natural multi-party communication. This
+    presentation examines the challenges of conversational speech processing and outlines two promising
+    research directions. The first is end-to-end integration, which can mitigate the cascading errors
+    that plague modular approaches. The second tackles data scarcity—a persistent bottleneck given the
+    privacy concerns surrounding conversational recordings and the substantial cost of annotation. Here,
+    the talk explores how large language models and text-to-speech synthesis can generate effective training
+    data, alongside self-supervised learning techniques which can further dramatically reduce reliance
+    on labeled corpora.
+  bio: >-
+    Samuele Cornell is currently a postdoctoral research associate at Carnegie Mellon University at the
+    Language Technologies Institute within Prof. Shinji Watanabe research group (WAVLab). His research
+    interests are mainly in the area of robust speech processing (speech enhancement, speech separation,
+    diarization, automatic speech recognition) for distant multi-talker conversational scenarios, and
+    also in the broader field of machine listening (sound event detection and classification). He is co-author
+    and has significant contributions in several popular open-source speech-processing toolkits (e.g.
+    SpeechBrain, ESPNet, Asteroid source separation) and in the organization and co-organization of popular
+    audio processing challenges such as DCASE (Task 4 2022, 2021, 2024), CHiME (CHiME-7/8 DASR lead organizer)
+    and URGENT (2024 and 2025).
+- date: "2026-02-19"
+  term: "Spring 2026"
+  title: "Amplitude Modulation Spectral Analysis: From Conventional Audio Feature Engineering to Speech\
+    \ Foundation Models"
+  url: "https://ieeexplore.ieee.org/document/8969210"
+  speakers:
+  - name: "Tiago H. Falk"
+    url: "https://musaelab.ca/"
+  affiliation: "INRS"
+  video: "https://youtu.be/7g1BCQk226A"
+  slides: "/assets/slides/Conversational_AI_Feb_19_2026.pdf"
+  papers:
+  - "https://ieeexplore.ieee.org/document/8969210"
+  - "https://www.castoriscausa.com/files/cassani_2019_amaposter.pdf"
+  - "https://www.sciencedirect.com/science/chapter/referencework/abs/pii/B9780128012383999938"
+  - "https://www.mdpi.com/1424-8220/22/12/4579"
+  abstract: >-
+    Separating useful from non-useful components in a noisy signal is of extreme importance in everyday
+    applications where data are often contaminated by artifacts. For audio applications, these non-useful
+    components can refer to e.g., additive environmental noises and/or convolutive room acoustic effects,
+    such as reverberation.To this end, the amplitude modulation spectral signal representation, which
+    measures the rate-of-change of spectral magnitude components, has been proposed. The motivation lies
+    in the fact that, although many artifacts and environmental noise sources overlap in both time and
+    frequency, the rate at which their amplitude spectra vary over time differs, hence becoming more separable
+    in the new frequency–frequency modulation spectral domain. In this talk, I will showcase the numerous
+    areas in which we have used the modulation spectrum to develop more robust and generalizable audio
+    processing systems. Representative examples include, but are not limited to: speech enhancement, room
+    acoustics characterization, robust speaker identification, bioacoustics, and pathological speech analysis.
+    More recently, we started exploring the use of the modulation spectrum pipeline to characterize the
+    temporal dynamics of universal speech representations, with applications in deepfake detection.
+  bio: >-
+    Tiago H. Falk is a Full Professor at the Institut national de la recherche scientifique (INRS), University
+    of Québec, Canada. He obtained his BSc from the Federal University of Pernambuco (Brazil) and his
+    MSc and PhD from Queen’s University (Canada), all in Electrical and Computer Engineering. Prof. Falk
+    is Founder and Director of the Multisensory Signal Analysis and Enhancement (MuSAE) Lab, which is
+    focused on building next-generation human-machine interfaces for both real and virtual worlds. Since
+    2023, he is also Co-Director of the INRS-UQO Research Centre on Cybersecurity and Digital Trust, where
+    research is being conducted to make human-machine interfaces secure and reliable by tackling emerging
+    vulnerabilities to artificial intelligence algorithms. He is currently Co-Chair of the IEEE Future
+    Directions Initiative on Telepresence, Co-Chair of the Technical Committee on Brain-Machine Interface
+    Systems of the IEEE Systems, Man, and Cybernetics Society (SMCS), Member-at-Large of the SMCS Board
+    of Governors, and Editor-in-Chief of the SMCS eNewsletter. He is a Fellow of the IEEE and the AAIA.
+- date: "2026-02-12"
+  term: "Spring 2026"
+  title: "Towards Accountable Conversational Agents for Task Completion"
+  speakers:
+  - name: "Dilek Hakkani-Tür"
+    url: "https://siebelschool.illinois.edu/about/people/faculty/dilek"
+  affiliation: "Univ. of Illinois at Urbana-Champaign"
+  video: "https://youtu.be/_uXx6nWpUUY"
+  slides: "/assets/slides/2026_2_12_DHT_MILA-convAI.pdf"
+  abstract: >-
+    Task-oriented dialogue systems are designed to assist users in achieving specific, well-defined goals
+    or tasks through natural language interactions. These systems act as a conversational bridge, connecting
+    users to task-specific APIs or tools. Recent advancements have resulted in a significant paradigm
+    shift with the integration of Large Language Models (LLMs) augmented with tool-calling into task-oriented
+    dialogue systems and user simulators that are used for model evaluation and training. However, several
+    issues remain that ponder the use of these systems in real applications. In this talk, I will share
+    our latest research towards accountable LLM-based conversational agents that excel both in interacting
+    with users and tool calling, showcasing its performance on dialogue system and agentic LLM benchmarks.
+    We introduce novel reward mechanisms to train tool-based reasoning with reinforcement learning. Finally,
+    I will discuss user simulation for model evaluation and training. We observed that LLM-based user
+    simulators can deviate from user goals over multi-turn interactions. To address this, we propose a
+    novel framework that tracks user goal progression throughout conversations, enabling the creation
+    of user simulators that can autonomously monitor goal progression and reason to generate goal-aligned
+    responses.
+  bio: >-
+    Dilek Hakkani-Tür is a Professor of Computer Science at University of Illinois, Urbana-Champaign and
+    an Amazon Scholar (at Amazon Health Science). More recently, she worked as a senior principal scientist
+    at Amazon Alexa AI focusing on enabling natural dialogues with machines (2018-2023). Prior to that,
+    she was leading a dialogue research team at Google Research (2016-2018), a principal researcher at
+    Microsoft Research (2010-2016), International Computer Science Institute (ICSI, 2006-2010) and AT&T
+    Labs-Research (2001-2005). She received her BSc degree from Middle East Technical Univ. and MSc and
+    PhD degrees from Bilkent Univ. Her research interests include conversational AI, natural language
+    and speech processing, spoken dialogue systems, and machine learning for language processing. She
+    has over 100 patents that were granted and co-authored more than 400 papers in these areas. She received
+    several best paper awards for publications she co-authored on conversational systems, including her
+    earlier work on active learning for dialogue systems, from IEEE Signal Processing Society, ISCA and
+    EURASIP. She served as the Editor-in-Chief of the IEEE/ACM Transactions on Audio, Speech and Language
+    Processing (2019-2021), and an IEEE Distinguished Industry Speaker (2021). Currently, she serves on
+    the NAACL Board and is a co-Editor-in-Chief of Transactions of ACL. She is a fellow of the IEEE (2014),
+    ISCA (2014), and ACL (2024).
+- date: "2026-02-05"
+  term: "Spring 2026"
+  title: "Model-based audio deep learning with application to source separation and dereverberation"
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10819669"
+  speakers:
+  - name: "Gaël Richard"
+    url: "https://www.telecom-paris.fr/gael-richard"
+  affiliation: "Télécom Paris"
+  video: "https://youtu.be/RAhqlW6lrcI"
+  slides: "/assets/slides/2026-02-05-Model-based-audio-deep-learning-with-application-to-source-separation-and-dereverberation-1.pdf"
+  papers:
+  - "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10819669"
+  - "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10058592"
+  - "https://arxiv.org/pdf/2507.14237"
+  abstract: >-
+    We will describe and illustrate the concept of hybrid (or model-based) deep learning for audio signal
+    processing. This paradigm refers here to models that associates data-driven and model-based approaches
+    in a joint framework by integrating our prior knowledge about the data in more controllable deep models.
+    Prior knowledge can relate for instance to the production or propagation of sound (using an acoustic
+    or physical model). In this presentation, we will first illustrate the concept and potential of such
+    model-based deep learning approaches and then describe in more details its application to unsupervised
+    music separation with source production models and speech dereverberation with physics-inspired models.
+  bio: >-
+    Gaël Richard received the State Engineering degree from Telecom Paris, France in 1990, the Ph.D. degree
+    and Habilitation from University of Paris-Saclay respectively in 1994 and 2001. After the Ph.D. degree,
+    he spent two years at Rutgers University, Piscataway, NJ, in the Speech Processing Group of Prof.
+    J. Flanagan. From 1997 to 2001, he successively worked for Matra, Bois d’Arcy, France, and for Philips,
+    Montrouge, France. He then joined Telecom Paris, where he is now a Full Professor in audio signal
+    processing. He is also the Scientific director of the Hi! PARIS interdisciplinary center on AI and
+    Data analytics. He is a coauthor of over 300 papers and inventor in 10 patents. His research interests
+    are mainly in the field of speech and audio signal processing and include topics such as source separation,
+    machine learning methods for audio/music signals and music information retrieval. He is a fellow member
+    of the IEEE, an ELLIS Fellow, and was the chair of the IEEE SPS TC for Audio and Acoustic Signal Processing
+    (2021-2022). He received, in 2020, the Grand prize of IMT-National academy of science. In 2022, he
+    was awarded of an advanced ERC grant of the European Union for a project on machine listening and
+    artificial intelligence for sound.
+- date: "2026-01-29"
+  term: "Spring 2026"
+  title: "Recomposer: Event-roll-guided Audio Editing"
+  url: "https://arxiv.org/abs/2509.05256"
+  speakers:
+  - name: "Daniel P. W. Ellis"
+    url: "https://scholar.google.ca/citations?user=1H4HuCkAAAAJ&hl=en"
+  affiliation: "Google Deepmind"
+  video: "https://youtu.be/KYGuYYmvrKM"
+  slides: "/assets/slides/2026-01-29_Recompose_for_Mila.pdf"
+  papers:
+  - "https://arxiv.org/abs/2509.05256"
+  abstract: >-
+    Editing complex real-world sound scenes is difficult because individual sound sources overlap in time.
+    Generative models can fill-in missing or corrupted details based on their strong prior understanding
+    of the data domain. We present a system for editing individual sound events within complex scenes
+    able to delete, insert, and enhance individual sound events based on textual edit descriptions (e.g.,
+    "enhance Door'") and a graphical representation of the event timing derived from an "event roll" transcription.
+    We present an encoder-decoder transformer working on SoundStream representations, trained on synthetic
+    (input, desired output) audio example pairs formed by adding isolated sound events to dense, real-world
+    backgrounds. Evaluation reveals the importance of each part of the edit descriptions -- action, class,
+    timing. Our work demonstrates "recomposition" is an important and practical application.
+  bio: >-
+    Daniel P. W. Ellis received the Ph.D. degree in electrical engineering from the Massachusetts Institute
+    of Technology, Cambridge, where he was a Research Assistant in the Machine Listening Group of the
+    Media Lab. He spent several years as a Research Scientist at the International Computer Science Institute,
+    Berkeley, CA. In 2000, he took a faculty position with the Electrical Engineering Department, Columbia
+    University, New York. In 2015, he left for his current position as a Research Scientist with Google
+    in New York. His research is concerned with all aspects of extracting high-level information from
+    audio, including speech recognition, music description, and environmental sound processing. He also
+    runs the AUDITORY email list of over 4000 worldwide researchers in perception and cognition of sound.
+- date: "2025-12-18"
+  term: "Fall 2025"
+  title: "Data as Leverage: Improving Foundation Models Beyond Scaling"
+  url: "https://arxiv.org/abs/2506.14702v1"
+  speakers:
+  - name: "Daniel D'souza"
+    url: "https://www.linkedin.com/in/daniel-dsouza/"
+  affiliation: "Cohere Labs"
+  video: "https://www.youtube.com/watch?v=G3yTqTRXc0c"
+  slides: "/assets/slides/Data_As_Leverage__18thDec2025__MILA.pdf"
+  papers:
+  - "https://arxiv.org/abs/2506.14702v1"
+  - "https://arxiv.org/abs/2408.14960"
+  abstract: >-
+    Scaling laws have pushed foundation models to unprecedented capabilities, yet even the largest systems
+    still struggle on the long tail: underrepresented domains, low-resource languages, and user-specific
+    constraints. These failures don’t arise from a lack of parameters, but from how models are trained
+    and how data is used. In this talk, I present two recent lines of work that treat data not merely
+    as training fuel, but as a force multiplier for reliability, steerability, and equity in large models.
+    First, I introduce Multilingual Arbitrage, a synthetic data routing strategy that exploits performance
+    differences across teacher models to dramatically improve outcomes in multilingual systems. Second,
+    I present TreasureMarkers, a training-time conditioning approach that injects structured control signals
+    into the data itself, allowing models to respond to optional inference-time markers and yielding substantial
+    improvements on long-tail and instruction-following benchmarks. Together, these methods illustrate
+    how reframing data as leverage—not as a static resource—enables meaningful improvements in foundation
+    model behavior where scaling alone fails.
+  bio: >-
+    Daniel D'souza is a Researcher at Cohere Labs, specializing in large-scale machine learning with research
+    interests in multilingual systems, controllability, and inference-time optimizations. With over a
+    decade of experience spanning both applied and research settings, he has also contributed to and helped
+    shape community-driven initiatives including ML Collective, Cohere for AI, and Masakhane. His work
+    has been published in top-tier venues such as NeurIPS, ICML, ACL, EMNLP, and CVPR, and he is a recipient
+    of a Best Paper award at ACL.
+- date: "2025-12-11"
+  term: "Fall 2025"
+  title: "Low-latency Conversational Agent"
+  url: "https://arxiv.org/abs/2509.00078"
+  speakers:
+  - name: "Tatiana Likhomanenko"
+    url: "https://github.com/tlikhomanenko"
+  affiliation: "Apple"
+  video: "https://youtu.be/cEjzACOfJ2s?si=2cBBkcQOfrKZkHQm"
+  slides: "/assets/slides/Low-latency-conversational-agent-likhomanenko-mila.pdf"
+  papers:
+  - "https://arxiv.org/abs/2509.00078"
+  abstract: >-
+    The emergence of large language models (LLMs) has transformed spoken dialog systems, yet the optimal
+    architecture for real-time on-device conversational agents remains an open question. While end-to-end
+    approaches promise theoretical advantages, cascaded systems continue to outperform them in language
+    understanding tasks, despite being constrained by sequential processing latency. In this talk, I will
+    revise cascaded system and show a novel low-latency variant that overcomes traditional bottlenecks
+    through architectural innovations and streaming optimizations. This cascaded system integrates streaming
+    (a) conversational speech recognition with mixture-of-experts, (b) state-action augmented LLM, (c)
+    text-to-speech synthesis, (d) neural vocoder, and (e) speaker modeling. Proposed cascaded system achieves
+    sub-second response latency with complete on-device processing.
+  bio: >-
+    Tatiana Likhomanenko is a research scientist at the Machine Learning Research team, Apple. Prior to
+    Apple, she was a postdoctoral research scientist in the speech recognition team, Facebook AI Research.
+    Back in the day, Tatiana received a Ph.D. in mixed type partial differential equations from Moscow
+    State University. For several years she worked on applications of machine learning to high energy
+    physics at CERN before moving to deep learning. The main focus of her research in past years is speech
+    recognition and generation, private federated learning and general machine learning problems including
+    optimization, scaling laws, efficient architectures.
+- date: "2025-11-27"
+  term: "Fall 2025"
+  title: "Multimodal analysis of Parkinson’s disease symptoms"
+  speakers:
+  - name: "Juan Rafael Orozco-Arroyave"
+    url: "https://sites.google.com/view/rafaelorozco/home"
+  affiliation: "Universidad de Antioquia"
+  video: "https://youtu.be/zu7U58eooeo"
+  slides: "/assets/slides/MILA-2025.pdf"
+  abstract: >-
+    Movement disorders (MD) are produced due to the impaired functioning of certain areas of the brain.
+    Several millions of people suffer from MD such as Parkinson’s, Huntington’s, and others, however diagnosis
+    and monitoring are still highly subjective, time-consuming, and expensive. PD is the second most prevalent
+    MD in the world and medical evaluations used to assess the neurological state of patients cover different
+    aspects, including activities of daily living, motor tasks, speech production, and mood. Its multi
+    symptomatic nature make the diagnosis and monitoring of PD a very challenging task. Several bio-signals
+    need to be modeled and the impact of the disease differs among patients which produces another level
+    of complexity especially when thinking of producing clinically acceptable/practical results. This
+    talk tries to show different approaches that consider several bio-signals (e.g., speech, language,
+    gait, facial expression, and handwriting) and methods of Pattern Recognition with the aim to find
+    suitable models for PD diagnosis and monitoring. Results with classical feature extraction and classification
+    methods will be presented together with experiments with CNN, LSTM, and attention-based architectures.
+  bio: >-
+    Juan Rafael Orozco-Arroyave received the B.S. degree in Electronics Engineering from Universidad de
+    Antioquia (UdeA) in 2004, after which he received a postgraduate in Marketing from EAFIT University.
+    In 2011 he finished his M.Sc in Telecommunications from UdeA, and in 2015 he received his Dr.-Ing.
+    degree in Computer Science from the Friedrich-Alexander-Universität Erlangen-Nürnberg, (Erlangen,
+    Germany) in a cotutelle program with the Faculty of Egineering at UdeA. Currently he is a Full Professor
+    at Universidad de Antioquia, leading GITA Lab and Adjunct Researcher at the Pattern Recognition Lab
+    in the Friedrich-Alexander-Universität Erlangen-Nürnberg. His research interests include Speech Processing,
+    Pattern Recognition, Multimodal Analysis, Digital Signal Processing, and Signals Theory.
+- date: "2025-11-20"
+  term: "Fall 2025"
+  title: "Neural Target Speech and Sound Extraction"
+  url: "https://arxiv.org/abs/2301.13341"
+  speakers:
+  - name: "Marc Delcroix"
+    url: "https://www.kecl.ntt.co.jp/icl/signal/member/marcd/"
+  affiliation: "NTT Communication Science Laboratories"
+  video: "https://youtu.be/QkKNp9ce4AE?si=D6Sixs1Du-gUdnew"
+  slides: "/assets/slides/TgtSpeechSoundExtraction_Mila.pdf"
+  papers:
+  - "https://arxiv.org/abs/2301.13341"
+  - "https://arxiv.org/abs/2204.03895"
+  - "https://www.jstage.jst.go.jp/article/ast/advpub/0/advpub_e24.124/_pdf"
+  abstract: >-
+    Humans possess the remarkable ability to listen to a desired sound in a complex acoustic scene composed
+    of numerous competing sounds. This phenomenon, known as the cocktail party effect or selective hearing,
+    enables us to understand an interlocutor in a noisy cafe, focus on a particular instrument in a song,
+    or notice a siren on the road. In this talk, I will discuss target speech/sound extraction (TSE),
+    a computational approach that aims to functionally emulate selective hearing. TSE isolates the signal
+    of a target speaker or a specific target sound from a mixture of several speakers or sounds, using
+    clues that identify the target within the mixture. Such clues might include a prerecorded enrollment
+    audio from which the speaker’s vocal characteristics or the target sound's properties can be derived.
+    I will introduce the foundations of neural TSE and present recent research on neural-based approaches
+    for extracting both speech and arbitrary sounds.
+  bio: >-
+    Marc Delcroix is a Distinguished Researcher with NTT Communication Science Laboratories, NTT Corporation,
+    Japan. He received the M.Eng. degree from the Free University of Brussels, Brussels, Belgium, and
+    Ecole Centrale Paris, Paris, France, in 2003, and the Ph.D. degree from the Graduate School of Information
+    Science and Technology, Hokkaido University, Sapporo, Japan, in 2007. His research interests include
+    various aspects of speech and audio processing, such as target speech and sound extraction, speech
+    enhancement, robust speech recognition, model adaptation, and speaker diarization. He is a member
+    of the CHiME challenge steering committee, AASP-TC, HSCMA-CHiME 2026 Joint workshop, associate editor
+    of IEEE TASLP, a past member of the SL-TC from 2018 to 2023 and the organizing committees of the REVERB
+    Challenge 2014, the ASRU 2017, and SLT 2022.
+- date: "2025-11-13"
+  term: "Fall 2025"
+  title: "Efficient and resource-constrained dynamic neural networks"
+  url: "https://ojs.aaai.org/index.php/AAAI/article/view/35453"
+  speakers:
+  - name: "Simone Scardapane"
+    url: "https://www.sscardapane.it/"
+  affiliation: "Sapienza University of Rome"
+  video: "https://youtu.be/MxLYZGjYbNw?si=fbUPl-7_DiL9ajPV"
+  slides: "/assets/slides/nov132025.pdf"
+  papers:
+  - "https://ojs.aaai.org/index.php/AAAI/article/view/35453"
+  - "https://openreview.net/forum?id=38UFpdt3Tr"
+  abstract: >-
+    In many scenarios, AI models have to satisfy external constraints on, e.g., energy consumption, communication,
+    allocated GPU hours, or time. In addition, many of these constraints can vary over time, due to variable
+    network conditions, equipment failure, or peak energy use. In this talk we overview recent work on
+    "dynamic" architecture that are able to satisfy these constraints by reducing their internal computations
+    (e.g., number of layers) dynamically. This is in contrast with standard efficient techniques for AI,
+    which require to selectively retrain or quantize larger models and target only static constraint requirements.
+    We overview a number of applications including audio modelling, and we show how dynamicity allows
+    for more explainability and modularity.
+  bio: >-
+    Simone Scardapane is an associate professor at Sapienza University of Rome. His research focus includes
+    the design of efficient and explainable neural network models, topological and geometric deep learning,
+    and continual learning, as well as applications to scientific discovery, intelligent telecommunications,
+    medicine, and environmental monitoring. He is an affiliate researcher at the National Institute for
+    Nuclear Physics (INFN), a junior fellow at the Sapienza School for Advanced Studies, and a member
+    of the National Inter-University Consortium for Telecommunications (CNIT) and the ELLIS society. He
+    has published over 150 publications on these topics, and he currently serves as action editor for
+    Transactions on Machine Learning Research, and as area chair for NeurIPS and ICLR. Outside of university,
+    he was involved for a long time in dissemination activities for AI, ranging from organizing local
+    Meetups to participating in podcasts and conferences.
+- date: "2025-11-06"
+  term: "Fall 2025"
+  title: "Machine learning paradigms for music and audio understanding"
+  speakers:
+  - name: "Emmanouil Benetos"
+    url: "https://www.eecs.qmul.ac.uk/~emmanouilb/"
+  affiliation: "Queen Mary University of London"
+  video: "https://youtu.be/_Jwr8Qgd7mM"
+  slides: "/assets/slides/nov62025.pdf"
+  abstract: >-
+    The area of computational audio analysis -also called machine listening- continues to evolve. Starting
+    from methods grounded in digital signal processing and acoustics, followed by supervised machine learning
+    methods that require large amounts of labelled data, recent approaches for learning music audio representations
+    are fueled by advances in the broader field of artificial intelligence. The talk will outline recent
+    research carried out at the Centre for Digital Music of Queen Mary University of London focusing on
+    emerging learning paradigms for making sense of music and audio data. Topics covered will include
+    learning in the presence of limited audio data, the inclusion of other modalities such as natural
+    language to aid learning music representations, and finally methods for learning from unlabelled audio
+    data - with the latter being used as a first step towards the creation of music foundation models.
+  bio: >-
+    Emmanouil Benetos is Reader in Machine Listening and Director of Research at the School of Electronic
+    Engineering and Computer Science of Queen Mary University of London. Within Queen Mary, he is member
+    of the Centre for Digital Music and Centre for Multimodal AI, is Deputy Director at the UKRI Centre
+    for Doctoral Training in AI and Music (AIM), and co-leads the School's Machine Listening Lab. His
+    main area of research is computational audio analysis, also referred to as machine listening or computer
+    audition - with applications to music, urban, everyday and nature sounds.
+- date: "2025-10-30"
+  term: "Fall 2025"
+  title: "Gemini Voice Agent: A Natively Multimodal Dialog Model with Advanced Reasoning and Tool Use"
+  url: "https://arxiv.org/abs/2507.06261"
+  speakers:
+  - name: "Michael Han"
+  affiliation: "Google DeepMind"
+  video: "https://youtu.be/cRY592etyHI?si=J27CfgnfSkvm97F4"
+  papers:
+  - "https://arxiv.org/abs/2507.06261"
+  abstract: >-
+    This talk will introduce Gemini 2.5, a natively multimodal audio model developed over the past year.
+    We will detail the model's ability to generate human-like, responsive dialogue while leveraging industry-leading
+    intelligence. The presentation will cover the key research and engineering efforts that enable Gemini
+    2.5 to understand, reason, and interact through voice, establishing a new standard for intelligent,
+    conversational agents.
+  bio: >-
+    Michael Han is a Staff Research Engineer at Google DeepMind, where his work focuses on post-training
+    for audio-related tasks. His research aims to bridge the gap between native multimodal Large Language
+    Models (LLMs) and their practical application in everyday user experiences.
+- date: "2025-10-23"
+  term: "Fall 2025"
+  title: "Supervised contrastive learning from weakly-labeled audio segments for musical version matching"
+  url: "https://arxiv.org/abs/2502.16936"
+  speakers:
+  - name: "Joan Serrà"
+    url: "https://serrjoa.github.io/"
+  affiliation: "Sony AI"
+  video: "https://youtu.be/1sOh7xx06vQ"
+  slides: "/assets/slides/musical-version-matching-CLEWS.pdf"
+  papers:
+  - "https://arxiv.org/abs/2502.16936"
+  abstract: >-
+    Detecting musical versions (different renditions of the same piece) is a challenging task with important
+    applications. Because of the ground truth nature, existing approaches match musical versions at the
+    track level (e.g., whole song). However, most applications require to match them at the segment level
+    (e.g., 20s chunks). In addition, existing approaches resort to classification and triplet losses,
+    disregarding more recent losses that could bring meaningful improvements. In this paper, we propose
+    a method to learn from weakly annotated segments, together with a contrastive loss variant that outperforms
+    well-studied alternatives. The former is based on pairwise segment distance reductions, while the
+    latter modifies an existing loss following decoupling, hyper-parameter, and geometric considerations.
+    With these two elements, we do not only achieve state-of-the-art results in the standard track-level
+    evaluation, but we also obtain a breakthrough performance in a segment-level evaluation. We believe
+    that, due to the generality of the challenges addressed here, the proposed methods may find utility
+    in domains beyond audio or musical version matching.
+  bio: >-
+    Joan Serrà is a staff research scientist and team lead with Sony AI (since 2024), where he does research
+    on machine learning with a focus on audio and multimedia analysis, synthesis, and retrieval. He holds
+    an MSc and PhD in machine learning for audio from the Music Technology Group of Universitat Pompeu
+    Fabra (2006-2011), and did a postdoc in artificial intelligence at IIIA-CSIC (2011-2015). After that,
+    he joined Telefónica R&D as a machine learning researcher (2015-2019) and Dolby Laboratories as an
+    AI researcher and manager (2019-2024). He has been involved in several research projects, co-invented
+    over 20 patents, and co-authored over 150 publications, many of them highly cited and/or in top tier
+    venues.
+- date: "2025-10-16"
+  term: "Fall 2025"
+  title: "The development of spoken LM"
+  url: "https://www.microsoft.com/en-us/research/project/vall-e-x/"
+  speakers:
+  - name: "Jinyu Li"
+    url: "https://www.microsoft.com/en-us/research/people/jinyli/"
+  affiliation: "Microsoft"
+  video: "https://youtu.be/dJIQoZ3uxsk"
+  slides: "/assets/slides/Oct162025.pdf"
+  papers:
+  - "https://arxiv.org/abs/2504.08528"
+  - "https://arxiv.org/abs/2503.01743"
+  - "https://www.microsoft.com/en-us/research/project/vall-e-x/"
+  abstract: >-
+    Large Language Models (LLMs) have significantly influenced natural language processing (NLP) and are
+    increasingly affecting speech processing. This talk examines the effects of LLMs on speech processing
+    and multimodal intelligence. It reviews the progression from spoken language models (SLMs) to multimodal
+    LLMs (MLLMs), referencing the model development process at Microsoft. The discussion includes comparisons
+    of model architectures, advances in speech generation and understanding, and the integration of speech
+    and text modalities. The talk concludes by presenting the recent Phi-4-multimodal model as an example.
+  bio: >-
+    Jinyu Li currently serves as a Partner Applied Science Manager for Microsoft, Redmond, WA, USA and
+    leads a science team dedicated to designing and enhancing speech modeling algorithms and technologies.
+    Dr. Li is an IEEE Fellow, for contributions to deep-learning-based speech technology innovation and
+    commercialization. His major research interests cover several topics in speech processing, including
+    end-to-end modeling, multimodal modeling, speech recognition, speech translation, and robustness,
+    etc. Dr. Li has been a Member, IEEE Speech and Language Processing Technical Committee from 2018 to
+    2023; Associate Editor, IEEE/ACM Transactions on Audio, Speech and Language Processing from 2015 to
+    2020; Technical Program Chairs for IEEE Spoken Language Technology Workship SLT 2021 and IEEE Workshop
+    of Automatic Speech Recognition and Understanding 2023 and 2025.
+- date: "2025-10-09"
+  term: "Fall 2025"
+  title: "AI-based Spatial Audio"
+  url: "https://arxiv.org/abs/2402.04866"
+  speakers:
+  - name: "Fabio Antonacci"
+    url: "https://www.deib.polimi.it/eng/people/details/573870"
+  affiliation: "Politecnico di Milano"
+  video: "https://youtu.be/j-ZYL4ZyzHc?si=PfO12o4lX1a6NIkx"
+  slides: "/assets/slides/CARG.pdf"
+  papers:
+  - "https://arxiv.org/abs/2402.04866"
+  - "https://arxiv.org/abs/2403.09524"
+  - "https://arxiv.org/abs/2312.08821"
+  - "https://eurasip.org/Proceedings/Eusipco/Eusipco2024/pdfs/0000126.pdf"
+  - "https://arxiv.org/abs/2407.18732"
+  abstract: >-
+    In the recent years, AI has been adopted for several problems in spatial audio. In this talk an overview
+    of some of the recent advances are presented, with a focus on the reconstruction of acoustic room
+    responses from sparse data, nearfield acoustic holography and upsampling of microphone array measurements.
+  bio: >-
+    Fabio Antonacci is associate professor with Politecnico di Milano. His research interests include
+    space-time processing of audio signals for both speaker and microphone arrays and musical acoustics,
+    in particular on the development of innovative non invasive measurement methodologies.
+- date: "2025-10-02"
+  term: "Fall 2025"
+  title: "A safety case for the Scientist AI"
+  url: "https://arxiv.org/abs/2502.15657"
+  speakers:
+  - name: "Yoshua Bengio"
+    url: "https://yoshuabengio.org/"
+  affiliation: "LawZero"
+  video: "https://youtu.be/bzORaP6cAGI"
+  slides: "/assets/slides/MilaReadingGroup2oct2025.pdf"
+  papers:
+  - "https://arxiv.org/abs/2502.15657"
+  - "/assets/slides/SAI-safety-case.pdf"
+  abstract: >-
+    Deep learning systems can acquire uncontrolled goals, e.g., instrumental subgoals of human-specified
+    objectives or imitated human aims, that conflict with human norms. We propose a safety case for theScientist
+    AI, a purely non-agentic predictor whose sole function is to estimate the conditional probability
+    of properties of the world, not what action to take to achieve a goal nor acting like a ChatBot which
+    answers questions. Our safety case rests on two design claims. (1) The training setup prevents any
+    learning signal that depends on changes the model could induce in the external world, eliminating
+    incentives to select outputs that steer the world toward preferred states, as would happen with typical
+    reinforcement learning. (2) A "truthification" pipeline converts data into atomic claims labelled
+    by trust tiers, with the highest tier corresponding to claims verified by human science, to avoid
+    uncontrolled agency arising from human imitation. While total honesty cannot be guaranteed in general,
+    we argue that a sufficiently capable Scientist AI trained and calibrated using this pipeline is epistemically
+    correct: When it issues a high-confidence claim, it is trustworthy. This differs from total honesty
+    and solving the challenge of eliciting latent knowledge, as it leaves open the possibility that the
+    AI expresses uncertainty despite knowing the answer. However, this asymmetric guarantee supports conservative
+    decision-making and turns increased capability from a misalignment risk into higher reliability of
+    confident claims. As an application, a Scientist AI could act as a guardrail for untrusted agents
+    by predicting the probability of harm from candidate actions and vetoing any action whose predicted
+    harm exceeds a threshold. To support this safety case, a set of Scientist AI design properties is
+    proposed, including a latent variable model of the truthified claims. Every statement, latent or observed,
+    that makes a claim in natural language about a property of the world, corresponds to a random variable.
+    The anticipated improvement in generalization and explainability would ride on the language-understanding
+    abilities of modern deep learning. Latent variable modeling would both increase the quantity of training
+    signals for rarely or never observed claims and allow the generation and validation of interpretable
+    explanations for any target statement.
+  bio: >-
+    Yoshua Bengio is Full Professor in the Department of Computer Science and Operations Research at Université
+    de Montreal, Co-President and Scientific Director of LawZero, as well as Founder and Scientific Advisor
+    of Mila and Special Advisor and Founding Scientific Director of IVADO. Considered one of the world’s
+    leaders in artificial intelligence and deep learning, he is the recipient of the 2018 A.M. Turing
+    Award with Geoff Hinton and Yann LeCun, known as the Nobel prize of computing. He is a Canada CIFAR
+    AI Chair, a Fellow of both the Royal Society of London and Canada, an Officer of the Order of Canada,
+    Knight of the Legion of Honor of France, Member of the UN’s Scientific Advisory Board for Independent
+    Advice on Breakthroughs in Science and Technology, and Chair of the International Scientific Report
+    on the Safety of Advanced AI.
+- date: "2025-09-25"
+  term: "Fall 2025"
+  title: "Advances in Speaker Recognition: Pruning, Deepfake Detection, and Learning without Temporal\
+    \ Labels"
+  url: "https://arxiv.org/abs/2410.02364"
+  speakers:
+  - name: "Themos Stafylakis"
+    url: "https://archimedesai.gr/en/researchers/themos-stafylakis"
+  affiliation: "Athens University of Economics and Business"
+  video: "https://youtu.be/IuiJRz3MtxA"
+  slides: "/assets/slides/sep252025.pdf"
+  papers:
+  - "https://arxiv.org/abs/2410.02364"
+  - "https://arxiv.org/abs/2508.16232"
+  - "https://arxiv.org/abs/2210.01273"
+  abstract: >-
+    This presentation will highlight some of our recent advancements in speaker recognition. We will begin
+    by exploring techniques for finetuning self-supervised models, such as WavLM, for the dual tasks of
+    speaker recognition and deepfake detection. To address the challenge of real-world application, we
+    will then discuss essential model pruning methods for deploying these systems efficiently. The final
+    section will introduce a weakly-supervised method for training speaker embedding extractors. We will
+    demonstrate how this approach allows a model to be trained on raw, uncut VoxCeleb recordings, using
+    only the audio and associated celebrity names, thereby eliminating the need for precise temporal annotations.
+  bio: >-
+    Themos Stafylakis is an Associate Professor at the Department of Informatics of Athens University
+    of Economics and Business and an affiliated researcher at Archimedes/Athena R.C.. He is also the head
+    of Machine Learning and Voice Biometrics at Omilia. He graduated from the School of Electrical and
+    Computer Engineering at the National Technical University of Athens (NTUA) (2004). He holds an MSc
+    in Telecommunications and Signal Processing from Imperial College London (2005) and a Ph.D. in Speaker
+    Recognition and Diarization from NTUA (2011). He served as a postdoctoral researcher at the École
+    de Technologie Supérieure (ÉTS) in Montréal (2011-2013) and the Centre de Recherche Informatique de
+    Montréal (CRIM) (2011-2016), with main research focus on Speaker Recognition and Voice Biometrics.
+    He continued his research at the University of Nottingham (UK) on audio-visual speech recognition
+    (Marie Sklodowska-Curie Individual Fellowship, 2016-2018). Subsequently, he became a visiting researcher
+    at the Department of Speech Technologies at the Brno University of Technology (Czech Republic, 2018-present)
+    while simultaneously heading the Machine Learning and Voice Biometrics departments at Omilia (Cyprus
+    and Greece, 2018-present).
+- date: "2025-09-18"
+  term: "Fall 2025"
+  title: "Discrete Audio Tokens: More Than a Survey!"
+  url: "https://openreview.net/pdf?id=eqNchtvc6v"
+  speakers:
+  - name: "Pooneh Mousavi"
+    url: "https://poonehmousavi.github.io/"
+  affiliation: "Mila - Concordia"
+  video: "https://youtu.be/iGNotmn5J5A?si=E0XDsJIINknlfsxw"
+  slides: "/assets/slides/sep182025.pdf"
+  papers:
+  - "https://openreview.net/pdf?id=eqNchtvc6v"
+  abstract: >-
+    Discrete audio tokens are compact representations that aim to preserve perceptual quality, phonetic
+    content, and speaker characteristics while enabling efficient storage and inference, as well as competitive
+    performance across diverse downstream tasks. They provide a practical alternative to continuous features,
+    enabling the integration of speech and audio into modern large language models (LLMs). As interest
+    in token-based audio processing grows, various tokenization methods have emerged, and several surveys
+    have reviewed the latest progress in the field. However, existing studies often focus on specific
+    domains or tasks and lack a unified comparison across various benchmarks. This paper presents a systematic
+    review and benchmark of discrete audio tokenizers, covering three domains: speech, music, and general
+    audio. We propose a taxonomy of tokenization approaches based on encoder-decoder, quantization techniques,
+    training paradigm, streamability, and application domains. We evaluate tokenizers on multiple benchmarks
+    for reconstruction, downstream performance, and acoustic language modeling, and analyze trade-offs
+    through controlled ablation studies. Our findings highlight key limitations, practical considerations,
+    and open challenges, providing insight and guidance for future research in this rapidly evolving area.
+  bio: >-
+    Pooneh Mousavi is a Ph.D. candidate and affiliated researcher at Concordia University and Mila, working
+    under the supervision of Mirco Ravanelli and Cem Subakan. Her research focuses on Conversational AI
+    and representation learning for speech and audio, with an emphasis on bridging the gap between audio
+    and large language models. She holds a Master’s degree in Computer Science from the University of
+    Texas at Dallas (UTD). Pooneh is a core contributor to SpeechBrain, a widely used open-source toolkit
+    for conversational AI. She also leads a weekly Conversational AI Reading Group at Mila, which features
+    leading researchers and scientists in the field.
+- date: "2025-06-26"
+  term: "Summer 2025"
+  title: "Audio Processing in the Age of Large Language Models"
+  url: "https://sakshi113.github.io/audio_webpage/"
+  speakers:
+  - name: "Dinesh Manocha"
+    url: "https://www.cs.umd.edu/people/dmanocha"
+  affiliation: "University of Maryland"
+  video: "https://youtu.be/P_ra5WjdZTE?si=VIid977CPneupSN5"
+  slides: "/assets/slides/june26.pdf"
+  papers:
+  - "https://arxiv.org/abs/2503.03983"
+  abstract: >-
+    Audio comprehension—including speech, non-speech sounds, and music—is essential for AI agents to interact
+    effectively with the world. Yet,bresearch in audio processing has lagged behind other areas likeblanguage
+    and vision, hindered by limited datasets, the need for advanced architectures, and training methods
+    suited to the inherent complexities of audio. Our group is trying to bridge this gap with innovative
+    solutions, starting with GAMA, our large audio-language model designed for advanced audio perception
+    and complex reasoning. GAMA is built with a specialized architecture, optimized audio encoding, and
+    a novel alignment dataset, that is used for audio understanding, reasoning, and hallucination reduction.
+    GAMA’s development builds on our past research, such as MAST and SLICER and EH-MAM, which are novel
+    approaches for learning strong audio representations from unlabeled data. Complementing this, we introduced
+    ReCLAP, a state-of-the-art audio-language encoder, and CompA, one of the first projects to tackle
+    compositional reasoning in audio-language models—a critical challenge given audio’s inherently compositional
+    nature. We recently developed Audio Flamingo 2, an audio-language model with advanced long-audio understanding
+    and reasoning capabilities. Audio Flamingo 2 achieves the state-of-the-art performance across over
+    20 benchmarks, with only a 3B parameter small language model Looking forward, we envision LALMs becoming
+    integral to daily life, capable of conversational speech QA, information-extraction-based QA, and
+    addressing knowledge-driven questions about diverse audio inputs. Achieving these ambitious goals
+    requires both advanced data and architectures. Synthio, our latest synthetic data generation framework,
+    supports this mission by generating data for complex audio understanding. Progress must also be measurable,
+    so we’re dedicated to establishing comprehensive benchmarks. Our recent work, MMAU, rigorously tests
+    LALMs on real-world tasks.
+  bio: >-
+    Dinesh Manocha is Paul Chrisman-Iribe Chair in Computer Science & ECE and a Distinguished University
+    Professor at the University of Maryland College Park. His research interests include virtual environments,
+    physically-based modeling, and robotics. His group has developed many software packages that are standard
+    and licensed to 60+ commercial vendors. He has published more than 800 papers & supervised 54 PhD
+    dissertations. He is a Fellow of AAAI, AAAS, ACM, IEEE, and NAI and member of ACM SIGGRAPH and IEEE
+    VR Academies, and Bézier Award from Solid Modeling Association. He received the Distinguished Alumni
+    Award from IIT Delhi the Distinguished Career in Computer Science Award from Washington Academy of
+    Sciences. He co-founded Impulsonic, a physics-based audio simulation technology developer, which Valve
+    Inc acquired in November 2016.
+- date: "2025-06-19"
+  term: "Summer 2025"
+  title: "AI for Creators: Pushing Creative Abilities to the Next Level"
+  url: "https://sony.github.io/creativeai/"
+  speakers:
+  - name: "Yuki Mitsufuji"
+    url: "https://www.yukimitsufuji.com/"
+  affiliation: "SonyAI"
+  papers:
+  - "https://sony.github.io/creativeai/"
+  abstract: >-
+    The Music Foundation Model Team at Sony AI is responsible for the building blocks of foundation models
+    (deep generative modeling & multimodal pretraining) and the development of technologies for the creation,
+    search, and protection of music, cinematic, and gaming media. I will introduce our recent works, which
+    have been accepted at top venues including ICLR, NeurIPS, ICML, CVPR, and ICASSP, and showcase several
+    demos that were made available with the release of commercial products powered by our technologies.
+  bio: >-
+    Yuki Mitsufuji, PhD, holds dual roles at Sony, leading two departments (Creative AI Lab, Music Foundation
+    Model Team), and is a visiting research professor at New York University. He’s achieved Senior Member
+    status in IEEE and serves on the IEEE AASP Technical Committee 2023–2026. He has chaired numerous
+    sessions on generative models at recent ICASSP conferences and gave tutorials on diffusion at ISMIR
+    2024 and ICASSP 2025.
+- date: "2025-06-12"
+  term: "Summer 2025"
+  title: "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound"
+  url: "https://arxiv.org/abs/2502.05139"
+  speakers:
+  - name: "Andros Tjandra"
+    url: "https://androstj.github.io/"
+  affiliation: "FAIR (Meta AI)"
+  video: "https://youtu.be/rfjEcVos-Jk?si=HUSkLiyQtRuEPaE5"
+  slides: "/assets/slides/Audiobox_Aesthetics.pdf"
+  papers:
+  - "https://arxiv.org/abs/2502.05139"
+  abstract: >-
+    The quantification of audio aesthetics remains a complex challenge in audio processing, primarily
+    due to its subjective nature, which is influenced by human perception and cultural context. Traditional
+    methods often depend on human listeners for evaluation, leading to inconsistencies and high resource
+    demands. This paper addresses the growing need for automated systems capable of predicting audio aesthetics
+    without human intervention. Such systems are crucial for applications like data filtering, pseudo-labeling
+    large datasets, and evaluating generative audio models, especially as these models become more sophisticated.
+    In this work, we introduce a novel approach to audio aesthetic evaluation by proposing new annotation
+    guidelines that decompose human listening perspectives into four distinct axes. We develop and train
+    no-reference, per-item prediction models that offer a more nuanced assessment of audio quality. Our
+    models are evaluated against human mean opinion scores (MOS) and existing methods, demonstrating comparable
+    or superior performance. This research not only advances the field of audio aesthetics but also provides
+    open-source models and datasets to facilitate future work and benchmarking.
+  bio: >-
+    Andros Tjandra is a research scientist at Meta AI-FAIR in the United States. Prior to joining Meta,
+    he received his PhD in 2020 from the Graduate School of Information Science, NAIST, Japan. During
+    his PhD, he worked as a research intern at Google and Facebook, and as a student researcher under
+    RIKEN AIP, Japan. He received his B.S. degree in Computer Science (cum laude) in 2014 and M.S. (cum
+    laude) in 2015 from the Faculty of Computer Science, Universitas Indonesia. Later, He received the
+    IEEE ASRU 2017 Best Student Paper Award, and the Acoustical Society of Japan (ASJ) Student Excellence
+    Presentation Award for his research works. His research interests include speech (and audio) recognition
+    & generation, NLP & machine learning.
+- date: "2025-06-05"
+  term: "Spring 2025"
+  title: "Voice conversion and the geometry of self-supervised speech representations"
+  url: "https://arxiv.org/abs/2305.18975"
+  speakers:
+  - name: "Herman Kamper"
+    url: "https://www.kamperh.com/"
+  affiliation: "Stellenbosch University"
+  video: "https://youtu.be/L6SnWOui_7A?si=CMEqB7F6rOH3tbpb"
+  slides: "/assets/slides/kamper_convairg2025.pdf"
+  papers:
+  - "https://arxiv.org/abs/2305.18975"
+  - "https://arxiv.org/abs/2506.01510"
+  abstract: >-
+    In the first part of the talk, I will describe two very simple voice conversion approaches that operate
+    directly on self-supervised (SSL) speech features. The first method, kNN-VC, replaces each SSL frame
+    of a source utterance with its k-nearest neighbours from target speech. The second method, LinearVC,
+    learns a linear projection between source and target frames. Despite their simplicity -- there is
+    no need for expensive model training -- these methods perform competitively with state-of-the-art
+    techniques. This should surprise us! In the second part of the talk, I will explore what these results
+    reveal about the geometry of the SSL space and how LinearVC can be used to probe the space. I aim
+    to show that voice manipulation serves as a useful means to investigate and understand the structure
+    of SSL features.
+  bio: >-
+    Herman Kamper is a professor in Electrical and Electronic Engineering at Stellenbosch University,
+    South Africa. Before this, he did a postdoc at TTI-Chicago with Karen Livescu. He obtained his PhD
+    in 2017 from the University of Edinburgh under the supervision of Sharon Goldwater. His group at Stellenbosch
+    works on machine learning methods that would allow machines to acquire language autonomously, using
+    as little supervision as possible. Through this, they hope to gain new insights into machine and human
+    learning.
+- date: "2025-05-29"
+  term: "Spring 2025"
+  title: "On The Landscape of Spoken Language Models"
+  url: "https://arxiv.org/pdf/2504.08528"
+  speakers:
+  - name: "Yossi Adi"
+    url: "https://www.cs.huji.ac.il/~adiyoss/"
+  affiliation: "Hebrew University and Meta"
+  video: "https://youtu.be/2d1MU280yQk"
+  slides: "/assets/slides/2025-05-29-seminar.pdf"
+  papers:
+  - "https://arxiv.org/pdf/2504.08528"
+  - "https://arxiv.org/pdf/2504.02398"
+  - "https://arxiv.org/pdf/2409.07437"
+  - "https://arxiv.org/abs/2505.22765"
+  abstract: >-
+    Spoken language models has emerged as an interesting and promising research direction. Yet, the term
+    ‘spoken language model’ is interpreted differently across research groups. In this talk, I will present
+    my perspective on the current landscape of SLMs, with particular emphasis on their scaling behavior
+    and evaluation methods. We will explore prominent models, including both textless SLMs and speech-text
+    interleaving methods, and examine their scaling behavior. Building on this foundation, we will discuss
+    current evaluation benchmarks and how can we go beyond spoken content, specifically, acoustic elements
+    and prosodic information. I’ll conclude the talk with an overview of a new data generation pipeline,
+    supported by empirical results showing that fine-tuning SLMs on this data significantly enhances prosodic
+    understanding, while maintaining performance across other downstream tasks.
+  bio: >-
+    Yossi Adi is an Assistant Professor at the school of computer science and engineering at the Hebrew
+    University of Jerusalem, and a Research Scientist at the FAIR team (Meta). Yossi completed his Ph.D.
+    in computer science at Bar-Ilan University and is a recipient of the IAAI Best Doctoral Dissertation
+    Award and the Alon scholarship. Yossi's research interests are in speech and language processing using
+    machine learning and deep learning models. Yossi's research spans core machine learning and deep learning
+    algorithms, their applications to spoken language processing, and the impact of the technology on
+    social systems.
+- date: "2025-05-22"
+  term: "Spring 2025"
+  title: "Speaker diarization, a love loss story"
+  url: "https://www.isca-archive.org/odyssey_2024/kalda24_odyssey.html"
+  speakers:
+  - name: "Hervé Bredin"
+    url: "https://herve.niderb.fr/"
+  affiliation: "pyannoteAI"
+  video: "https://youtu.be/ECqxZgVevuI?si=09cPcjwJhwE5NfUa"
+  slides: "/assets/slides/HervéBredinConvAIReadingGroup.pdf"
+  papers:
+  - "https://www.isca-archive.org/odyssey_2024/kalda24_odyssey.html"
+  - "https://www.isca-archive.org/interspeech_2023/bredin23_interspeech.html"
+  - "https://www.isca-archive.org/interspeech_2023/plaquet23_interspeech.html"
+  - "https://www.isca-archive.org/interspeech_2024/rahou24_interspeech.html"
+  abstract: >-
+    This talk traces the evolution of speaker diarization systems, from traditional multi-stage approaches
+    to modern end-to-end architectures. I will begin with a historical overview, highlighting the shift
+    toward end-to-end modeling and the subsequent partial return to hybrid approaches. The core of the
+    talk focuses on loss functions designed to address key challenges in diarization: permutation invariance
+    through the powerset loss, streaming diarization via a look-ahead loss, and the extension to joint
+    speaker segmentation and separation using the PixIT loss.
+  bio: >-
+    Hervé Bredin (a.k.a. the pyannote guy) is currently on leave from CNRS (he was a tenured research
+    scientist there between 2008 and 2025) and is now Chief Science Officer at pyannoteAI, a startup he
+    co-founded around the pyannote.audio open-source speaker diarization toolkit.
+- date: "2025-05-15"
+  term: "Spring 2025"
+  title: "Automatic Quality Assessment for Speech and Beyond"
+  url: "https://arxiv.org/abs/2110.02635"
+  speakers:
+  - name: "Wen-Chin Huang"
+    url: "https://unilight.github.io/"
+  affiliation: "Nagoya University"
+  video: "https://youtu.be/REH034Wm3so?si=aghSxJXdw2JfDMhD"
+  slides: "/assets/slides/may_15.pdf"
+  papers:
+  - "https://arxiv.org/abs/2110.02635"
+  - "https://arxiv.org/abs/2203.11389"
+  - "https://www.jstage.jst.go.jp/article/ast/45/4/45_e24.12/_article/-char/ja/"
+  abstract: >-
+    As generative AI has revolutionized the field of speech and audio generation, there is an increasing
+    need for automatic quality assessment methods. In recent years, data-driven speech quality assessment
+    (SQA) methods based on deep neural networks (DNNs) have improved greatly, and have been used by both
+    academic and industrial researchers to evaluate speech generation models. Nonetheless, there are still
+    unsolved problems, and the application of such methods to other audio types remains underexplored.
+    This talk will be divided in to three part. (1) I will first give an overview of SQA, with a special
+    focus on recent developments of automatic SQA methods in the era of DNN. (2) I will talk about my
+    experience in organizing the VoiceMOS challenge, a scientific event that aims to establish unified
+    tasks, datasets, and evaluation processes, in order to compare different SQA approaches and shed light
+    on insights and unsolved problems. (3) Finally, I will discuss the current challenges and future directions
+    in the quality assessment of speech and beyond
+  bio: >-
+    Wen-Chin Huang is currently an assistant professor at the Graduate School of Informatics, Nagoya University,
+    Japan. He received the B.S. degree from National Taiwan University, Taiwan in 2018 and the M.S. and
+    Ph.D. degree from Nagoya University, Japan in 2021 and 2024, respectively. He was a co-organizer of
+    the Voice Conversion Challenge 2020, Singing Voice Conversion 2023, 2025, VoiceMOS Challenge 2022,
+    2023, 2024, and AudioMOS Challenge 2025. His main research interest is speech processing, with a main
+    focus on speech generation-related fields, including voice conversion and speech quality assessment.
+    He was the recipient of the Best Student Paper Award in ISCSLP2018, the Best Paper Award in APSIPA
+    ASC 2021, and the 16th IEEE Signal Processing Society Japan Best Student Journal Paper Award.
+- date: "2025-05-08"
+  term: "Spring 2025"
+  title: "The Voicebox Model and Its Applications"
+  url: "https://lsari.github.io/voicebox_talk_may_2025/"
+  speakers:
+  - name: "Leda Sari"
+    url: "https://scholar.google.com/citations?user=SW4wc24AAAAJ&hl=en"
+  affiliation: "Otter.ai"
+  video: "https://youtu.be/PKleJNikO8M?si=WTYufQdJuNVjZovs"
+  slides: "/assets/slides/The_Voicebox_Model_and_Its_Applications_LedaSari.pdf"
+  papers:
+  - "https://proceedings.neurips.cc/paper_files/paper/2023/file/2d8911db9ecedf866015091b28946e15-Paper-Conference.pdf"
+  - "https://arxiv.org/pdf/2306.00998"
+  - "https://www.isca-archive.org/syndata4genai_2024/dhamyal24_syndata4genai.pdf"
+  - "https://www.isca-archive.org/syndata4genai_2024/sharma24_syndata4genai.pdf"
+  abstract: >-
+    Voicebox is a non-autoregressive generative speech model based on flow-matching and is trained to
+    perform speech infilling given audio context and the corresponding text. The Voicebox model can be
+    used for zero-shot text-to-speech synthesis, noise removal, content editing, style conversion, and
+    diverse sample generation. In this talk, we will first review the Voicebox model. We will then focus
+    on the synthetic speech generation capability of the model and present several use cases of these
+    synthetic signals in various applications including automatic speech recognition and spoken language
+    understanding. Through a few early studies on using Voicebox generated speech signals, we will discuss
+    the cost saving benefits of the approach in terms of speech data collection and potential shortcomings
+    of using synthetic speech in these applications.
+  bio: >-
+    Leda Sari is a research scientist focusing on automatic speech recognition applications. She received
+    her BSc and MSc degrees from Bogazici University, Turkey, and her PhD in Electrical and Computer Engineering
+    from the University of Illinois Urbana-Champaign, US in 2021. Upon graduation, she joined Meta as
+    a research scientist. Her research works include speaker adaptation and fairness for ASR, speaker
+    change detection, as well as the use of synthetic data for ASR. In addition to her technical work,
+    Leda has been an active member of the speech research community. She is currently the co-chair of
+    the Young Female Researchers in Speech Workshop at Interspeech 2025, Challenge, Special sessions and
+    Demonstration co-chair at IEEE ASRU 2025 and the Special sessions chair at IEEE Machine Learning for
+    Signal Processing (MLSP) 2025 Workshop.
+- date: "2025-05-01"
+  term: "Spring 2025"
+  title: "CR-CTC: Consistency regularization on CTC for improved speech recognition"
+  url: "https://arxiv.org/abs/2410.05101"
+  speakers:
+  - name: "Daniel Povey"
+    url: "https://danielpovey.com/index.html"
+  affiliation: "Xiaomi Corp"
+  video: "https://youtu.be/2B1-gKDTuh0"
+  slides: "/assets/slides/CR-CTC-iclr.pdf"
+  papers:
+  - "https://arxiv.org/abs/2410.05101"
+  abstract: >-
+    Connectionist Temporal Classification (CTC) is a widely used method for automatic speech recognition
+    (ASR), renowned for its simplicity and computational efficiency. However, it often falls short in
+    recognition performance. In this work, we propose the Consistency-Regularized CTC (CR-CTC), which
+    enforces consistency between two CTC distributions obtained from different augmented views of the
+    input speech mel-spectrogram. We provide in-depth insights into its essential behaviors from three
+    perspectives: 1) it conducts self-distillation between random pairs of sub-models that process different
+    augmented views; 2) it learns contextual representation through masked prediction for positions within
+    time-masked regions, especially when we increase the amount of time masking; 3) it suppresses the
+    extremely peaky CTC distributions, thereby reducing overfitting and improving the generalization ability.
+    Extensive experiments on LibriSpeech, Aishell-1, and GigaSpeech datasets demonstrate the effectiveness
+    of our CR-CTC. It significantly improves the CTC performance, achieving state-of-the-art results comparable
+    to those attained by transducer or systems combining CTC and attention-based encoder-decoder (CTC/AED).
+  bio: >-
+    Daniel Povey is known for many different contributions to the technology of speech recognition, including
+    early innovations in sequence training such as Minimum Phone Error, for the Kaldi toolkit, for "next-gen
+    Kaldi" tools k2/lhotse/Icefall/sherpa, and for the Librispeech dataset. He completed his PhD at Cambridge
+    University in 2003, spent about ten years working for industry research labs (IBM Research and then
+    Microsoft Research) and 7 years as non-tenure-track faculty at Johns Hopkins University. He moved
+    to Beijing, China in November 2019 to join Xiaomi Corporation as Chief Voice Scientist. He is an IEEE
+    Fellow as of 2023.
+- date: "2025-04-24"
+  term: "Spring 2025"
+  title: "GenAI for Sound Design"
+  url: "https://arxiv.org/abs/2412.08550"
+  speakers:
+  - name: "Oriol Nieto"
+    url: "https://www.urinieto.com/about/"
+  affiliation: "Adobe Research"
+  video: "https://youtu.be/DWzlf0ZYoIA"
+  slides: "/assets/slides/20250424-ConvAIRC-GenSFX.pdf"
+  papers:
+  - "https://arxiv.org/abs/2412.09789"
+  - "https://arxiv.org/abs/2412.08550"
+  - "https://arxiv.org/abs/2411.17698"
+  abstract: >-
+    This presentation explores the forefront of generative AI research for sound design at Adobe Research.
+    I will provide an overview of Latent Diffusion Models for audio, which form the foundation of our
+    work, and introduce several recent advancements focused on controllability and multimodality. I will
+    begin with SILA, a technique designed to enhance the control of sound effects generated through text
+    prompts. Following this, I will present Sketch2Sound, a model that generates sound effects conditioned
+    on both audio recordings and text. Lastly, I will examine MultiFoley, a model capable of generating
+    sound effects from both silent videos and text. Throughout the talk, I will showcase a series of examples
+    and demos to illustrate the practical applications and potential of these models, making the case
+    that we are only beginning to unveil a completely new paradigm in how to approach sound design.
+  bio: >-
+    Oriol Nieto is a Senior Research Engineer at Adobe Research, where he focuses on human-centered AI
+    for audio creativity, encompassing everything from music to audiobooks, video editing, and sound design.
+    He holds a PhD in Music Technology from MARL, NYU, a Master's in Music, Science, and Technology from
+    Stanford University, and a Master's in Information Technologies from Pompeu Fabra University. Highly
+    involved with the Music Information Retrieval community, he was one of the three General Chairs for
+    ISMIR 2024 in San Francisco this past November. Oriol has helped develop relevant open-source MIR
+    packages such as librosa, mir-eval, and MSAF; contributed to PyTorch; and plays guitar, violin, cajón,
+    and sings (and screams) in his spare time.
+- date: "2025-04-17"
+  term: "Spring 2025"
+  title: "Unsupervised on-device adaptation of a speech recogniser and the Pitfalls of \"SpeechLLM\"\
+    \ evaluation"
+  speakers:
+  - name: "Titouan Parcollet"
+    url: "https://darnault-parcollet.fr/"
+  affiliation: "Samsung AI Center Cambridge"
+  video: "https://youtu.be/woPyvb-phuM?si=GLfCOP20pHezc_iO"
+  slides: "/assets/slides/tituan-reading-group.pdf"
+  abstract: >-
+    Deploying Automatic Speech Recognition (ASR) systems on-device or in the cloud presents distinct challenges
+    and opportunities. On-device models can theoretically benefit from proximity to the user's speech,
+    enabling personalization. However, methods for achieving this without labels often yield suboptimal
+    performance. This talk will initially present Samsung AI Center Cambridge's latest research efforts
+    in robust unsupervised adaptation of ASR models using as little as 1 minute of unlabeled speech. In
+    the cloud, the increased availability of computational resources has driven the development of large
+    language model-powered ASR models (SpeechLLMs), which are expected to offer higher accuracy. However,
+    and as the second part of this talk will illustrate, caution is warranted when evaluating SpeechLLMs.
+    Indeed, ASR benchmarks for SpeechLLMs are often flawed and may suffer from test sets contamination.
+    The pretraining phase of most LLMs involves exposure to text content that is identical to the test
+    sets of common ASR datasets, resulting in a clearly biased evaluation and potential performance impacts.
+  bio: >-
+    Titouan Parcollet is a Research Scientist at the Samsung AI Center in Cambridge (UK) and an affiliated
+    lecturer at the University of Cambridge. Previously, he was an Associate Professor in computer science
+    at the Laboratoire Informatique d’Avignon (LIA), from Avignon University (FR). He also was a senior
+    research associate at the University of Oxford (UK) within the Oxford Machine Learning Systems group.
+    He received his PhD in computer science from the University of Avignon (FR) and in partnership with
+    Orkis focusing on quaternion neural networks, automatic speech recognition, and representation learning.
+    His current work involves efficient speech recognition and self-supervised learning. He is also currently
+    collaborating with the Quebec AI Institute (Mila) as the co-lead of SpeechBrain.
+- date: "2025-04-10"
+  term: "Spring 2025"
+  title: "Toward Understanding Sign Language in the Real World"
+  url: "https://arxiv.org/pdf/2411.16765"
+  speakers:
+  - name: "Karen Livescu"
+    url: "https://home.ttic.edu/~klivescu/"
+  affiliation: "TTIC"
+  video: "https://youtu.be/To3NMbyZY-Q?si=PiAO7cqBA3Q8646_"
+  papers:
+  - "https://arxiv.org/pdf/2411.16765"
+  abstract: >-
+    Sign languages are unwritten, low-resource languages that convey meaning through gestures of the hands,
+    upper body, and face. They are used by millions of deaf and hard of hearing individuals around the
+    world, but sign language technologies are far behind those for spoken and written languages. There
+    has been some encouraging progress, including on tasks like isolated sign recognition and sign-to-written
+    language translation. However, the current state of the art is far from handling arbitrary linguistic
+    domains and visual environments. This talk will describe work in my group aimed at sign language understanding
+    for real-world domains and conditions, including recent work on self-supervised representation learning
+    for American Sign Language.
+  bio: >-
+    Karen Livescu is a Professor at TTI-Chicago, where she has been since 2008. Prior to TTIC, she did
+    her PhD and postdoc at MIT. She is a Fellow of the IEEE and ISCA. She has served as a program chair/co-chair
+    for ICLR, Interspeech, and ASRU, and as an Associate Editor for TACL, IEEE T-PAMI, and several other
+    journals. Her group's work spans a variety of topics in spoken, written, and signed language processing,
+    with a particular interest in representation learning, cross-modality learning, and low-resource settings.
+- date: "2025-04-03"
+  term: "Spring 2025"
+  title: "Improving Multilingual Speech Recognition and Language Identification"
+  url: "https://arxiv.org/abs/2408.06227"
+  speakers:
+  - name: "Min Ma"
+    url: "https://research.google/people/min-ma/?&type=google"
+  affiliation: "Google DeepMind"
+  slides: "/assets/slides/Speech_min.pdf"
+  papers:
+  - "https://arxiv.org/abs/2408.06227"
+  abstract: >-
+    This talk presents advances in automatic speech recognition and spoken language identification, focusing
+    on addressing key challenges in multilingual environments, low-resource scenarios, and robust representation
+    learning. We explore innovative approaches to improve ASR performance across diverse languages, incorporate
+    metadata for enhanced speech representations, and develop effective evaluation methodologies.
+  bio: >-
+    Min Ma is a Research Scientist at Google DeepMind, working in multimodal foundation models, agents
+    and reasoning, and language understanding, with a focus on multilinguality and low-resource languages.
+    Her research also encompasses speech recognition and generation, speaker state detection, and cognitive
+    science. Dr. Ma has co-authored over 20 peer-reviewed publications, including a Best Paper at SLT
+    2022. She is a co-owner of the FLEURS and FLEURS-R benchmarks and has served as a reviewer for 18
+    journals and conferences, for which she received an Outstanding Reviewer Award at INTERSPEECH 2023.
+- date: "2025-03-27"
+  term: "Spring 2025"
+  title: "Learning Source Disentanglement in Neural Audio Codec"
+  url: "https://arxiv.org/abs/2409.11228"
+  speakers:
+  - name: "Xiaoyu Bie"
+    url: "https://xiaoyubie1994.github.io/"
+  affiliation: "Télécom Paris"
+  video: "https://youtu.be/2WLH-g4_xeA?si=WrVhqrQCB-ehI9QF"
+  slides: "/assets/slides/2025_03_SDCODEC_Mila.pdf"
+  papers:
+  - "https://arxiv.org/abs/2409.11228"
+  abstract: >-
+    Neural audio codecs have significantly advanced audio compression by efficiently converting continuous
+    audio signals into discrete tokens. These codecs preserve high-quality sound and enable sophisticated
+    sound generation through generative models trained on these tokens. However, existing neural codec
+    models are typically trained on large, undifferentiated audio datasets, neglecting the essential discrepancies
+    between sound domains like speech, music, and environmental sound effects. This oversight complicates
+    data modeling and poses additional challenges to the controllability of sound generation. To tackle
+    these issues, we introduce the Source-Disentangled Neural Audio Codec (SD-Codec), a novel approach
+    that combines audio coding and source separation. By jointly learning audio resynthesis and separation,
+    SD-Codec explicitly assigns audio signals from different domains to distinct codebooks, sets of discrete
+    representations. Experimental results indicate that SD-Codec not only maintains competitive resynthesis
+    quality but also, supported by the separation results, demonstrates successful disentanglement of
+    different sources in the latent space, thereby enhancing interpretability in audio codec and providing
+    potential finer control over the audio generation process.
+  bio: >-
+    Xiaoyu Bie is currently a postdoctoral researcher at Télécom Paris, Institut Polytechnique de Paris.
+    His research focuses on generative models and audio signal processing. He is involved in the ERC project
+    Hi-Audio, which aims to developing interpretable and controllable deep neural models for audio by
+    integrating domain-specific knowledge. Previously, he completed his PhD in Computer Science at INRIA
+    and Université Grenoble-Alpes in 2023. He serves as a reviewer for international conferences and journals
+    such as NeurIPS, CVPR, ICASSP, Interspeech and IEEE/ACM TASLP.
+- date: "2025-03-20"
+  term: "Spring 2025"
+  title: "Making transformers work for audio coding"
+  url: "https://arxiv.org/abs/2411.19842"
+  speakers:
+  - name: "Julian Parker"
+    url: "https://scholar.google.com/citations?user=IpFBwuEAAAAJ&hl=en"
+  affiliation: "Stability AI"
+  video: "https://youtu.be/LuzSkLEuho4?si=1NyVzBrGprm2y1dS"
+  slides: "/assets/slides/TAAE_200525.pdf"
+  papers:
+  - "https://arxiv.org/abs/2411.19842"
+  abstract: >-
+    Neural audio codec models are crucial to modern generative AI pipelines, but until recently have largely
+    relied on convolutional backbones. In this talk I share some recent work on building and scaling a
+    transformer-based neural audio codec for speech. I’ll discuss my motivations for taking this approach,
+    the challenges encountered along the way, and the successes and limitations of the work.
+  bio: >-
+    Julian Parker, born in the UK, holds a B.A. (Hons.) in natural sciences from the University of Cambridge
+    (2005), UK, an M.Sc. in acoustics & music technology from the University of Edinburgh (2008), UK,
+    and a D.Sc. (Tech.) in audio signal processing and acoustics from Aalto University, Finland (2013).
+    His doctoral work focused on computational modelling of dispersive physical systems in the audio frequency
+    range. He has held leadership positions in industrial research at companies such as Native Instruments,
+    TikTok and Stability AI, focusing on processing and generating of musical sound using both traditional
+    signal processing techniques, machine learning and AI. His current research interests are in generative
+    modelling of musical audio, audio coding, and in the intersection between signal processing and neural
+    network structures.
+- date: "2025-03-13"
+  term: "Winter 2025"
+  title: "Moshi: a speech-text foundation model for real-time dialogue"
+  url: "https://arxiv.org/abs/2410.00037"
+  speakers:
+  - name: "Alexandre Defossez"
+    url: "https://ai.honu.io/"
+  affiliation: "Kyutai"
+  video: "https://www.youtube.com/watch?v=0_c3bw_x6uU"
+  slides: "/assets/slides/alex.pdf"
+  papers:
+  - "https://arxiv.org/abs/2410.00037"
+  abstract: >-
+    We will discuss Moshi, our recently released model. Moshi is capable of full-duplex dialogue, e.g.
+    it can both speak and listen at any time, offering the most natural speech interaction to date. Besides,
+    Moshi is also multimodal, in particular it is able to leverage its inner text monologue to improve
+    the quality of its generation. We will cover the design choices behind Moshi in particular the efficient
+    joint sequence modeling permitted by RQ-Transformer, and the use of large scale synthetic instruct
+    data. Finally, I will discuss how this approach can be extended to new use cases like simultaneous
+    speech translation.
+  bio: >-
+    Alexandre Defossez is a co-founder at Kyutai, a non profit lab for research in artificial intelligence
+    based in Paris. Kyutai's mission is to lead bleeding edge research and to make it accessible through
+    open science and open source. We released the speech-to-speech conversational AI Moshi, and recently
+    Hibiki, the first simultaneous speech translation model that can run on a phone. Before that, Alexandre
+    was a scientist for 3 years at Facebook AI Research in Paris, where he led the development for models
+    for audio compression and modeling (AudioCraft, MusicGen, EnCodec). He graduated in mathematics from
+    École Normale Supérieure, and did his PhD between INRIA and FAIR Paris on music source separation.
+- date: "2025-02-27"
+  term: "Winter 2025"
+  title: "Open Whisper-Style Speech Models: Transparency, Scalability, and Advancing Explainability"
+  url: "https://arxiv.org/abs/2401.16658"
+  speakers:
+  - name: "Shinji Watanabe"
+    url: "https://sites.google.com/view/shinjiwatanabe"
+  affiliation: "Carnegie Mellon University"
+  video: "https://www.youtube.com/watch?v=X9bVfXyoKxc"
+  slides: "/assets/slides/shinji_watanabe_v2.pdf"
+  papers:
+  - "https://arxiv.org/abs/2401.16658"
+  - "https://aclanthology.org/2024.acl-long.549.pdf"
+  abstract: >-
+    Speech foundation models are transforming research by unifying speech-processing tasks through scaling
+    data, model size, and task diversity. This shift has divided research roles, with large tech companies
+    building foundational models and smaller entities focusing on refinement and analysis, raising concerns
+    about explainability due to limited transparency. To address this, our group has developed Open Whisper-style
+    Speech Models (OWSM) at Carnegie Mellon University, replicating OpenAI Whisper-style training using
+    public data and our open-source toolkit ESPnet. Our models exhibit explainable behaviors due to their
+    transparent development. We also investigate scaling laws and emergent capabilities in speech foundation
+    models by studying model and data size impacts within the OWSM suite. This presentation will discuss
+    these advancements and the research challenges they present to the speech and audio community, emphasizing
+    open collaboration and transparency to enhance accessibility and interpretability in speech processing
+    technologies.
+  bio: >-
+    Shinji Watanabe is an Associate Professor at Carnegie Mellon University, Pittsburgh, PA. He received
+    his B.S., M.S., and Ph.D. (Dr. Eng.) degrees from Waseda University, Tokyo, Japan. He was a research
+    scientist at NTT Communication Science Laboratories, Kyoto, Japan, from 2001 to 2011, a visiting scholar
+    at Georgia Institute of Technology, Atlanta, GA, in 2009, and a senior principal research scientist
+    at Mitsubishi Electric Research Laboratories (MERL), Cambridge, MA USA from 2012 to 2017. Before Carnegie
+    Mellon University, he was an associate research professor at Johns Hopkins University, Baltimore,
+    MD, USA, from 2017 to 2020. His research interests include automatic speech recognition, speech enhancement,
+    spoken language understanding, and machine learning for speech and language processing. He has published
+    over 500 papers in peer-reviewed journals and conferences and received several awards, including the
+    best paper award from ISCA Interspeech in 2024. He is a Senior Area Editor of the IEEE Transactions
+    on Audio Speech and Language Processing. He was/has been a member of several technical committees,
+    including the APSIPA Speech, Language, and Audio Technical Committee (SLA), IEEE Signal Processing
+    Society Speech and Language Technical Committee (chair, SLTC), and Machine Learning for Signal Processing
+    Technical Committee (MLSP). He is an IEEE and ISCA Fellow.
+- date: "2025-02-20"
+  term: "Winter 2025"
+  title: "Singing Voice Synthesis: Data curation, Modeling, and Evaluation"
+  url: "https://www.isca-archive.org/interspeech_2024/shi24_interspeech.pdf"
+  speakers:
+  - name: "Jiatong Shi"
+    url: "http://shijt.site/"
+  affiliation: "Carnegie Mellon University"
+  video: "https://www.youtube.com/watch?v=AiFTBrkfO18"
+  slides: "/assets/slides/SVS-work-overview-0220.pdf"
+  papers:
+  - "https://www.isca-archive.org/interspeech_2024/shi24_interspeech.pdf"
+  - "https://www.isca-archive.org/interspeech_2024/wu24q_interspeech.pdf"
+  - "https://www.isca-archive.org/interspeech_2024/tang24c_interspeech.html"
+  - "https://arxiv.org/abs/2406.10911"
+  abstract: >-
+    Singing voice synthesis (SVS) has emerged as a rapidly evolving research area. However, achieving
+    high-quality and expressive singing synthesis remains a challenging task, requiring large-scale curated
+    datasets, effective modeling strategies, and robust evaluation frameworks. This talk will provide
+    a comprehensive overview of the key components of SVS research, covering data curation, model development,
+    and evaluation methodologies. We will introduce ACE-Opencpop and ACE-KiSing, two large-scale singing
+    voice datasets designed to support diverse SVS applications. On the modeling side, we will explore
+    TokSing, a discrete token-based SVS approach, and SingOMD, which leverages multi-resolution discrete
+    representations to enhance synthesis quality. In terms of evaluation, we will discuss the Interspeech
+    2024 Challenge on Speech Processing Using Discrete Units, the SingMOS dataset for MOS prediction,
+    and VERSA, a versatile evaluation toolkit for speech, audio, and music processing. By bridging data,
+    modeling, and evaluation, this talk aims to provide insights into the current advancements and challenges
+    in SVS research, highlighting emerging directions for improving naturalness, expressiveness, and overall
+    synthesis quality.
+  bio: >-
+    Jiatong Shi is a Ph.D. candidate in the Language Technologies Institute at Carnegie Mellon University,
+    advised by Dr. Shinji Watanabe. His research focuses on speech representation learning and its applications
+    across various speech processing tasks. He has authored over 70 publications in leading speech and
+    machine learning conferences and has received multiple prestigious honors, including the Best Paper
+    Award at ISCA Interspeech 2024, the Best Paper Award at EMNLP 2024, and the CMU Presidential Fellowship.
+    Jiatong is also a strong advocate for open-source research, making significant contributions to major
+    toolkits such as ESPnet, Muskits, and VERSA. He has played a key role in curating and releasing influential
+    open datasets, including ML-SUPERB, SingMOS, KiSing, and several endangered language corpora, which
+    have driven advancements in speech and music processing.
+- date: "2025-02-13"
+  term: "Winter 2025"
+  title: "Scalable and Efficient Speech Enhancement"
+  url: "https://minjekim.com/wp-content/uploads/jasa2024_skim.pdf"
+  speakers:
+  - name: "Minje Kim"
+    url: "https://minjekim.com/"
+  affiliation: "University of Illinois at Urbana-Champaign"
+  video: "https://www.youtube.com/watch?v=Olbv6fBu63w"
+  slides: "/assets/slides/ConvAI_RG_Minje_20250213.pdf"
+  papers:
+  - "https://minjekim.com/wp-content/uploads/jasa2024_skim.pdf"
+  - "https://minjekim.com/wp-content/uploads/waspaa2021_asivaraman.pdf"
+  - "https://minjekim.com/wp-content/uploads/taslp2022_skim.pdf"
+  abstract: >-
+    Recent advances in single-channel speech enhancement have yielded substantial performance gains but
+    often at the cost of prohibitive model sizes or inference complexity. In this talk, I present a three-part
+    framework addressing these challenges by unifying speaker-agnostic compression, personalized modeling,
+    and scalable architectures. First, we discuss speaker-agnostic model compression via low-bit quantization.
+    Drawing on Bitwise Neural Networks (BNN) and Incremental Binarization on RNNs, we show how feedforward
+    and recurrent networks can be quantized to binary parameters, thereby drastically reducing computational
+    complexity with only a minor degradation in enhancement quality. We also explore discriminative hashing
+    approaches (e.g., Boosted Locality Sensitive Hashing) to represent audio spectra as highly compact
+    binary codes—enabling efficient lookups for source separation in resource-constrained devices. Next,
+    we shift toward personalized speech enhancement—a speaker-aware model compression paradigm. Here,
+    zero-shot approaches that exploit speaker embeddings or knowledge distillation serve to adapt compact
+    models on-the-fly without requiring any clean speech data from the user. By selecting or distilling
+    knowledge from large teacher networks, these personalized systems can adapt to new speakers or recurring
+    noise conditions at test time, thus bridging the performance gap between large, general-purpose models
+    and lightweight, specialized models. Finally, we introduce scalable and efficient enhancement architectures.
+    Building on blockwise optimization (BLOOM-Net) and modified cold diffusion, we design flexible models
+    whose internal blocks or iterative steps can be selectively engaged based on real-time resource constraints.
+    This scalability lets the same network accommodate diverse deployment scenarios—ranging from low-power
+    embedded devices to higher-capacity servers—while maintaining strong enhancement performance.
+  bio: >-
+    Minje Kim is an Associate Professor in the Department of Computer Science at the University of Illinois
+    at Urbana-Champaign and a Visiting Academic at Amazon Lab126. Prior to that, he was an Associate Professor
+    at Indiana University. He earned his Ph.D. in CS from UIUC after working as a researcher at ETRI,
+    a national lab in Korea (2006–2011). His research focuses on developing machine learning models for
+    speech and audio problems. He has been recognized with various awards, including the NSF Career Award
+    (2021), the Indiana University Trustees Teaching Award (2021), and the IEEE SPS Best Paper Award (2020),
+    among others. He is the Chair of the IEEE SPS Audio and Acoustic Signal Processing Technical Committee,
+    a Senior Area Editor for IEEE SPL and IEEE/ACM TASLP, an Associate Editor for EURASIP JASMP, and a
+    Consulting Associate Editor for IEEE OJSP. He is also on the program committees of many machine learning
+    and audio/speech conferences, including NeurIPS, ICLR, AAAI, ICASSP, Interspeech, ISMIR, etc. He holds
+    over 50 patents as an inventor.
+- date: "2025-02-06"
+  term: "Winter 2025"
+  title: "Teaching Foundation Models New Skills: Insights and Experiences"
+  url: "/assets/slides/Finetune_Foundation.pdf"
+  speakers:
+  - name: "Hung-yi Lee"
+    url: "https://speech.ee.ntu.edu.tw/~hylee/index.php"
+  affiliation: "National Taiwan University"
+  video: "https://www.youtube.com/watch?v=HQpE0rmhVHI&list=PLmCexrvai6I6BCAxvCFGhM3vau1IyOfp9"
+  slides: "/assets/slides/Finetune_Foundation.pdf"
+  abstract: >-
+    In today's landscape of natural language processing (NLP) and speech processing, developing applications
+    often begins with fine-tuning a foundation model. However, teaching a foundation model new skills
+    is not as straightforward as it seems. Despite the sophistication of current models, introducing new
+    capabilities can often impair their original functions, a phenomenon known as catastrophic forgetting.
+    While experience replay is a common solution, the lack of open-source training data for models like
+    LLaMA poses challenges for continuous training. This talk will delve into recent research on fine-tuning
+    language models, including their spoken counterparts, focusing on preserving their initial capabilities.
+    This talk will also share some benchmarks related to the ongoing fine-tuning of foundation models.
+  bio: >-
+    Hung-yi Lee is a professor of the Department of Electrical Engineering at National Taiwan University
+    (NTU), with a joint appointment at the Department of Computer Science & Information Engineering. His
+    recent research focuses on developing technology that can reduce the requirement of annotated data
+    for speech processing (including voice conversion and speech recognition) and natural language processing
+    (including abstractive summarization and question answering). He won the Salesforce Research Deep
+    Learning Grant in 2019, the AWS ML Research Award in 2020, the Outstanding Young Engineer Award from
+    The Chinese Institute of Electrical Engineering in 2018, the Young Scholar Innovation Award from Foundation
+    for the Advancement of Outstanding Scholarship in 2019, Ta-You Wu Memorial Award from Ministry of
+    Science and Technology of Taiwan in 2019, and The 59th Ten Outstanding Young Person Award in Science
+    and Technology Research & Development of Taiwan.
+- date: "2025-01-23"
+  term: "Winter 2025"
+  title: "Foundational Speech Models and Their Efficient Training with NVIDIA NeMo"
+  url: "https://arxiv.org/abs/2406.19674v1"
+  speakers:
+  - name: "Piotr Żelasko"
+    url: "https://scholar.google.com/citations?hl=en&user=5YUtDtEAAAAJ&view_op=list_works&sortby=pubdate"
+  affiliation: "Nvidia"
+  video: "https://www.youtube.com/watch?v=Zuth3RrMkY8&list=PLmCexrvai6I6BCAxvCFGhM3vau1IyOfp9"
+  slides: "/assets/slides/EXTERNAL_Foundational_speech_models_and_their_efficient_training_with_NVIDIA_NeMo_Jan_2025.pdf"
+  papers:
+  - "https://arxiv.org/abs/2406.19674v1"
+  - "https://arxiv.org/abs/2409.13523"
+  - "https://arxiv.org/abs/2406.19954"
+  - "https://arxiv.org/abs/2310.09424"
+  abstract: >-
+    This talk gives an overview of recent developments by NVIDIA NeMo team. We introduce Canary-1B, an
+    open state-of-the-art speech recognition and translation model, and discuss the details of its training:
+    synthetic data generation and efficient dataloading approach that scales to arbitrarily sized datasets.
+    We demonstrate how Canary-1B training was further optimized to decrease the required number of GPUs
+    by 4x with 2D bucketing and batch size optimizer techniques. Finally, we provide a brief overview
+    of SALM and BESTOW architectures for SpeechLLMs and highlight our progress on efficient multimodal
+    SpeechLLM training (EMMETT).
+  bio: >-
+    Piotr Żelasko is a principal research scientist at NVIDIA NeMo. He received his PhD at AGH-UST in
+    Cracow, Poland, and held a research scientist position at JHU’s Center for Language and Speech Processing.
+    Piotr is a co-author of the next-generation Kaldi framework known as k2. His current interests are
+    multi-task, multilingual, and multimodal models involving speech, and training and inference optimization.
+- date: "2025-01-16"
+  term: "Winter 2025"
+  title: "Improving Universal Access to Modern Speech Technology"
+  url: "https://www.isca-archive.org/interspeech_2024/shi24g_interspeech.pdf"
+  speakers:
+  - name: "Martijn Bartelds"
+    url: "https://martijnbartelds.nl/"
+  affiliation: "Stanford University"
+  video: "https://www.youtube.com/watch?v=ZPYIb6X-dko&list=PLmCexrvai6I6BCAxvCFGhM3vau1IyOfp9&index=2"
+  slides: "/assets/slides/bartelds_mila.pdf"
+  papers:
+  - "https://www.isca-archive.org/interspeech_2024/shi24g_interspeech.pdf"
+  - "https://arxiv.org/abs/2502.01777"
+  abstract: >-
+    State-of-the-art speech recognition systems do not work well for many languages, limiting the digital
+    participation of many speakers worldwide. To address this challenge, we need both better ways to reliably
+    measure speech model performance, and new algorithms for bridging this performance gap. In this talk,
+    I propose solutions to both these problems, beginning with ML-SUPERB 2.0, a new benchmark to evaluate
+    multilingual speech models on language identification and automatic speech recognition (ASR) across
+    languages and datasets. Indeed, our benchmark reveals large differences in ASR performance between
+    languages, regardless of the modeling approach used. To mitigate this, I introduce a new model training
+    objective based on distributionally robust optimization. Our new method reduces ASR performance differences
+    between languages by minimizing the training loss of the worst-performing language. This work paves
+    the way for more equal access to speech technology for speakers of all languages.
+  bio: >-
+    Martijn Bartelds is a Postdoctoral Scholar at Stanford University, advised by Dan Jurafsky. His research
+    focuses on multilingual speech and language processing, with a particular interest in understanding
+    where language variety and dialect information is encoded in neural speech models, benchmarking, and
+    model training. He received his PhD with the highest distinction from the University of Groningen,
+    where his thesis was nominated for the university's best thesis award. He also received a prestigious
+    NWO Rubicon fellowship and was a visiting researcher at Delft University of Technology and the University
+    of Pennsylvania.
+- date: "2025-01-09"
+  term: "Winter 2025"
+  title: "Neural Audio Codecs in the Era of Speech LMs"
+  url: "https://arxiv.org/abs/2402.13071"
+  speakers:
+  - name: "Haibin Wu"
+    url: "https://hbwu-ntu.github.io/"
+  affiliation: "Microsoft"
+  video: "https://www.youtube.com/watch?v=BX755dCCGB4"
+  slides: "/assets/slides/codec_presentation.pdf"
+  papers:
+  - "https://arxiv.org/abs/2402.13071"
+  - "https://arxiv.org/abs/2411.18803"
+  - "https://arxiv.org/abs/2406.07237"
+  abstract: >-
+    Neural audio codecs (NACs) have gained significant attention as essential technologies for audio compression
+    and as foundational components for speech language models. In the era of speech LMs, there are both
+    challenges and opportunities in the codec domain. This talk presents three topics of NACs, including
+    modelling, evaluation and security. This talk introduces TS3-Codec, a Transformer-Based Simple Streaming
+    Single Codec. TS3-Codec provides key benefits, including streaming capability, low computational demands,
+    low bitrate, and a single codebook design, all while delivering high audio quality. Additionally,
+    this talk presents Codec-SUPERB, the first benchmark designed to evaluate codec models in terms of
+    reconstruction quality from both signal-level and application-level perspectives. Finally, this talk
+    presents CodecFake, the first deepfake audio dataset based on codecs. The CodecFake dataset equips
+    models to effectively counter codec-based speech generation systems.
+  bio: >-
+    Haibin Wu is a senior researcher at Microsoft, focusing on speech processing. He completed his Ph.D.
+    at National Taiwan University under Prof. Hung-yi Lee. He is a recipient of the Google PhD Fellowship,
+    awarded to only 75 scholars worldwide every year. Haibin has published more than 20 first-author papers
+    in top conferences and journals like ICASSP, Interspeech, TASLP, ACL, ASRU, and SLT. He is also a
+    key contributor to S3prl, an open-source speech toolkit with 2.2k GitHub stars. He gained industry
+    experience through internships at Microsoft, Meta, Amazon, and Tencent, working on speech generation,
+    enhancement, and model compression. Haibin also conducted research as a visiting student at Tsinghua
+    University and the Chinese University of Hong Kong. In addition, Haibin co-organizes the SUPERB and
+    Codec-SUPERB challenges, helping set benchmarks for speech SSL and codec model evaluation.
+- date: "2024-12-19"
+  term: "Fall 2024"
+  title: "Discrete Audio Tokens for Multimodal LLMs"
+  url: "https://arxiv.org/abs/2406.14294"
+  speakers:
+  - name: "Mirco Ravanelli"
+    url: "https://sites.google.com/site/mircoravanelli/"
+  affiliation: "Concordia University - Mila"
+  video: "https://www.youtube.com/watch?v=2-Dqzg3fuVE"
+  slides: "/assets/slides/Conv_AI_Meeting_Dec_2024.pdf"
+  papers:
+  - "https://arxiv.org/abs/2406.14294"
+  - "https://arxiv.org/abs/2406.10735"
+  abstract: >-
+    Discrete audio tokens have recently gained considerable attention for their potential to connect audio
+    and language processing, enabling the creation of modern multimodal large language models. Ideal audio
+    tokens must effectively preserve phonetic and semantic content along with paralinguistic information,
+    speaker identity, and other details. While several types of audio tokens have been recently proposed,
+    identifying the optimal tokenizer for various tasks is challenging due to the inconsistent evaluation
+    settings in existing studies. To address this gap, we release the Discrete Audio and Speech Benchmark
+    (DASB), a comprehensive leaderboard for benchmarking discrete audio tokens across a wide range of
+    discriminative tasks, including speech recognition, speaker identification and verification, emotion
+    recognition, keyword spotting, and intent classification, as well as generative tasks such as speech
+    enhancement, separation, and text-to-speech. Our results show that, on average, semantic tokens outperform
+    compression tokens across most discriminative and generative tasks. However, the performance gap between
+    semantic tokens and standard continuous representations remains substantial, highlighting the need
+    for further research in this field.
+  bio: >-
+    Mirco Ravanelli received the Ph.D. (with cum laude distinction) from the University of Trento, Trento,
+    Italy, in December 2017. He is currently an Assistant Professor with Concordia University, Montreal,
+    QC, Canada, an Adjunct Professor with the Universite de Montreal, and a Mila Associate Member. He
+    is the Founder and Leader of the SpeechBrain Project which aims to build an open-source toolkit for
+    conversational AI and speech processing. He is the author or co-author of more than 80 papers on his
+    research interests which include deep learning and conversational AI. He is also an Active Member
+    of the Speech and Machine Learning Communities.
+- date: "2024-12-05"
+  term: "Fall 2024"
+  title: "Posthoc Explanations for Audio Models"
+  url: "https://arxiv.org/abs/2403.13086"
+  speakers:
+  - name: "Cem Subakan"
+    url: "https://ycemsubakan.github.io/"
+  affiliation: "Université Laval - Mila"
+  video: "https://www.youtube.com/watch?v=6ErU-uZ9D_Y"
+  slides: "/assets/slides/lmac_convairg.pdf"
+  papers:
+  - "https://arxiv.org/abs/2403.13086"
+  - "https://arxiv.org/abs/2409.08655"
+  - "https://arxiv.org/abs/2405.17615v1"
+  abstract: >-
+    He will discuss his recent work on generating explanations for audio models. While deep learning models
+    excel at achieving high performance, they often function as black boxes, offering little transparency
+    into their decision-making processes. His aim in this line of work is to develop methods that produce
+    listenable explanations for these black-box audio models without compromising their original performance.
+    Through several metrics, he demonstrates that the explanations generated by his approach remain faithful
+    to the original model and are both listenable and understandable.
+  bio: >-
+    Cem Subakan is an assistant prof. at the computer science department of Laval University, an affiliate
+    assistant prof. at Concordia University and also an associate academic member at Mila. His research
+    is on machine learning for speech and audio, recently focusing more on explainable machine learning.
+    He recently co-organized the explainable AI for speech and audio workshop at ICASSP 2024, and will
+    be a general chair for the IEEE MLSP 2025 conference.
+- date: "2024-11-21"
+  term: "Fall 2024"
+  title: "PARAMETER AVERAGING IS ALL YOU NEED TO PREVENT FORGETTING"
+  url: "/assets/publications/2010_machine_readable_dictionaries/PARAMETER_AVERAGING_IS_ALL_YOU_NEED_TO_PREVENT_FORGETTING.pdf"
+  speakers:
+  - name: "Peter Plantinga"
+    url: "https://massey-plantinga.com/"
+  affiliation: "McGill University"
+  video: "https://www.youtube.com/watch?v=xOY3DeCkbPc"
+  slides: "/assets/slides/Parameter_Averaging_is_Al_You_Need_to_Prevent_Forgetting.pdf"
+  papers:
+  - "/assets/publications/2010_machine_readable_dictionaries/PARAMETER_AVERAGING_IS_ALL_YOU_NEED_TO_PREVENT_FORGETTING.pdf"
+  abstract: >-
+    Continual learning in end-to-end automatic speech recognition (E2E-ASR) often suffers from catastrophic
+    forgetting, where fine-tuning leads to significant performance degradation on previously seen data.
+    While adapters offer a way to switch between fine-tuned models, they still underperform in unseen
+    domains—a challenge when the input domain is unknown. We propose a method that reduces forgetting
+    to just 3.4%, significantly outperforming fine-tuning strategies like LoRA, which exhibits a 49% forgetting
+    rate. By linearly interpolating the parameters of multiple models fine-tuned from the same generalist
+    model, we achieve a unified model that excels across diverse datasets. Moreover, this model can be
+    iteratively fine-tuned and averaged while maintaining low forgetting rates. Our experiments demonstrate
+    the robustness of this approach across various datasets and models, presenting a promising solution
+    for continual learning in E2E-ASR.
+  bio: >-
+    Peter Plantinga is a Postdoctoral Researcher at McGill University’s Department of Neurology and Neurosurgery,
+    where his research leverages speech and audio data to develop biomarkers for neurodegenerative diseases.
+    With a long-standing passion for applying AI to assistive technologies, Peter has published extensively
+    on enhancing speech intelligibility in noisy environments for both human listeners and automated systems.
+    He is a core developer of the open-source SpeechBrain toolkit, widely used in the speech processing
+    and conversational AI communities, and previously led speech AI projects at JPMorganChase’s Machine
+    Learning Center of Excellence, contributing to several patents in conversational AI technologies.
+    Peter’s current work sits at the intersection of neuroscience and AI, aiming to advance the understanding
+    and treatment of different neurological disorders through innovations in interpretable machine learning
+    for voice analysis.

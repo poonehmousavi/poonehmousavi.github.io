@@ -1,0 +1,101 @@
+# Publications, newest first.
+# selected: true  -> shown by default; false -> shown after "Show all papers".
+# Mark yourself with <b>Pooneh Mousavi</b>; <sup>*</sup> = equal contribution, <sup>†</sup> = lead author.
+papers:
+- year: 2026
+  title: "Investigating Faithfulness in Large Audio Language Models"
+  authors: "<b>Pooneh Mousavi</b>, Lovenya Jain, Mirco Ravanelli, Cem Subakan"
+  venue: "Interspeech 2026 · Oral"
+  paper: "https://arxiv.org/abs/2509.22363"
+  website: "https://poonehmousavi.github.io/faithfulness/"
+  selected: true
+- year: 2026
+  title: "Enhancing Audio Reasoning via Semantic Summary Prediction"
+  authors: "Francesco Bonzi, <b>Pooneh Mousavi</b>, Cem Subakan, Mirco Ravanelli"
+  venue: "Interspeech 2026"
+  paper: "https://arxiv.org/abs/2609.20849"
+  website: "https://my-demo-hub.github.io/spare/"
+  selected: true
+- year: 2026
+  title: "DASB: Discrete Audio and Speech Benchmark"
+  authors: "<b>Pooneh Mousavi</b>, Jarod Duret, Darius Petermann, … Mirco Ravanelli"
+  venue: "TMLR 2026"
+  paper: "https://arxiv.org/abs/2406.14294"
+  website: "https://poonehmousavi.github.io/DASB-website/"
+  code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/DASB"
+  selected: true
+- year: 2026
+  title: "Listen First, Then Answer: Timestamp-Grounded Speech Reasoning"
+  authors: "Jihoon Jeong, <b>Pooneh Mousavi</b>, Mirco Ravanelli, Cem Subakan"
+  venue: "Preprint, under review"
+  paper: "https://arxiv.org/abs/2603.19468"
+  selected: true
+- year: 2026
+  title: "ALAS: An Automatic Latent Alignment Score for Audio Language Models"
+  authors: "<b>Pooneh Mousavi</b>, Yingzhi Wang, Mirco Ravanelli, Cem Subakan"
+  venue: "MLSP 2026 · also ICML 2025 ML4Audio Workshop"
+  paper: "https://arxiv.org/abs/2505.19937"
+  code: "https://github.com/poonehmousavi/alas"
+  selected: true
+- year: 2025
+  title: "Discrete Audio Tokens: More Than a Survey!"
+  authors: "<b>Pooneh Mousavi</b><sup>†</sup>, Gallil Maimon<sup>*</sup>, Adel Moumen<sup>*</sup>, …\
+    \ Mirco Ravanelli"
+  venue: "TMLR 2025"
+  paper: "https://openreview.net/pdf?id=eqNchtvc6v"
+  website: "https://poonehmousavi.github.io/dates-website/"
+  selected: true
+- year: 2025
+  title: "LiSTEN: Learning Soft Token Embeddings for Neural Audio LLMs"
+  authors: "<b>Pooneh Mousavi</b><sup>*</sup>, Shubham Gupta<sup>*</sup>, Cem Subakan, Mirco Ravanelli"
+  venue: "Interspeech 2025"
+  paper: "https://arxiv.org/abs/2505.18517"
+  selected: true
+- year: 2025
+  title: "What Are They Doing? Joint Audio-Speech Co-Reasoning"
+  authors: "Yingzhi Wang, <b>Pooneh Mousavi</b>, Artem Ploujnikov, Mirco Ravanelli"
+  venue: "ICASSP 2025"
+  paper: "https://arxiv.org/abs/2409.14526"
+  selected: true
+- year: 2024
+  title: "How Should We Extract Discrete Audio Tokens from Self-Supervised Models?"
+  authors: "<b>Pooneh Mousavi</b>, Jarod Duret, Salah Zaiem, … Mirco Ravanelli"
+  venue: "Interspeech 2024 · Oral"
+  paper: "https://arxiv.org/abs/2406.10735"
+  code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/DASB"
+  selected: true
+- year: 2024
+  title: "CL-MASR: A Continual Learning Benchmark for Multilingual ASR"
+  authors: "Luca Della Libera<sup>*</sup>, <b>Pooneh Mousavi</b><sup>*</sup>, Salah Zaiem, Cem Subakan,\
+    \ Mirco Ravanelli"
+  venue: "IEEE/ACM TASLP 2024"
+  paper: "https://arxiv.org/abs/2310.16931"
+  code: "https://github.com/speechbrain/benchmarks/tree/main/benchmarks/CL_MASR"
+  selected: false
+- year: 2024
+  title: "Open-Source Conversational AI with SpeechBrain 1.0"
+  authors: "Mirco Ravanelli, Titouan Parcollet, Adel Moumen, et al."
+  venue: "JMLR 2024"
+  paper: "https://arxiv.org/abs/2407.00463"
+  code: "https://speechbrain.github.io/"
+  selected: false
+- year: 2023
+  title: "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series"
+  authors: "Jean-Christophe Gagnon-Audet, Kartik Ahuja, Mohammad Javad Darvishi Bayazi, <b>Pooneh Mousavi</b>,\
+    \ Guillaume Dumas, Irina Rish"
+  venue: "TMLR 2023"
+  paper: "https://arxiv.org/abs/2203.09978"
+  code: "https://github.com/jc-audet/WOODS"
+  selected: false
+- year: 2022
+  title: "\"Please Donate for the Affected\": Supporting Emergency Managers in Finding Volunteers and\
+    \ Donations in Twitter Across Disasters"
+  authors: "<b>Pooneh Mousavi</b>, Cody Buntain"
+  venue: "ISCRAM 2022"
+  selected: false
+- year: 2021
+  title: "Detecting Hashtag Hijacking for Hashtag Activism"
+  authors: "<b>Pooneh Mousavi</b>, Jessica Ouyang"
+  venue: "EMNLP 2021 Workshop on NLP for Positive Impact"
+  paper: "https://aclanthology.org/2021.nlp4posimpact-1.9/"
+  selected: false

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}{{ site.data.main_info.name }}</title>
+  <meta name="description" content="{{ page.description | default: 'Pooneh Mousavi, PhD candidate at Mila and Concordia University working on audio and large language models.' }}">
+  <meta name="author" content="{{ site.data.main_info.name }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/profile-pics/rg_logo2.png' | prepend: site.baseurl }}">
+</head>
+<body>
+  {{ content }}
+
+  <script src="{{ '/assets/js/site.js' | prepend: site.baseurl }}"></script>
+  {% if site.data.main_info.google_analystics_tracking_id %}{% include google_analytics.html %}{% endif %}
+</body>
+</html>

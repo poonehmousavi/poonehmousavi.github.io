@@ -1,0 +1,258 @@
+---
+layout: old_default
+title: Home (archived)
+permalink: /old/index.html
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>👩🏻‍💻 About Me</h4>
+  <p>
+    I am a computer science PhD student at <a href="https://mila.quebec/en">Mila</a> and <a href="https://www.concordia.ca/ginacody.html">Concordia University</a>, supervised by Professor <a href="https://sites.google.com/site/mircoravanelli/" target="_blank">Mirco Ravanelli</a> and co-supervised by Professor  <a href="https://ycemsubakan.github.io/" target="_blank">Cem Subakan</a>. I have a broad interest in deep learning for Conversational AI. My research focuses on discrete self-supervised learning for speech and audio, exploring its potential to bridge audio and language models. I am also one of the main contributors to the <a href="https://speechbrain.github.io//" target="_blank">SpeechBrain</a> project, a popular open-source conversational AI toolkit.
+  </p>
+  <p>
+    <p>🎙️ Consider joining my weekly <a href="/old/rg.html">Conversational AI Reading Group</a>! We invite researchers working in conversational AI and speech processing to present their papers. 📚 Tune into our talks and discover new approaches, methodologies, or tools that you can start implementing in your work! 🚀</p>
+
+  <h6 class="no-space">🤝 I'm always interested in collaborating on exciting projects! If you have an idea or opportunity in mind, feel free to reach out. You can contact me at: mousavi (dot) pooneh (at) gmail (dot) com</p>
+
+</div>
+
+
+
+<div class="docs-section" id="bio">
+  <h4>📢 News!</h4>
+  <p>Happy to share our recent work <a href="https://openreview.net/pdf?id=eqNchtvc6v">"Discrete Audio Tokens: More Than a Survey!"</a> has been accepted at TMLR 2025. Huge thanks to all our amazing collaborators. Explore our <a href="https://poonehmousavi.github.io/dates-website/">website</a> to browse the tokenizer database or submit your own tokenizer to be featured! <a></a></p>
+  <p>Join our <a href="/old/rg.html">Conversational AI Reading Group</a>! Every Thursday, leading scientists share insights on the latest advancements in the field. Everyone is welcome to join.</p>
+  <p>Excited to annouce our paper <a href="https://arxiv.org/abs/2505.18517">"LiSTEN: Learning Soft Token Embeddings for Neural Audio LLMs?"</a> has been accepted at Interspeech 2025.</p>
+  <p>Our paper <a href="https://arxiv.org/abs/2505.19937">"ALAS: Measuring Latent Speech-Text Alignment For Spoken Language Understanding In Multimodal LLMs"</a> has been accepted at ICML 2025 Workshop on Machine Learning for Audio.</p>
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>🎓 Education</h4>
+          <div class="paper">
+          <p class="title"><b>Mila/Concordia University (Gina Cody School of Engineering and Computer Science)<b style="float:right;">Sep. 2022 - present</b></b></p>
+
+          <p>PhD in Computer Science</p>
+          <p></p>
+        </div>
+
+        <div class="paper">
+          <p class="title"><b>University of Texas at Dallas (UTD)<b style="float:right;">2018 - 2021</b></b></p>
+
+          <p>M.S. in Computer Science</p>
+          <p></p>
+        </div>
+
+        <!-- <div class="paper">
+          <p class="title"><b>K. N. Toosi University of Technology (KNTU) <b style="float:right;"> Sep. 2009 - Dec. 2013</b></b></p>
+          <p>B.S. in Software  Engineering</p>
+          <p></p>
+        </div> -->
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>📚 Publications</h4>
+
+  <p>Most recent publications on <a href="{{ site.data.old_main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <sup>‡</sup> indicates equal contribution.
+  </p>
+  <!-- <ul class="tab-nav"> -->
+    <!-- <li><div class="button active" data-ref="#papers-selected">Selected</div></li> -->
+    <!-- <li><div class="button" data-ref="#papers-all">All</div></li> -->
+  <!-- </ul> -->
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.old_publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.website %}
+            <a class="button" href="{{ paper.website | prepend: site.baseurl }}" target="_blank">Website</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.old_publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.website %}
+            <a class="button" href="{{ paper.website | prepend: site.baseurl }}" target="_blank">Website</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ========== PROJECTS ========== 
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+-->
+
+<!-- ========== Teaching ========== -->
+<div class="docs-section" id="teaching">
+  <h4>👩🏻‍🏫 Teaching</h4>
+  <div class="paper">
+    <p class="title"><b>Conversational AI, Concordia University</b></p>
+    <p>Winter 2023, Winter 2024, See info <a href="https://docs.google.com/document/d/1t40h7CmiczVrV1RBMPAbVZUjnFEyFOly-w7_iWaIqFc/edit">here</a></p>
+  </div>
+</div>
+<!-- ========== Services ========== -->
+<div class="docs-section" id="services">
+  <h4>👥 Services</h4>
+  <div class="paper">
+    <p class="title"><b>ICLR 2025 Reviewer</b>, <a href="https://iclr.cc/Conferences/2025">venue</a></p> 
+    <p class="title"><b>NeurIPS 2024 Datasets and Benchmarks Track Reviewer</b>, <a href="https://neurips.cc/Conferences/2024/CallForDatasetsBenchmarks/">venue</a></p> 
+    <p class="title"><b>ANNPR 2024 Reviewer</b>, <a href="https://users.encs.concordia.ca/~annpr24/">venue</a></p> 
+    <p class="title"><b>XAI-SA Workshop at ICASSP 2024 Reviewer</b>,  <a href="https://xai-sa-workshop.github.io/web/">venue</a></p> 
+    <p class="title"><b>SASB Workshop at ICASSP 2024 Reviewer</b>,  <a href="https://sites.google.com/view/icasspsasb2024">venue</a></p> 
+  
+  
+  </div>
+</div>
+<!-- ========== resume ========== -->
+
+<div class="docs-section" id="resume">
+  <h4>📄 CV</h4>
+
+  <p>Full Resume in <a href={{ "/assets/cv/Pooneh_Mousavi_cv.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+</div>
+
+
+</h6>
+
+

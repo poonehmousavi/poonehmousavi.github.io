@@ -1,0 +1,48 @@
+# Upcoming talks in date order. The first one is shown as the big "Next talk" card.
+# Optional fields: url (paper), papers_page, abstract, bio. Leave the list empty ([]) during breaks.
+talks:
+- date: "2026-10-08"
+  title: "Towards Fully Open General Audio Intelligence"
+  speakers:
+  - name: "Sreyan Ghosh"
+    url: "https://sreyan88.github.io/"
+  affiliation: "Google DeepMind"
+  papers_page: "https://sreyan88.github.io/research/"
+  abstract: >-
+    What does it take for AI to understand the world through audio? In this talk, I will present our work
+    on fully open large audio-language models, highlighting advances in architectures, training curricula,
+    and internet-scale data curation. I will explore how unified encoders connect speech, sound, and music,
+    and how new data and training infrastructure extend audio understanding from short clips to 30-minute
+    recordings. Along the way, expert-level benchmarks reveal persistent gaps between current models and
+    human audio reasoning. Finally, I will show how audio enriches real-world video comprehension, and
+    discuss our work integrating audio into world models. Together, these directions highlight why listening
+    is essential to AI systems that understand and model the world.
+  bio: >-
+    Sreyan Ghosh is a Research Scientist at Google DeepMind, where he works on audio and audio-visual
+    intelligence for Gemini. His research focuses on speech-to-speech modeling, speech translation, large
+    audio-language models, audio representation learning, and long-form audio understanding and reasoning.
+    He completed his Ph.D. in Computer Science at the University of Maryland, College Park, advised by
+    Dinesh Manocha and Ramani Duraiswami. During his Ph.D., he co-led the development of the Audio Flamingo
+    family of models and the MMAU series of audio understanding and reasoning benchmarks. Previously,
+    he held research internships at Nvidia, Adobe and Microsoft. He is a recipient of the NVIDIA Graduate
+    Fellowship and UMD’s Outstanding Graduate Assistant Award.
+- date: "2026-10-15"
+  title: "Title TBA"
+  speakers:
+  - name: "Oriol Nieto"
+  affiliation: "Adobe Research"
+- date: "2026-10-22"
+  title: "Title TBA"
+  speakers:
+  - name: "Alessio Brutti"
+  affiliation: "Fondazione Bruno Kessler (FBK)"
+- date: "2026-10-29"
+  title: "Title TBA"
+  speakers:
+  - name: "Yannick Estève"
+  affiliation: "Avignon Université"
+- date: "2026-11-05"
+  title: "Title TBA"
+  speakers:
+  - name: "Bhiksha Raj"
+  affiliation: "Carnegie Mellon University"

@@ -1,0 +1,9 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+#baseurl: /~poonehmousavi
+
+collections:
+  projects:
+    output: true
+

@@ -1,0 +1,16 @@
+# News, newest first. Keep 3-5 items; delete old ones.
+items:
+- date: "2026"
+  text: "📢 Our workshop on <b>Explainability, Robustness, and Controllability of Language Modeling for Speech and Audio</b> was accepted at <a href=\"https://www.linkedin.com/showcase/ieeeicassp/\">ICASSP</a>! 🎉 Working on audio language models or conversational AI? Submit by <b>November 11, 2026</b>."
+- date: "Oct 2026"
+  text: "\U0001F399️ The <a href=\"/rg.html\">Conversational AI Reading Group</a> is back on <b>October\
+    \ 8</b>. Join us Thursdays at 11:00 ET."
+- date: "2026"
+  text: >-
+    Two papers accepted at <b>Interspeech 2026</b>: <a href="https://arxiv.org/abs/2509.22363">Investigating
+    Faithfulness in Large Audio Language Models</a> (oral) and <a href="https://arxiv.org/abs/2609.20849">Enhancing
+    Audio Reasoning via Semantic Summary Prediction</a>.
+- date: "2026"
+  text: "<a href=\"https://arxiv.org/abs/2505.19937\">ALAS</a> accepted at <b>MLSP 2026</b>."
+- date: "2026"
+  text: "<a href=\"https://arxiv.org/abs/2406.14294\">DASB</a> accepted at <b>TMLR</b>."

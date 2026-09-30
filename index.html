@@ -1,0 +1,105 @@
+---
+layout: base
+title: Home
+---
+{% assign cv = "/assets/cv/Pooneh_Mousavi_cv.pdf" | prepend: site.baseurl %}
+<div class="page home">
+  <aside class="id">
+    <img class="portrait" src="{{ site.baseurl }}{{ site.data.main_info.profile_pic }}" alt="{{ site.data.main_info.name }}">
+    <div>
+      <h1 class="name">Pooneh <em>Mousavi</em></h1>
+      <canvas class="wave" id="wave" aria-hidden="true"></canvas>
+      <p class="role">{{ site.data.main_info.title }}</p>
+    </div>
+    <div class="icons">
+      <a href="https://scholar.google.com/citations?user=QkuComwAAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l4 2.2v6L12 21l7-3.8v-6l2-1.1V17h2V9L12 3zm5 13.1L12 19l-5-2.9v-3.8L12 15l5-2.7v3.8zM12 13 5.2 9.3 12 5.6l6.8 3.7L12 13z"/></svg></a>
+      <a href="https://github.com/poonehmousavi" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a>
+      <a href="https://www.linkedin.com/in/pooneh-mousavi" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3V9.5zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4V9.5z"/></svg></a>
+      <a href="https://bsky.app/profile/poonehm.bsky.social" aria-label="Bluesky" title="Bluesky"><svg viewBox="0 0 24 24"><path d="M5.2 3.6C7.7 5.5 10.4 9.3 12 11.3c1.6-2 4.3-5.8 6.8-7.7 1.8-1.3 4.7-2.4 4.7.9 0 .7-.4 5.5-.6 6.3-.8 2.7-3.6 3.4-6.1 3 4.4.7 5.5 3.2 3.1 5.7-4.6 4.7-6.6-1.2-7.1-2.7l-.8-2.2-.8 2.2c-.5 1.5-2.5 7.4-7.1 2.7-2.4-2.5-1.3-5 3.1-5.7-2.5.4-5.3-.3-6.1-3C.1 10 0 5.2 0 4.5c0-3.3 3-2.2 4.7-.9z" transform="translate(.3 .5) scale(.97)"/></svg></a>
+      <a href="https://twitter.com/mousavipooneh" aria-label="X" title="X"><svg viewBox="0 0 24 24"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></a>
+    </div>
+    <div class="email">{{ site.data.main_info.email }}</div>
+    <nav class="toc" aria-label="On this page">
+      <a href="#h-news">📢 News</a>
+      <a href="#h-pubs">📚 Publications</a>
+      <a href="#h-more">💼 Experience &amp; education</a>
+      <a href="{{ site.baseurl }}/rg.html">🎙️ Reading group →</a>
+      <a href="{{ cv }}">📄 CV (PDF) ↗</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="section" id="h-about">
+      <span class="label" data-c="teal"><span class="emo">👩🏻‍💻</span>About me</span>
+      <p class="lede">I work on bridging <em>audio and large language models</em>, from discrete audio representations to benchmarks and interpretability.</p>
+      <p class="prose">I'm finishing my PhD at <a href="https://mila.quebec/en">Mila</a> and <a href="https://www.concordia.ca/ginacody.html">Concordia University</a> with <a href="https://sites.google.com/site/mircoravanelli/">Mirco Ravanelli</a> and <a href="https://ycemsubakan.github.io/">Cem Subakan</a>. Most recently I worked on generative, expressive speech models at <b>Epic Games</b>. I'm a core contributor to <a href="https://speechbrain.github.io/">SpeechBrain</a> and founded the <a href="{{ site.baseurl }}/rg.html">Conversational AI Reading Group</a>. 🤝 Always happy to collaborate.</p>
+      <div class="actions" style="margin-top:0">
+        <a class="btn" href="{{ cv }}"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+        <a class="btn ghost" data-c="violet" href="{{ site.data.main_info.google_scholar }}"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+      </div>
+      <a class="callout" href="{{ site.baseurl }}/rg.html" style="color:inherit;text-decoration:none">
+        <img src="{{ site.baseurl }}/assets/profile-pics/rg_logo2.png" alt="">
+        <div><b>Conversational AI Reading Group</b><span>Back on October 8! Weekly talks on speech and conversational AI, Thursdays at 11:00 ET, open to all.</span></div>
+        <span class="btn ghost">See talks →</span>
+      </a>
+    </section>
+
+    <section class="section" id="h-news">
+      <span class="label" data-c="coral"><span class="emo">📢</span>News</span>
+      <ul class="news">
+        {% for n in site.data.news.items %}<li><span class="date">{{ n.date }}</span><span>{{ n.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="section" id="h-pubs">
+      <span class="label" data-c="violet"><span class="emo">📚</span>Selected publications</span>
+      <ol class="pubs" id="pubs">
+        {% for p in site.data.publications.papers %}
+        <li class="pub"{% unless p.selected %} hidden data-extra{% endunless %}><span class="date">{{ p.year }}</span><div>
+          <h3>{{ p.title }}</h3>
+          <p class="au">{{ p.authors }}</p>
+          <div class="meta"><span class="venue">{{ p.venue }}</span>
+            {% if p.paper %}<a href="{{ p.paper }}"><i class="fa-regular fa-file-lines"></i> Paper</a>{% endif %}
+            {% if p.website %}<a href="{{ p.website }}"><i class="fa-solid fa-globe"></i> Website</a>{% endif %}
+            {% if p.code %}<a href="{{ p.code }}"><i class="fa-solid fa-code"></i> Code</a>{% endif %}
+          </div></div></li>
+        {% endfor %}
+      </ol>
+      <p class="au" style="margin:0;color:var(--muted);font-size:13px"><sup>*</sup> equal contribution · <sup>†</sup> lead author</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center"><button type="button" class="btn ghost" data-c="violet" id="pubAll" data-total="{{ site.data.publications.papers | size }}">Show all {{ site.data.publications.papers | size }} papers</button><a href="{{ site.data.main_info.google_scholar }}">Google Scholar →</a></div>
+    </section>
+
+    <section class="section" id="h-more">
+      <div class="facts">
+        <div data-c="coral"><span class="label" data-c="coral"><span class="emo">💼</span>Experience</span>
+          <ul>
+            <li>🎮 Research Scientist Intern, Epic Games<span>Generative &amp; expressive TTS · Montréal · 2025–2026</span></li>
+            <li>Scientist in Residence, Mila<span>Audio representations &amp; audio LLMs · 2022–present</span></li>
+            <li>ML Scientist in Residence, Draft &amp; Goal<span>LLM fine-tuning with QLoRA · 2023</span></li>
+            <li>Research Scientist, UKP Lab, TU Darmstadt<span>AI for digital mental health, affective analysis · 2021–2022</span></li>
+          </ul></div>
+        <div data-c="amber"><span class="label" data-c="amber"><span class="emo">🎓</span>Education</span>
+          <ul>
+            <li>PhD Candidate, Computer Science<span>Mila / Concordia · 2022–present</span></li>
+            <li>MS, Computer Science<span>UT Dallas · 2018–2021</span></li>
+            <li>BSc, Computer Engineering<span>K. N. Toosi University of Technology · 2009–2013</span></li>
+          </ul></div>
+        <div data-c="leaf"><span class="label" data-c="leaf"><span class="emo">🏆</span>Honors</span>
+          <ul>
+            <li>Oral presentations, Interspeech<span>2024, 2026</span></li>
+            <li>Mila travel scholarship, WiML<span>2025</span></li>
+            <li>Concordia graduate travel grant<span>Interspeech 2024, 2025, 2026</span></li>
+          </ul></div>
+        <div data-c="sky"><span class="label" data-c="sky"><span class="emo">👩🏻‍🏫</span>Teaching &amp; service</span>
+          <ul>
+            <li>TA, <a href="https://docs.google.com/document/d/1t40h7CmiczVrV1RBMPAbVZUjnFEyFOly-w7_iWaIqFc/edit">Conversational AI</a><span>Concordia · 2023–2024</span></li>
+            <li>Founder, <a href="{{ site.baseurl }}/rg.html">Conversational AI Reading Group</a><span>Fall 2024–present</span></li>
+            <li>Reviewer<span>AAAI 2026 · ICLR 2025 · NeurIPS 2024 D&amp;B · ANNPR 2024 · ICASSP 2024 workshops</span></li>
+          </ul></div>
+      </div>
+    </section>
+
+    <footer class="foot"><span>© {{ site.time | date: "%Y" }} Pooneh Mousavi · <a href="{{ site.baseurl }}/old/">Previous version of this site</a></span><span>Montréal</span></footer>
+  </main>
+</div>

@@ -1,0 +1,41 @@
+experiences:
+
+- place: "Concordia University"
+  time: "Sep. 2022 - "
+  title: "PhD Student"
+  subtitle: "Conversational AI, SpeechBrain Project"
+  category: "school"
+
+- place: "UKP Lab@TU Darmstadt"
+  time: "Oct. 2021 - Aug 2022 "
+  title: "Research Assistant"
+  subtitle: "Severely Missing Multimodal Data for Affective Analytics Project"
+  category: "work"
+
+- place: "Pioneer Natural Resources"
+  time: "Jan-May 2021"
+  title: "Data scientist, intern"
+  category: "work"
+
+- place: "University of Texas at Dallas"
+  time: "Aug 2018 – May 2021"
+  title: "M.Sc. Student"
+  subtitle: "Masters in Artificial Intelligent Track - Natural Language processing"
+  category: "school"
+
+# - place: "University of Texas at Dallas"
+#   time: "Aug 2018 – Dec 2020"
+#   title: "Teaching/Research Assistant"
+#   category: "work"
+
+- place: "Dotis Arian Gheshm (Dotin)"
+  time: "2014 - 2018"
+  title: "Full Stack Developer"
+  subtitle: "Payment Solution Team"
+  category: "work"
+
+- place: "K. N. Toosi University of Technology (KNTU)"
+  time: "2009 - 2013"
+  title: "B.Sc. Student"
+  subtitle: "Computer Science"
+  category: "school"

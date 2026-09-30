@@ -1,0 +1,110 @@
+---
+layout: base
+title: Conversational AI Reading Group
+description: Weekly talks on speech, audio and conversational AI. Thursdays 11:00 ET on Zoom, open to everyone.
+---
+{% assign base = site.baseurl %}
+<div class="page">
+  <header class="rg-hero">
+    <div>
+      <a href="{{ site.baseurl }}/" class="label" style="text-decoration:none">← Pooneh Mousavi</a>
+      <h1 class="typed" aria-label="Conversational AI Reading Group"><span aria-hidden="true">Conversational AI</span> <em aria-hidden="true">Reading Group</em></h1>
+      <div class="when"><span><i class="fa-regular fa-clock"></i> Thursdays · 11:00–12:00 ET</span><span><i class="fa-solid fa-video"></i> Online, on Zoom</span><span><i class="fa-solid fa-users"></i> Open to everyone</span></div>
+      <div class="actions">
+        <a class="btn" href="#join" data-join><i class="fa-solid fa-video"></i> Join on Zoom</a>
+        <a class="btn ghost" data-c="amber" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTZ2NnV0bjEyc2t0YWJmZ3M5Zmtjdjl2bW1fMjAyNDExMTRUMTYwMDAwWiA2OGQ0NmI5MmU4MTJjZjZlOTU0YWMxY2ZiZmJlN2JhMTZkMjI4YTBhZmVhZDFhYWIyZGIzNzE0ZGNiNGJhNDc2QGc&amp;tmsrc=68d46b92e812cf6e954ac1cfbfbe7ba16d228a0afead1aab2db3714dcb4ba476%40group.calendar.google.com&amp;scp=ALL"><i class="fa-regular fa-calendar-plus"></i> Add to calendar</a>
+        <a class="btn ghost" data-c="sky" href="https://forms.gle/sUAkfCdfpMwPWiT27"><i class="fa-regular fa-envelope"></i> Get email updates</a>
+        <a class="btn ghost" data-c="violet" href="https://join.slack.com/t/convairg/shared_invite/zt-3rxll0zxh-axQPyl912r13TolDAbQjew"><i class="fa-brands fa-slack"></i> Slack</a>
+        <a class="btn ghost" data-c="coral" href="https://www.youtube.com/@CONVAI_RG"><i class="fa-brands fa-youtube"></i> Recordings</a>
+      </div>
+    </div>
+    {% assign nt = site.data.upcoming.talks | first %}
+    <div class="logo-chat">
+      <div class="bubble" id="bubble" aria-hidden="true"
+        data-msgs='["Hi! Welcome to the reading group 👋"{% if nt %}, "Next talk: {{ nt.date | date: "%b %-d" }} · {{ nt.speakers[0].name }} 🎙️"{% endif %}, "Every Thursday, 11:00 ET on Zoom", "Missed a talk? All recordings are on YouTube 🎬"]'>
+        <span class="dots"><i></i><i></i><i></i></span><span class="msg"></span>
+      </div>
+      <div class="logo-wrap"><span class="ring"></span><span class="ring r2"></span><span class="ring r3"></span><img class="rg-logo" src="{{ site.baseurl }}/assets/profile-pics/rg_logo2.png" alt="Conversational AI Reading Group logo"></div>
+    </div>
+  </header>
+
+  <section class="upcoming" id="schedule">
+    <div class="archive-head" style="margin-top:40px">
+      <h2>🎙️ Upcoming talks</h2>
+      <span class="count">Thursdays · 11:00 ET · <a href="#join" data-join>Zoom link</a></span>
+    </div>
+    <div class="up-list">
+      {% assign colors = "teal,violet,coral,amber,sky" | split: "," %}
+      {% for t in site.data.upcoming.talks %}
+      {% assign ci = forloop.index0 | modulo: 5 %}
+      <article class="up{% if forloop.first %} first{% endif %}" data-c="{{ colors[ci] }}">
+        <div class="cal"><b>{{ t.date | date: "%b" }}</b><span>{{ t.date | date: "%-d" }}</span></div>
+        <div>
+          <span class="tag">{% if forloop.first %}● Next talk{% else %}{{ t.date | date: "%A" }}{% endif %}</span>
+          <h3>{% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</h3>
+          <p class="who">🎤 {% for s in t.speakers %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% unless forloop.last %} &amp; {% endunless %}{% endfor %}{% if t.affiliation %} · {{ t.affiliation }}{% endif %}</p>
+          <div class="links">
+            <a href="#join" data-join><i class="fa-solid fa-video"></i> Join</a>
+            {% if t.papers_page %}<a href="{{ t.papers_page }}"><i class="fa-regular fa-file-lines"></i> Papers</a>{% endif %}
+            {% if t.abstract %}<details class="more-abs"><summary><i class="fa-solid fa-align-left"></i> Abstract</summary><div class="abs"><p>{{ t.abstract }}</p></div></details>{% endif %}
+            {% if t.bio %}<details class="more-bio"><summary><i class="fa-solid fa-user"></i> Speaker bio</summary><div class="abs"><p>{{ t.bio }}</p></div></details>{% endif %}
+          </div>
+        </div>
+      </article>
+      {% else %}
+      <p class="empty">The next speakers will be announced soon. <a href="https://forms.gle/sUAkfCdfpMwPWiT27">Get email updates</a> to hear first.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="archive-head">
+    <h2>📼 Past talks</h2>
+    <span class="count" id="count">{{ site.data.talks.talks | size }} talks</span>
+  </div>
+  <div class="filters">
+    <label for="q" style="position:absolute;left:-9999px">Search talks</label>
+    <input id="q" class="search" type="search" placeholder="Search by speaker, title or topic">
+    <label for="term" style="position:absolute;left:-9999px">Term</label>
+    <select id="term" class="select"><option value="All">All terms</option></select>
+    <button type="button" class="linkbtn" id="toggleAll">Expand all</button>
+  </div>
+
+  <div id="talks">
+    {% assign terms = site.data.talks.talks | group_by: "term" %}
+    {% for g in terms %}
+    {% assign season = g.name | split: " " | first %}
+    <details class="term" data-term="{{ g.name }}" data-season="{{ season }}"{% if forloop.first %} open{% endif %}>
+      <summary><span class="tname">{% case season %}{% when "Spring" %}🌱{% when "Summer" %}☀️{% when "Fall" %}🍂{% when "Winter" %}❄️{% endcase %} {{ g.name }}</span><span class="tcount">{{ g.items | size }} talks</span><span class="chev">⌄</span></summary>
+      {% for t in g.items %}
+      <article class="talk" data-search="{{ t.title | escape }} {% for s in t.speakers %}{{ s.name }} {% endfor %}{{ t.affiliation }} {{ t.abstract | truncatewords: 60 | escape }}"><span class="date">{{ t.date | date: "%b %-d" }}</span><div>
+        <h3>{% if t.url %}<a href="{% if t.url contains '://' %}{{ t.url }}{% else %}{{ base }}{{ t.url }}{% endif %}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</h3>
+        <p class="who">🎤 {% for s in t.speakers %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% unless forloop.last %} &amp; {% endunless %}{% endfor %}{% if t.affiliation %} · {{ t.affiliation }}{% endif %}</p>
+        <div class="links">
+          {% if t.video %}<a href="{{ t.video }}"><i class="fa-brands fa-youtube"></i> Video</a>{% endif %}
+          {% if t.slides %}<a href="{{ base }}{{ t.slides }}"><i class="fa-solid fa-person-chalkboard"></i> Slides</a>{% endif %}
+          {% if t.papers.size == 1 %}<a href="{% if t.papers[0] contains '://' %}{{ t.papers[0] }}{% else %}{{ base }}{{ t.papers[0] }}{% endif %}"><i class="fa-regular fa-file-lines"></i> Paper</a>
+          {% elsif t.papers.size > 1 %}<span style="display:inline-flex;gap:8px;align-items:center"><i class="fa-regular fa-file-lines"></i> Papers {% for p in t.papers %}<a href="{% if p contains '://' %}{{ p }}{% else %}{{ base }}{{ p }}{% endif %}">{{ forloop.index }}</a> {% endfor %}</span>{% endif %}
+          {% if t.abstract %}<details class="more-abs"><summary><i class="fa-solid fa-align-left"></i> Abstract</summary><div class="abs"><p>{{ t.abstract }}</p></div></details>{% endif %}
+          {% if t.bio %}<details class="more-bio"><summary><i class="fa-solid fa-user"></i> Speaker bio</summary><div class="abs"><p>{{ t.bio }}</p></div></details>{% endif %}
+        </div></div></article>
+      {% endfor %}
+    </details>
+    {% endfor %}
+    <p class="empty" id="noMatch" hidden>No talks match that search.</p>
+  </div>
+
+  <div class="gate" id="gate" hidden role="dialog" aria-modal="true" aria-labelledby="gateT">
+    <div class="gate-card">
+      <h3 id="gateT">🎙️ Join the reading group</h3>
+      <p>Please confirm before we show the Zoom link. This keeps automated bots and meeting crashers out.</p>
+      <label class="gate-row"><input type="checkbox" id="gateOk"> I agree to be respectful, to keep my mic muted, and not to share or record the session.</label>
+      <label class="gate-row" for="gateQ">Quick check: what day of the week do we meet?</label>
+      <input id="gateQ" class="search" type="text" autocomplete="off" placeholder="Type the day">
+      <p class="gate-err" id="gateErr" hidden>Please tick the box and type the meeting day.</p>
+      <div class="actions"><button type="button" class="btn" id="gateGo"><i class="fa-solid fa-video"></i> Show Zoom link</button><button type="button" class="btn ghost" id="gateX">Cancel</button></div>
+      <p id="gateLink" hidden></p>
+    </div>
+  </div>
+
+  <footer class="foot" style="margin-top:48px"><span>Organized by <a href="{{ base }}/">Pooneh Mousavi</a> · <a href="{{ base }}/old/rg.html">Previous version of this page</a></span><span class="links"><a href="https://x.com/convAI2024"><i class="fa-brands fa-x-twitter"></i> @convAI2024</a><a href="https://bsky.app/profile/convai-rg.bsky.social"><i class="fa-brands fa-bluesky"></i> Bluesky</a><span>✉️ convai2024 [at] gmail [dot] com</span></span></footer>
+</div>
