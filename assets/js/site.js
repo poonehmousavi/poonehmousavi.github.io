@@ -39,25 +39,7 @@
     if (!still) { let last = 0; const loop = (ts) => { if (ts - last > 60) { draw(ts * 0.6); last = ts; } requestAnimationFrame(loop); }; requestAnimationFrame(loop); }
   }
 
-  /* ---------- RG title types itself out; the robot's chat bubble cycles messages ---------- */
-  const typed = $('.typed');
-  if (typed) {
-    // Wrap every letter so the title keeps its final size while it "types" (no layout jump).
-    const chars = [];
-    $$('span, em', typed).forEach(el => {
-      el.innerHTML = [...el.textContent].map(c => `<span class="ch">${c === ' ' ? '&nbsp;' : c}</span>`).join('');
-      chars.push(...$$('.ch', el));
-    });
-    const caret = document.createElement('span'); caret.className = 'caret';
-    if (still) { chars.forEach(c => c.classList.add('on')); typed.append(caret); }
-    else {
-      let i = 0;
-      const step = () => {
-        if (i < chars.length) { chars[i].classList.add('on'); chars[i].after(caret); i++; setTimeout(step, chars[i - 1].textContent === '\u00a0' ? 140 : 55 + Math.random() * 60); }
-      };
-      setTimeout(step, 350);
-    }
-  }
+  /* ---------- RG logo's chat bubble cycles short messages ---------- */
   const bubble = $('#bubble');
   if (bubble) {
     let msgs = []; try { msgs = JSON.parse(bubble.dataset.msgs); } catch (e) {}

@@ -8,7 +8,7 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
   <header class="rg-hero">
     <div>
       <a href="{{ site.baseurl }}/" class="label" style="text-decoration:none">← Pooneh Mousavi</a>
-      <h1 class="typed" aria-label="Conversational AI Reading Group"><span aria-hidden="true">Conversational AI</span> <em aria-hidden="true">Reading Group</em></h1>
+      <h1>Conversational AI <em>Reading Group</em></h1>
       <div class="when"><span><i class="fa-regular fa-clock"></i> Thursdays · 11:00–12:00 ET</span><span><i class="fa-solid fa-video"></i> Online, on Zoom</span><span><i class="fa-solid fa-users"></i> Open to everyone</span></div>
       <div class="actions">
         <a class="btn" href="#join" data-join><i class="fa-solid fa-video"></i> Join on Zoom</a>
@@ -67,8 +67,8 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
   </div>
   {% assign navterms = site.data.talks.talks | group_by: "term" %}
   <nav class="termnav" id="termnav" aria-label="Jump to a term">
-    <a href="#schedule" class="pill" data-c="teal">🎙️ Upcoming</a>
-    {% for g in navterms %}{% assign season = g.name | split: " " | first %}<a href="#{{ g.name | slugify }}" class="pill" data-season="{{ season }}" data-go="{{ g.name }}">{% case season %}{% when "Spring" %}🌱{% when "Summer" %}☀️{% when "Fall" %}🍂{% when "Winter" %}❄️{% endcase %} {{ g.name }}</a>{% endfor %}
+    <a href="#schedule" class="pill" data-c="teal">Upcoming</a>
+    {% for g in navterms %}{% assign season = g.name | split: " " | first %}<a href="#{{ g.name | slugify }}" class="pill" data-season="{{ season }}" data-go="{{ g.name }}">{{ g.name }}</a>{% endfor %}
   </nav>
 
   <div id="talks">
@@ -76,7 +76,7 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
     {% for g in terms %}
     {% assign season = g.name | split: " " | first %}
     <details class="term" id="{{ g.name | slugify }}" data-term="{{ g.name }}" data-season="{{ season }}"{% if forloop.first %} open{% endif %}>
-      <summary><span class="tname">{% case season %}{% when "Spring" %}🌱{% when "Summer" %}☀️{% when "Fall" %}🍂{% when "Winter" %}❄️{% endcase %} {{ g.name }}</span><span class="tcount">{{ g.items | size }} talks</span><span class="chev">⌄</span></summary>
+      <summary><span class="tname">{{ g.name }}</span><span class="tcount">{{ g.items | size }} talks</span><span class="chev">⌄</span></summary>
       {% for t in g.items %}
       <article class="talk" data-search="{{ t.title | escape }} {% for s in t.speakers %}{{ s.name }} {% endfor %}{{ t.affiliation }} {{ t.abstract | truncatewords: 60 | escape }}"><span class="date">{{ t.date | date: "%b %-d" }}</span><div>
         <h3>{% if t.url %}<a href="{% if t.url contains '://' %}{{ t.url }}{% else %}{{ base }}{{ t.url }}{% endif %}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</h3>
