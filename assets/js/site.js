@@ -4,6 +4,15 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  /* ---------- Outside links and PDFs open in a new tab ---------- */
+  const openNew = (a) => {
+    const href = a.getAttribute('href') || '';
+    if (href.startsWith('#') || href.startsWith('mailto:') || a.hasAttribute('data-join')) return;
+    const url = new URL(href, location.href);
+    if (url.host !== location.host || /\.pdf($|[?#])/i.test(url.pathname)) { a.target = '_blank'; a.rel = 'noopener'; }
+  };
+  $$('a[href]').forEach(openNew);
+
   /* ---------- Waveform under the name (home page) ---------- */
   const canvas = $('#wave');
   if (canvas) {
