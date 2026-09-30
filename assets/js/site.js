@@ -82,26 +82,40 @@
   /* ---------- Past talks: search, term dropdown, expand / collapse (RG page) ---------- */
   const box = $('#talks');
   if (box) {
-    const terms = $$('.term', box), sel = $('#term'), q = $('#q'), tog = $('#toggleAll'), count = $('#count'), none = $('#noMatch');
-    const total = $$('.talk', box).length;
-    terms.forEach(d => sel.insertAdjacentHTML('beforeend', `<option>${d.dataset.term}</option>`));
+    const terms = $$('.term', box), q = $('#q'), tog = $('#toggleAll'), count = $('#count'), none = $('#noMatch');
+    const pills = $$('#termnav [data-go]'), total = $$('.talk', box).length;
     const setTog = () => { tog.textContent = terms.every(d => d.open) ? 'Collapse all' : 'Expand all'; };
     tog.addEventListener('click', () => { const open = !terms.every(d => d.open); terms.forEach(d => { d.open = open; }); setTog(); });
     box.addEventListener('toggle', setTog, true);
-    const apply = () => {
-      const text = q.value.trim().toLowerCase(), term = sel.value; let shown = 0;
-      terms.forEach(d => {
-        const inTerm = term === 'All' || d.dataset.term === term; let n = 0;
-        $$('.talk', d).forEach(a => { const ok = inTerm && (!text || a.dataset.search.toLowerCase().includes(text)); a.hidden = !ok; if (ok) n++; });
-        d.hidden = n === 0; shown += n;
-        if (text || term !== 'All') d.open = n > 0;
-      });
-      if (!text && term === 'All') terms.forEach((d, i) => { d.open = i === 0; });
-      count.textContent = shown === total ? `${total} talks` : `${shown} of ${total} talks`;
-      none.hidden = shown > 0; tog.hidden = !!text || term !== 'All'; setTog();
+    // Jump to a term: open it and scroll there
+    const go = (name, smooth) => {
+      const d = terms.find(x => x.dataset.term === name); if (!d) return;
+      if (q.value) { q.value = ''; apply(); }
+      d.open = true; d.scrollIntoView({ behavior: smooth && !still ? 'smooth' : 'auto', block: 'start' });
+      pills.forEach(p => p.classList.toggle('on', p.dataset.go === name)); setTog();
     };
-    q.addEventListener('input', apply); sel.addEventListener('change', apply);
+    pills.forEach(p => p.addEventListener('click', e => { e.preventDefault(); go(p.dataset.go, true); history.replaceState(null, '', '#' + d_id(p)); }));
+    const d_id = p => p.getAttribute('href').slice(1);
+    // Highlight the pill of the term currently on screen
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) pills.forEach(p => p.classList.toggle('on', p.dataset.go === e.target.dataset.term)); }), { rootMargin: '-80px 0px -70% 0px' });
+      terms.forEach(d => io.observe(d));
+    }
+    const apply = () => {
+      const text = q.value.trim().toLowerCase(); let shown = 0;
+      terms.forEach(d => {
+        let n = 0;
+        $$('.talk', d).forEach(a => { const ok = !text || a.dataset.search.toLowerCase().includes(text); a.hidden = !ok; if (ok) n++; });
+        d.hidden = n === 0; shown += n; if (text) d.open = n > 0;
+      });
+      if (!text) terms.forEach((d, i) => { d.open = i === 0; });
+      count.textContent = shown === total ? `${total} talks` : `${shown} of ${total} talks`;
+      none.hidden = shown > 0; tog.hidden = !!text; setTog();
+    };
+    q.addEventListener('input', apply);
     setTog();
+    // Opening the page at /rg.html#fall-2025 jumps straight to that term
+    const start = terms.find(d => '#' + d.id === location.hash); if (start) go(start.dataset.term, false);
   }
 
   /* ---------- Zoom link behind a short check (RG page) ---------- */

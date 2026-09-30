@@ -64,16 +64,19 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
   <div class="filters">
     <label for="q" style="position:absolute;left:-9999px">Search talks</label>
     <input id="q" class="search" type="search" placeholder="Search by speaker, title or topic">
-    <label for="term" style="position:absolute;left:-9999px">Term</label>
-    <select id="term" class="select"><option value="All">All terms</option></select>
     <button type="button" class="linkbtn" id="toggleAll">Expand all</button>
   </div>
+  {% assign navterms = site.data.talks.talks | group_by: "term" %}
+  <nav class="termnav" id="termnav" aria-label="Jump to a term">
+    <a href="#schedule" class="pill" data-c="teal">🎙️ Upcoming</a>
+    {% for g in navterms %}{% assign season = g.name | split: " " | first %}<a href="#{{ g.name | slugify }}" class="pill" data-season="{{ season }}" data-go="{{ g.name }}">{% case season %}{% when "Spring" %}🌱{% when "Summer" %}☀️{% when "Fall" %}🍂{% when "Winter" %}❄️{% endcase %} {{ g.name }}</a>{% endfor %}
+  </nav>
 
   <div id="talks">
     {% assign terms = site.data.talks.talks | group_by: "term" %}
     {% for g in terms %}
     {% assign season = g.name | split: " " | first %}
-    <details class="term" data-term="{{ g.name }}" data-season="{{ season }}"{% if forloop.first %} open{% endif %}>
+    <details class="term" id="{{ g.name | slugify }}" data-term="{{ g.name }}" data-season="{{ season }}"{% if forloop.first %} open{% endif %}>
       <summary><span class="tname">{% case season %}{% when "Spring" %}🌱{% when "Summer" %}☀️{% when "Fall" %}🍂{% when "Winter" %}❄️{% endcase %} {{ g.name }}</span><span class="tcount">{{ g.items | size }} talks</span><span class="chev">⌄</span></summary>
       {% for t in g.items %}
       <article class="talk" data-search="{{ t.title | escape }} {% for s in t.speakers %}{{ s.name }} {% endfor %}{{ t.affiliation }} {{ t.abstract | truncatewords: 60 | escape }}"><span class="date">{{ t.date | date: "%b %-d" }}</span><div>

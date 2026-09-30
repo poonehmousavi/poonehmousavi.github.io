@@ -1,7 +1,7 @@
 # News, newest first. Keep 3-5 items; delete old ones.
 items:
 - date: "2026"
-  text: "📢 Our workshop on <b>Explainability, Robustness, and Controllability of Language Modeling for Speech and Audio</b> was accepted at <a href=\"https://www.linkedin.com/showcase/ieeeicassp/\">ICASSP</a>! 🎉 Working on audio language models or conversational AI? Submit by <b>November 11, 2026</b>."
+  text: "📢 Our workshop on <a href=\"https://erc-lm-workshop.github.io/\"><b>Explainability, Robustness, and Controllability of Language Modeling for Speech and Audio</b></a> was accepted at ICASSP! 🎉 Working on audio language models or conversational AI? Submit by <b>November 11, 2026</b>."
 - date: "Oct 2026"
   text: "\U0001F399️ The <a href=\"/rg.html\">Conversational AI Reading Group</a> is back on <b>October\
     \ 8</b>. Join us Thursdays at 11:00 ET."
