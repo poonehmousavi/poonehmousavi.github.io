@@ -4,7 +4,7 @@ title: Conversational AI Reading Group
 description: Weekly talks on speech, audio and conversational AI. Thursdays 11:00 ET on Zoom, open to everyone.
 ---
 {% assign base = site.baseurl %}
-<div class="page">
+<div class="page rg">
   <header class="rg-hero">
     <div>
       <a href="{{ site.baseurl }}/" class="label" style="text-decoration:none">← Pooneh Mousavi</a>
@@ -40,8 +40,8 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
         <div class="cal"><b>{{ t.date | date: "%b" }}</b><span>{{ t.date | date: "%-d" }}</span></div>
         <div>
           <span class="tag">{% if forloop.first %}● Next talk{% else %}{{ t.date | date: "%A" }}{% endif %}</span>
-          <h3>{% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</h3>
-          <p class="who">🎤 {% for s in t.speakers %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% unless forloop.last %} &amp; {% endunless %}{% endfor %}{% if t.affiliation %} · {{ t.affiliation }}{% endif %}</p>
+          <h3 title="{{ t.title | escape }}">{% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</h3>
+          <p class="who">🎤 {% for s in t.speakers %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% unless forloop.last %} &amp; {% endunless %}{% endfor %}{% if t.affiliation %}<span class="aff">{{ t.affiliation }}</span>{% endif %}</p>
           <div class="links">
             <a href="#join" data-join><i class="fa-solid fa-video"></i> Join</a>
             {% if t.papers_page %}<a href="{{ t.papers_page }}"><i class="fa-regular fa-file-lines"></i> Papers</a>{% endif %}

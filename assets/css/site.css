@@ -253,3 +253,42 @@ body .upcoming{animation-delay:.12s}body .archive-head,body .filters{animation-d
 .gate-err{color:var(--coral)!important}
 #gateLink{padding:12px 14px;background:var(--wash);border-radius:10px;color:var(--ink)!important;word-break:break-all}
 .empty{padding:28px 0;color:var(--muted)}
+
+/* ---------- RG page: quiet past-talks archive ----------
+   The top of the page keeps its colors; the term navigator and past-talk
+   sections use neutrals, with each season shown only as a small dot. */
+.rg .pill{background:transparent;border-color:var(--rule);color:var(--muted);display:inline-flex;align-items:center;gap:7px}
+.rg .pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.rg .pill:hover{border-color:var(--ink);color:var(--ink)}
+.rg .pill.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.rg .term[open] > summary{background:none}
+.rg .term > summary .tcount{color:var(--muted);background:transparent;border:1px solid var(--rule)}
+.rg .term > summary::before{width:8px;height:8px}
+.rg .term .date{color:var(--muted);font-weight:400}
+.rg .talk:hover h3 a{color:var(--accent-ink)}
+.rg .talk .links svg{color:var(--muted)}
+
+/* Upcoming: the next talk is a big card; later talks are compact full-width rows,
+   so long titles and speaker names never get squeezed. */
+.up-list{grid-template-columns:minmax(0,1fr);gap:0}
+.up.first{margin-bottom:14px}
+.up:not(.first){grid-column:1/-1;border-radius:0;border-width:0 0 1px;border-top:0;background:transparent;padding:14px 4px;align-items:center}
+.up:not(.first):nth-child(2){border-top:1px solid var(--rule)}
+.up:not(.first) .cal{transform:scale(.85);transform-origin:left center}
+.up:not(.first) > div:last-child{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;align-items:baseline}
+.up:not(.first) .tag{grid-column:1/-1}
+.up:not(.first) h3{grid-column:1}
+.up:not(.first) .who{grid-column:1}
+.up:not(.first) .links{grid-column:2;grid-row:2 / span 2;margin-top:0;justify-content:flex-end}
+.up:not(.first) .links details[open]{order:10}
+.up:not(.first):has(details[open]) > div:last-child{grid-template-columns:minmax(0,1fr)}
+.up:not(.first):has(details[open]) .links{grid-column:1;grid-row:auto;justify-content:flex-start;margin-top:8px}
+.up .aff{color:var(--muted)}
+.up .aff::before{content:" · "}
+@media (max-width:640px){
+  .up:not(.first) > div:last-child{grid-template-columns:minmax(0,1fr)}
+  .up:not(.first) .links{grid-column:1;grid-row:auto;justify-content:flex-start;margin-top:6px}
+}
+.up:not(.first){align-items:start}
+.up:not(.first):hover{transform:none;box-shadow:none}
+.up:not(.first) .abs{background:var(--surface)}
