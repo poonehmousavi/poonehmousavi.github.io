@@ -69,14 +69,17 @@ talks:
   title: "Title TBA"
   speakers:
   - name: "Alessio Brutti"
+    url: "https://speechtek.fbk.eu/author/speechtek_admin/"
   affiliation: "Fondazione Bruno Kessler (FBK)"
 - date: "2026-10-29"
   title: "Title TBA"
   speakers:
   - name: "Yannick Estève"
+    url: "https://yannickesteve.com/"
   affiliation: "Avignon Université"
 - date: "2026-11-05"
   title: "Title TBA"
   speakers:
   - name: "Bhiksha Raj"
+    url: "https://cmu-mlsp.github.io/team/bhiksha_raj.html"
   affiliation: "Carnegie Mellon University"
