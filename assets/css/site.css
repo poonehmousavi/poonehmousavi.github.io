@@ -275,20 +275,9 @@ body .upcoming{animation-delay:.12s}body .archive-head,body .filters{animation-d
 .up:not(.first){grid-column:1/-1;border-radius:0;border-width:0 0 1px;border-top:0;background:transparent;padding:14px 4px;align-items:center}
 .up:not(.first):nth-child(2){border-top:1px solid var(--rule)}
 .up:not(.first) .cal{transform:scale(.85);transform-origin:left center}
-.up:not(.first) > div:last-child{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;align-items:baseline}
-.up:not(.first) .tag{grid-column:1/-1}
-.up:not(.first) h3{grid-column:1}
-.up:not(.first) .who{grid-column:1}
-.up:not(.first) .links{grid-column:2;grid-row:2 / span 2;margin-top:0;justify-content:flex-end}
 .up:not(.first) .links details[open]{order:10}
-.up:not(.first):has(details[open]) > div:last-child{grid-template-columns:minmax(0,1fr)}
-.up:not(.first):has(details[open]) .links{grid-column:1;grid-row:auto;justify-content:flex-start;margin-top:8px}
 .up .aff{color:var(--muted)}
 .up .aff::before{content:" · "}
-@media (max-width:640px){
-  .up:not(.first) > div:last-child{grid-template-columns:minmax(0,1fr)}
-  .up:not(.first) .links{grid-column:1;grid-row:auto;justify-content:flex-start;margin-top:6px}
-}
 .up:not(.first){align-items:start}
 .up:not(.first):hover{transform:none;box-shadow:none}
 .up:not(.first) .abs{background:var(--surface)}
@@ -296,3 +285,4 @@ body .upcoming{animation-delay:.12s}body .archive-head,body .filters{animation-d
 /* Related-papers dropdown on upcoming talks */
 .plist{margin:0;padding-left:20px;display:grid;gap:6px}
 .plist span{font:12px var(--mono);color:var(--muted);white-space:nowrap}
+.up:not(.first) .links{margin-top:8px}
