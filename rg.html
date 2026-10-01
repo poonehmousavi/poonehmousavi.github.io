@@ -45,6 +45,7 @@ description: Weekly talks on speech, audio and conversational AI. Thursdays 11:0
           <div class="links">
             <a href="#join" data-join><i class="fa-solid fa-video"></i> Join</a>
             {% if t.papers_page %}<a href="{{ t.papers_page }}"><i class="fa-regular fa-file-lines"></i> Papers</a>{% endif %}
+            {% if t.paper_list %}<details class="more-papers"><summary><i class="fa-regular fa-file-lines"></i> Papers ({{ t.paper_list | size }})</summary><div class="abs"><ol class="plist">{% for p in t.paper_list %}<li>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}{% if p.venue %} <span>{{ p.venue }}</span>{% endif %}</li>{% endfor %}</ol></div></details>{% endif %}
             {% if t.abstract %}<details class="more-abs"><summary><i class="fa-solid fa-align-left"></i> Abstract</summary><div class="abs"><p>{{ t.abstract }}</p></div></details>{% endif %}
             {% if t.bio %}<details class="more-bio"><summary><i class="fa-solid fa-user"></i> Speaker bio</summary><div class="abs"><p>{{ t.bio }}</p></div></details>{% endif %}
           </div>
