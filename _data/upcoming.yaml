@@ -68,15 +68,22 @@ talks:
 - date: "2026-10-22"
   title: "Title TBA"
   speakers:
-  - name: "Alessio Brutti"
-    url: "https://speechtek.fbk.eu/author/speechtek_admin/"
-  affiliation: "Fondazione Bruno Kessler (FBK)"
-- date: "2026-10-29"
-  title: "Title TBA"
-  speakers:
   - name: "Yannick Estève"
     url: "https://yannickesteve.com/"
   affiliation: "Avignon Université"
+- date: "2026-10-29"
+  title: "Scaling Speech LLMs Responsibly: Languages, Privacy and Decentralization"
+  speakers:
+  - name: "Alessio Brutti"
+    url: "https://speechtek.fbk.eu/author/speechtek_admin/"
+  affiliation: "Fondazione Bruno Kessler (FBK)"
+  # papers_page: "https://sreyan88.github.io/research/"
+  abstract: >-
+    Speech LLMs are rapidly advancing, but who do they leave out, and what do they leak? In this talk, I present our lab's recent work on addressing these key challenges. We cover techniques for extending Speech LLMs to multilingual and low-resource settings, acquiring new languages sequentially without catastrophic forgetting, measuring and actively mitigating speaker privacy leakage, and enabling decentralized training through federated learning.  
+  bio: >-
+    Alessio Brutti is a tenured researcher at FBK, currently leading the SpeechTek research unit of the Centre for Augmented Intelligence. After graduating in Telecommunication engineering at the University of Padova in 2001, in 2003 he joined FBK within the SHINE research group. In 2007 he completed his PhD in Computer Science at University of Trento. He has recently collaborated with the  University of Bolzano for the master degree in computational linguistics and is collaborating with the Faculty of Science of the University of Padova teaching the master course Speech Technologies.
+    His research interests focus mainly on the use of machine learning approaches for language technologies and speech processing, including a variety of application domains: speech recognition, speaker verification and recognition, speech enhancement, source localization and sound event detection. In particular, his research addresses the development of efficient, compact and dynamic neural models and their applications in low-resourced and multilingual settings. Recently, he has been investigating multi-modal signal processing for audio-video person tracking and for biometrics. In 2015 he was visiting researcher at Queen Mary University London (Center for Intelligent Sensing).
+
 - date: "2026-11-05"
   title: "Title TBA"
   speakers:
