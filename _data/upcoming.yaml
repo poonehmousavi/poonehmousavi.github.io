@@ -41,11 +41,21 @@ talks:
     url: "https://arxiv.org/abs/2412.08550"
     venue: "ICASSP 2025"
 - date: "2026-10-22"
-  title: "Title TBA"
+  title: "Learning Sentence-Level Speech Representations: From Semantics to Multidimensional Speech Modeling"
   speakers:
   - name: "Yannick Estève"
     url: "https://yannickesteve.com/"
   affiliation: "Avignon Université"
+  abstract: "Recent advances in self-supervised learning have enabled the extraction of high-level semantic information directly from speech signals, opening new perspectives for multilingual spoken language understanding without relying on explicit transcription. This keynote will highlight recent research conducted within the Speech and Language Group at the Laboratoire Informatique d'Avignon (LIA) on learning and exploiting sentence-level speech representations. We will introduce the principles of semantic speech embedding frameworks, including SAMU-XLSR, SENSE, and SONAR, with particular emphasis on SENSE, an open-source framework developed by our team, and its evaluation against existing approaches. 
+             We will then present several research directions building on these representations, including cross-lingual speech summarization without intermediate transcription, the development of specialized models for French using archival audio collections, and the adaptation of speech representations to Arabic dialects. Finally, we will discuss ongoing efforts to extend sentence-level representations beyond semantics by jointly modeling complementary speech attributes, such as speaker identity, language, and emotion. Together, these contributions illustrate our progress toward richer, more versatile, and multilingual speech representations for spoken language understanding."
+  bio: "Yannick Estève is a Professor at Avignon University and a member of the Speech and Language Group at the Laboratoire Informatique d'Avignon (LIA), France. With over 25 years of experience in speech processing, his research focuses on automatic speech recognition, spoken language understanding, multilingual speech processing, and speech representation learning. He has served as Director of both the Laboratoire d'Informatique de l'Université du Mans (LIUM) and the Laboratoire Informatique d'Avignon (LIA). He has authored or co-authored more than 200 scientific publications in the field of speech and language processing. His current research interests include self-supervised learning, semantic speech representations, and cross-lingual spoken language understanding."
+  paper_list:
+  - title: "SENSE models: an open source solution for multilingual and multimodal semantic-based tasks"
+    url: "https://arxiv.org/pdf/2509.12093"
+    venue: "ASRU 2025"
+  - title: "Learning Multiple Utterance-Level Attribute Representations with a Unified Speech Encoder"
+    url: "https://arxiv.org/pdf/2603.08312"
+    venue: "Interspeech 2026"
 - date: "2026-10-29"
   title: "Scaling Speech LLMs Responsibly: Languages, Privacy and Decentralization"
   speakers:
