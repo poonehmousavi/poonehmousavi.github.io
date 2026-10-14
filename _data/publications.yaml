@@ -3,6 +3,20 @@
 # Mark yourself with <b>Pooneh Mousavi</b>; <sup>*</sup> = equal contribution, <sup>†</sup> = lead author.
 papers:
 - year: 2026
+  title: "Listen-to-Reason: Listen with Experts, Retrieve over a Graph, Reason with LLMs"
+  authors: "<b>Pooneh Mousavi</b>, Mirco Ravanelli, Cem Subakan"
+  venue: "Preprint, under review"
+  paper: "https://arxiv.org/abs/2610.10749"
+  website: "https://poonehmousavi.github.io/listen-to-reason/"
+  selected: true
+- year: 2026
+  title: "AnchorPrompt: Self-Distilled Soft Prompts for Robust Audio-Language Models"
+  authors: "<b>Pooneh Mousavi</b>, Amir Ivry, Mirco Ravanelli, Cem Subakan"
+  venue: "Preprint, under review"
+  paper: "https://arxiv.org/abs/2610.00706"
+  website: "https://poonehmousavi.github.io/anchorprompt/"
+  selected: true
+- year: 2026
   title: "Investigating Faithfulness in Large Audio Language Models"
   authors: "<b>Pooneh Mousavi</b>, Lovenya Jain, Mirco Ravanelli, Cem Subakan"
   venue: "Interspeech 2026 · Oral"
@@ -29,7 +43,7 @@ papers:
   authors: "Jihoon Jeong, <b>Pooneh Mousavi</b>, Mirco Ravanelli, Cem Subakan"
   venue: "Preprint, under review"
   paper: "https://arxiv.org/abs/2603.19468"
-  selected: true
+  selected: false
 - year: 2026
   title: "ALAS: An Automatic Latent Alignment Score for Audio Language Models"
   authors: "<b>Pooneh Mousavi</b>, Yingzhi Wang, Mirco Ravanelli, Cem Subakan"

@@ -296,3 +296,8 @@ body .upcoming{animation-delay:.12s}body .archive-head,body .filters{animation-d
 .up.first .abs{background:var(--surface)}
 .up:not(.first):nth-child(2){border-top:0}
 .up.first{margin-inline:-8px}
+
+/* Main page: wider so paper titles fit on one line; intro stays narrower */
+.page.home{max-width:1280px;grid-template-columns:240px minmax(0,1fr);gap:64px}
+#h-about .lede,#h-about .prose,#h-about .callout{max-width:720px}
+@media (max-width:860px){.page.home{grid-template-columns:minmax(0,1fr);gap:40px}}
