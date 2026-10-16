@@ -36,3 +36,17 @@ talks:
   - name: "Bhiksha Raj"
     url: "https://cmu-mlsp.github.io/team/bhiksha_raj.html"
   affiliation: "Carnegie Mellon University"
+
+- date: "2026-11-12"
+  title: "Title TBA"
+  speakers:
+  - name: "Tuomas Virtanen"
+    url: "https://homepages.tuni.fi/tuomas.virtanen/"
+  affiliation: "Tampere University"
+
+- date: "2026-11-19"
+  title: "Title TBA"
+  speakers:
+  - name: "Tara Sainath"
+    url: "https://sites.google.com/site/tsainath/"
+  affiliation: "Google DeepMind"
