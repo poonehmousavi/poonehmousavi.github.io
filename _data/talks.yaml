@@ -52,7 +52,8 @@ talks:
     url: "https://sreyan88.github.io/"
   affiliation: "Google DeepMind"
   video: "https://youtu.be/n1QzhX_u-o0?si=xTg8jVort_JtvPMA"
-  papers_page: "https://sreyan88.github.io/research/"
+  papers: 
+    - "https://sreyan88.github.io/research/"
   abstract: >-
     What does it take for AI to understand the world through audio? In this talk, I will present our work
     on fully open large audio-language models, highlighting advances in architectures, training curricula,
