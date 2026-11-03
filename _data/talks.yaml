@@ -15,6 +15,25 @@ talks:
   bio: >-
     Alessio Brutti is a tenured researcher at FBK, currently leading the SpeechTek research unit of the Centre for Augmented Intelligence. After graduating in Telecommunication engineering at the University of Padova in 2001, in 2003 he joined FBK within the SHINE research group. In 2007 he completed his PhD in Computer Science at University of Trento. He has recently collaborated with the  University of Bolzano for the master degree in computational linguistics and is collaborating with the Faculty of Science of the University of Padova teaching the master course Speech Technologies.
     His research interests focus mainly on the use of machine learning approaches for language technologies and speech processing, including a variety of application domains: speech recognition, speaker verification and recognition, speech enhancement, source localization and sound event detection. In particular, his research addresses the development of efficient, compact and dynamic neural models and their applications in low-resourced and multilingual settings. Recently, he has been investigating multi-modal signal processing for audio-video person tracking and for biometrics. In 2015 he was visiting researcher at Queen Mary University London (Center for Intelligent Sensing).
+  paper_list:
+  - title: "MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond"
+    url: "https://arxiv.org/pdf/2607.22100"
+    # venue: "ASRU 2025"
+  - title: "Towards Enabling Multilingual Multitask SpeechLLMs in Data-Scarce Settings"
+    url: "https://www.isca-archive.org/interspeech_2026/fong26b_interspeech.pdf"
+    venue: "Interspeech 2026"
+  - title: "Scalable Expansion of Multilingual Speech LLMs for ASR: A Continual Learning Approach"
+    url: "https://aclanthology.org/2026.speakable-1.7.pdf"
+    venue: "ELRA 2026"
+  - title: "Sensitive Speaker Attribute Leakage in Speech–LLM Pipelines"
+    url: "https://www.isca-archive.org/odyssey_2026/sepanta26_odyssey.pdf"
+    venue: "Odyssey 2026"
+  - title: "SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies"
+    url: "https://arxiv.org/pdf/2607.25716"
+    venue: "FLICS 2026"
+  video: "https://youtu.be/X7smow9OOqE"
+  # slides: "/assets/slides/Learning_Utterance_Level_Speech_Representations.pdf"
+
 - date: "2026-10-22"
   term: "Fall 2026"
   title: "Learning Sentence-Level Speech Representations: From Semantics to Multidimensional Speech Modeling"
@@ -84,6 +103,8 @@ talks:
     url: "https://sreyan88.github.io/"
   affiliation: "Google DeepMind"
   video: "https://youtu.be/n1QzhX_u-o0?si=xTg8jVort_JtvPMA"
+  slides: "/assets/slides/mila_oct82026.pdf"
+
   papers: 
     - "https://sreyan88.github.io/research/"
   abstract: >-

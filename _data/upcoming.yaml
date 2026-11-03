@@ -12,7 +12,7 @@ talks:
   bio: >- 
     Bhiksha Raj is a professor in the Language Technologies Institute at Carnisegie Mellon University, with additional affiliations to the Machine Learning and Electrical and Computer Engineering departments.  His research interests include speech and audio processing, the theory of deep learning, privacy in speech and audio models, computer vision and all things AI. He is a Fellow of the IEEE and a Fellow of the International Speech Communication Association (ISCA).
   paper_list:
-  - title: "Learning Manifold-Faithful Representations. "
+  - title: "Learning Manifold-Faithful Representations."
     # url: "https://arxiv.org/pdf/2509.12093"
     venue: "Submitted to ICLR 2027"
   - title: "Encoder-Decoder Manifold Alignment for Idempotent Generation."
@@ -21,6 +21,7 @@ talks:
   - title: "RIVET: Robust Idempotent Voice Attribute Editing"
     url: "https://arxiv.org/pdf/2606.19629"
     venue: "Interspeech 2026"
+
 - date: "2026-11-12"
   title: "Title TBA"
   speakers:
@@ -34,3 +35,25 @@ talks:
   - name: "Tara Sainath"
     url: "https://sites.google.com/site/tsainath/"
   affiliation: "Google DeepMind"
+
+- date: "2026-11-26"
+  title: "Title TBA"
+  speakers:
+  - name: "Mirco Ravanelli"
+    url: "https://sites.google.com/site/mircoravanelli/"
+  affiliation: " Mila - Concordia University"
+
+- date: "2026-12-03"
+  title: "Title TBA"
+  speakers:
+  - name: "Julius Richter"
+    url: "https://merl.com/people/richter"
+  affiliation: "MERL"
+
+
+- date: "2026-12-10"
+  title: "Title TBA"
+  speakers:
+  - name: "Meinard Müller"
+    url: "https://www.audiolabs-erlangen.de/fau/professor/mueller"
+  affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)"
