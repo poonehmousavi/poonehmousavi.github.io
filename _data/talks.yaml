@@ -2,6 +2,30 @@
 # To archive a talk after it happens: move it from upcoming.yaml to the TOP of this list
 # and add video / slides links.
 talks:
+- date: "2026-11-05"
+  term: "Fall 2026"
+  title: "Exploring idempotent properties of auto-encoder class models for representation learning"
+  speakers:
+  - name: "Bhiksha Raj"
+    url: "https://cmu-mlsp.github.io/team/bhiksha_raj.html"
+  affiliation: "Carnegie Mellon University"
+  abstract: >-
+    Nearly all signal analysis models work from the principle of first extracting a low-dimensional representation of the signal. In generative models in particular, this representation is derived through auto-encoder style frameworks which are trained to reconstruct the signal.  We show that such representations must ideally learn low-dimensional projections, and that furthermore, by definition, these must be idempotent, whereas in reality the models may not learn them at all.  By enforcing these idempotence constraints, we obtain much more stable representations that enable realistic manipulation and editing. Enabled downstream applications include enhanced image editing, speech synthesis and manipulation.
+  bio: >- 
+    Bhiksha Raj is a professor in the Language Technologies Institute at Carnisegie Mellon University, with additional affiliations to the Machine Learning and Electrical and Computer Engineering departments.  His research interests include speech and audio processing, the theory of deep learning, privacy in speech and audio models, computer vision and all things AI. He is a Fellow of the IEEE and a Fellow of the International Speech Communication Association (ISCA).
+  paper_list:
+  - title: "Learning Manifold-Faithful Representations."
+    # url: "https://arxiv.org/pdf/2509.12093"
+    venue: "Submitted to ICLR 2027"
+  - title: "Encoder-Decoder Manifold Alignment for Idempotent Generation."
+    url: "https://arxiv.org/abs/2606.22304"
+    venue: "DynaFront Workshop, Conference on Neural Information Processing Systems (NeurIPS 2026)"
+  - title: "RIVET: Robust Idempotent Voice Attribute Editing"
+    url: "https://arxiv.org/pdf/2606.19629"
+    venue: "Interspeech 2026"
+  video: "https://youtu.be/oEzkBglIM9w"
+  # slides: "/assets/slides/Learning_Utterance_Level_Speech_Representations.pdf"
+
 - date: "2026-10-29"
   term: "Fall 2026"
   title: "Scaling Speech LLMs Responsibly: Languages, Privacy and Decentralization"

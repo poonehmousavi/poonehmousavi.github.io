@@ -1,34 +1,31 @@
 # Upcoming talks in date order. The first one is shown as the big "Next talk" card.
 # Optional fields: url (paper), papers_page, abstract, bio. Leave the list empty ([]) during breaks.
 talks:
-- date: "2026-11-05"
-  title: "Exploring idempotent properties of auto-encoder class models for representation learning"
-  speakers:
-  - name: "Bhiksha Raj"
-    url: "https://cmu-mlsp.github.io/team/bhiksha_raj.html"
-  affiliation: "Carnegie Mellon University"
-  abstract: >-
-    Nearly all signal analysis models work from the principle of first extracting a low-dimensional representation of the signal. In generative models in particular, this representation is derived through auto-encoder style frameworks which are trained to reconstruct the signal.  We show that such representations must ideally learn low-dimensional projections, and that furthermore, by definition, these must be idempotent, whereas in reality the models may not learn them at all.  By enforcing these idempotence constraints, we obtain much more stable representations that enable realistic manipulation and editing. Enabled downstream applications include enhanced image editing, speech synthesis and manipulation.
-  bio: >- 
-    Bhiksha Raj is a professor in the Language Technologies Institute at Carnisegie Mellon University, with additional affiliations to the Machine Learning and Electrical and Computer Engineering departments.  His research interests include speech and audio processing, the theory of deep learning, privacy in speech and audio models, computer vision and all things AI. He is a Fellow of the IEEE and a Fellow of the International Speech Communication Association (ISCA).
-  paper_list:
-  - title: "Learning Manifold-Faithful Representations."
-    # url: "https://arxiv.org/pdf/2509.12093"
-    venue: "Submitted to ICLR 2027"
-  - title: "Encoder-Decoder Manifold Alignment for Idempotent Generation."
-    url: "https://arxiv.org/abs/2606.22304"
-    venue: "DynaFront Workshop, Conference on Neural Information Processing Systems (NeurIPS 2026)"
-  - title: "RIVET: Robust Idempotent Voice Attribute Editing"
-    url: "https://arxiv.org/pdf/2606.19629"
-    venue: "Interspeech 2026"
+
 
 - date: "2026-11-12"
-  title: "Title TBA"
+  title: "Spatial analysis of acoustic scenes"
   speakers:
   - name: "Tuomas Virtanen"
     url: "https://homepages.tuni.fi/tuomas.virtanen/"
   affiliation: "Tampere University"
-
+  abstract: >- 
+    Speech communication takes place in physical spaces where spatial relationships between participants influence both speech production and interaction dynamics. This presentation explores how microphone arrays and machine learning can be used to analyze spatial information in acoustic scenes beyond linguistic content, enabling estimation of sound sources that are present, where they are located, and how they are oriented. The talk reviews recent advances in source localization and detection, and orientation estimation, and discusses challenges related to the strong dependence of learned models on microphone array geometries. Approaches for array-independent spatial analysis are presented as a path toward more robust and widely deployable systems. The presentation also discusses how spatial information can support separation of overlapping speech for robust analysis of multi-speaker scenes.
+  bio: >- 
+    Tuomas Virtanen is Professor at Tampere University, Finland, where he is leading the Audio Research Group. He received the M.Sc. and Doctor of Science degrees in information technology from Tampere University of Technology in 2001 and 2006, respectively. He has also been working as a research associate at Cambridge University Engineering Department, UK. He is known for his pioneering work on computational acoustic scene analysis and sound source separation. His research interests include machine listening, computational content analysis of audio, and machine learning for audio. He has authored more than 300 scientific publications on the above topics, which have been cited more than 20000 times. He has received IEEE Signal Processing Society best paper awards multiple times, as well as many other best paper awards. He is an IEEE Fellow, IEEE Signal Processing Society Distinguished Lecturer 2024-2025, recipient of the ERC 2014 Starting Grant, and has been a member of the Audio and Acoustic Signal Processing Technical Committee of IEEE Signal Processing Society.
+  paper_list:
+  - title: "SPEAKER HEAD ORIENTATION ESTIMATION WITH A SINGLE MICROPHONE ARRAY USING PHASE SPECTROGRAM FEATURES"
+    url: "https://arxiv.org/pdf/2607.02129"
+    venue: "EUSIPCO 2026"
+  - title: "STARSS23: An Audio-Visual Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events"
+    url: "https://arxiv.org/pdf/2306.09126"
+    venue: " NeurIPS 2023 Track on Datasets and Benchmarks 2023"
+  - title: "Neural Array-Generic Direction-of-Arrival Estimation Exploiting Array Transfer Functions"
+    url: "https://arxiv.org/abs/2608.09425"
+    venue: "Arxiv 2026"
+  - title: "Moving Speaker Separation via Parallel Spectral-Spatial Processing"
+    url: "https://arxiv.org/abs/2602.22487"
+    venue: "IEEE Transactions on Audio, Speech and Language Processing 2026"
 - date: "2026-11-19"
   title: "Title TBA"
   speakers:
