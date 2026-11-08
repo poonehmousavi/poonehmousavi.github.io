@@ -1,8 +1,6 @@
 # Upcoming talks in date order. The first one is shown as the big "Next talk" card.
 # Optional fields: url (paper), papers_page, abstract, bio. Leave the list empty ([]) during breaks.
 talks:
-
-
 - date: "2026-11-12"
   title: "Spatial analysis of acoustic scenes"
   speakers:
