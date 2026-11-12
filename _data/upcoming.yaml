@@ -25,18 +25,27 @@ talks:
     url: "https://arxiv.org/abs/2602.22487"
     venue: "IEEE Transactions on Audio, Speech and Language Processing 2026"
 - date: "2026-11-19"
-  title: "Title TBA"
+  title: "Audio Processing with Large Language Models"
   speakers:
   - name: "Tara Sainath"
     url: "https://sites.google.com/site/tsainath/"
   affiliation: "Google DeepMind"
+  abstract: >-
+    Large Language Models (LLMs) have recently introduced a paradigm shift in Machine Learning, including in audio processing tasks. In automatic speech recognition, we have improved understanding quality across a large number of languages, trained within one universal model. In generation, prompt-based capabilities and naturalness have opened up new paradigm shifts. In translation, we can translate numerous language pairs in real time. Finally, in dialogue, we can build single end-to-end systems that understand and reply to user queries. These capabilities are transforming audio products across the industry. In this talk, I will detail the research and product impact of audio LLMs at Google. 
+  bio: >-
+    Dr. Tara Sainath holds an S.B., M.Eng, and PhD in Electrical Engineering  and Computer Science from MIT. Her expertise in speech recognition and deep neural networks led to a 5 year stint at IBM T.J. Watson Research Center, and currently fuels her work as a Tech Lead in Google DeepMind's Audio Pillar.  There, she focuses on the integration of audio capabilities with large language models (LLMs). Her technical prowess is recognized through her IEEE Fellowship and awards such as the 2021 IEEE SPS Industrial Innovation Award and co-recipient of the 2022 IEEE SPS Signal Processing Magazine Best Paper Award. She has served as a member of the IEEE Speech and Language Processing Technical Committee (SLTC) as well as the Associate Editor for IEEE/ACM Transactions on Audio, Speech, and Language Processing. Dr. Sainath's leadership is exemplified by her roles as Program Chair for ICLR (2017, 2018) and her extensive work co-organizing influential conferences and workshops, including: Interspeech (2010, 2016, 2019), ICML (2013, 2017), and NeurIPS 2020. Her primary research interests are in deep neural networks for speech recognition. 
+
 
 - date: "2026-11-26"
-  title: "Title TBA"
+  title: "Efficient and Disentangled Speech Representations for LLMs"
   speakers:
   - name: "Mirco Ravanelli"
     url: "https://sites.google.com/site/mircoravanelli/"
   affiliation: " Mila - Concordia University"
+  abstract: >- 
+    LLMs are transforming conversational AI, enabling systems that can listen, understand, and respond naturally through speech. In this talk, I will explore how speech representations have evolved and why they play a crucial role in modern AI systems. I will then highlight key challenges and present recent advances from our research toward more efficient, compact, controllable, and disentangled speech representations for the next generation of conversational AI.
+  bio: >-
+    Mirco Ravanelli is an Associate Professor at Concordia University and an Associate Member of Mila – Quebec AI Institute. His research focuses on deep learning and Conversational AI, with particular emphasis on speech processing, representation learning, multimodality, and interpretability. He has authored over 100 publications in machine learning and speech processing venues and has received several international awards for his research. He founded and leads SpeechBrain, one of the most widely adopted open-source toolkits for speech and conversational AI, used by researchers and practitioners worldwide. His recent research explores speech tokenization, multimodal LLMs, and efficient foundation models for audio and speech.
 
 - date: "2026-12-03"
   title: "Title TBA"
