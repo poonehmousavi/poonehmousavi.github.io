@@ -1,29 +1,6 @@
 # Upcoming talks in date order. The first one is shown as the big "Next talk" card.
 # Optional fields: url (paper), papers_page, abstract, bio. Leave the list empty ([]) during breaks.
 talks:
-- date: "2026-11-12"
-  title: "Spatial analysis of acoustic scenes"
-  speakers:
-  - name: "Tuomas Virtanen"
-    url: "https://homepages.tuni.fi/tuomas.virtanen/"
-  affiliation: "Tampere University"
-  abstract: >- 
-    Speech communication takes place in physical spaces where spatial relationships between participants influence both speech production and interaction dynamics. This presentation explores how microphone arrays and machine learning can be used to analyze spatial information in acoustic scenes beyond linguistic content, enabling estimation of sound sources that are present, where they are located, and how they are oriented. The talk reviews recent advances in source localization and detection, and orientation estimation, and discusses challenges related to the strong dependence of learned models on microphone array geometries. Approaches for array-independent spatial analysis are presented as a path toward more robust and widely deployable systems. The presentation also discusses how spatial information can support separation of overlapping speech for robust analysis of multi-speaker scenes.
-  bio: >- 
-    Tuomas Virtanen is Professor at Tampere University, Finland, where he is leading the Audio Research Group. He received the M.Sc. and Doctor of Science degrees in information technology from Tampere University of Technology in 2001 and 2006, respectively. He has also been working as a research associate at Cambridge University Engineering Department, UK. He is known for his pioneering work on computational acoustic scene analysis and sound source separation. His research interests include machine listening, computational content analysis of audio, and machine learning for audio. He has authored more than 300 scientific publications on the above topics, which have been cited more than 20000 times. He has received IEEE Signal Processing Society best paper awards multiple times, as well as many other best paper awards. He is an IEEE Fellow, IEEE Signal Processing Society Distinguished Lecturer 2024-2025, recipient of the ERC 2014 Starting Grant, and has been a member of the Audio and Acoustic Signal Processing Technical Committee of IEEE Signal Processing Society.
-  paper_list:
-  - title: "SPEAKER HEAD ORIENTATION ESTIMATION WITH A SINGLE MICROPHONE ARRAY USING PHASE SPECTROGRAM FEATURES"
-    url: "https://arxiv.org/pdf/2607.02129"
-    venue: "EUSIPCO 2026"
-  - title: "STARSS23: An Audio-Visual Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events"
-    url: "https://arxiv.org/pdf/2306.09126"
-    venue: " NeurIPS 2023 Track on Datasets and Benchmarks 2023"
-  - title: "Neural Array-Generic Direction-of-Arrival Estimation Exploiting Array Transfer Functions"
-    url: "https://arxiv.org/abs/2608.09425"
-    venue: "Arxiv 2026"
-  - title: "Moving Speaker Separation via Parallel Spectral-Spatial Processing"
-    url: "https://arxiv.org/abs/2602.22487"
-    venue: "IEEE Transactions on Audio, Speech and Language Processing 2026"
 - date: "2026-11-19"
   title: "Audio Processing with Large Language Models"
   speakers:
@@ -46,18 +23,54 @@ talks:
     LLMs are transforming conversational AI, enabling systems that can listen, understand, and respond naturally through speech. In this talk, I will explore how speech representations have evolved and why they play a crucial role in modern AI systems. I will then highlight key challenges and present recent advances from our research toward more efficient, compact, controllable, and disentangled speech representations for the next generation of conversational AI.
   bio: >-
     Mirco Ravanelli is an Associate Professor at Concordia University and an Associate Member of Mila – Quebec AI Institute. His research focuses on deep learning and Conversational AI, with particular emphasis on speech processing, representation learning, multimodality, and interpretability. He has authored over 100 publications in machine learning and speech processing venues and has received several international awards for his research. He founded and leads SpeechBrain, one of the most widely adopted open-source toolkits for speech and conversational AI, used by researchers and practitioners worldwide. His recent research explores speech tokenization, multimodal LLMs, and efficient foundation models for audio and speech.
+  paper_list:
+  - title: "HybridCodec: Modeling Discrete and Continuous Representations for Efficient Speech Language Models"
+    url: "https://arxiv.org/pdf/2606.27627"
+    venue: "Interspeech 2026"
+  - title: "WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation"
+    url: "https://arxiv.org/pdf/2603.05299"
+    venue: "Interspeech 2026"
+
 
 - date: "2026-12-03"
-  title: "Title TBA"
+  title: "The Perception-Distortion Tradeoff in Speech Enhancement"
   speakers:
   - name: "Julius Richter"
     url: "https://merl.com/people/richter"
   affiliation: "MERL"
-
+  abstract: >- 
+    Speech enhancement aims to recover clean speech from noisy recordings, with applications in speech communication, human–machine interaction, and assistive technologies. A central challenge is to improve perceptual quality while preserving speech content and minimizing signal distortion. In this talk, I will discuss two paradigms for speech enhancement: predictive models, which directly estimate clean speech from noisy observations, and generative models, which leverage learned speech distributions to reconstruct clean speech. I will examine their complementary strengths and limitations, particularly the trade-off between perceptual quality and signal distortion, as well as the risk of introducing speech hallucinations. I will then explore hybrid approaches that combine the strengths of both paradigms. Building on my earlier work on score-based generative models for speech enhancement (SGMSE), I will present two recent research contributions: SIPS, a plug-and-play framework that combines pretrained predictive models with a generative speech prior to improve perceptual speech quality, and FlowSE-RAM, which employs reward-based post-training guided by automatic speech recognition to mitigate speech hallucinations and reduce word error rates on real-world recordings.  bio: >-
+  bio: >-  
+    Julius Richter is a Visiting Research Scientist at Mitsubishi Electric Research Laboratories (MERL). His research interests include generative modeling and multimodal learning for audio-visual understanding and restoration. During his Ph.D. at the University of Hamburg, he developed diffusion-based generative methods for single-channel speech enhancement. Prior to joining MERL, he was a postdoctoral researcher at Meta Superintelligence Labs.  paper_list:
+  paper_list:
+  - title: "Speech Enhancement and Dereverberation with Diffusion-based Generative Models"
+    url: "https://arxiv.org/pdf/2208.05830"
+    venue: "E/ACM Transactions on Audio, Speech, and Language Processing 2023"
+  - title: "Predictive-Generative Drift Decomposition for Speech Enhancement and Separation"
+    url: "https://arxiv.org/pdf/2605.06189"
+  - title: "Transcript-Supervised Post-Training of Generative Speech Enhancement on Real Recordings via Reinforce Adjoint Matching"
+    url: "https://arxiv.org/pdf/2609.29405"
 
 - date: "2026-12-10"
-  title: "Title TBA"
+  title: "Loss Functions Matter: Three Case Studies in Informed Loss Design"
   speakers:
   - name: "Meinard Müller"
     url: "https://www.audiolabs-erlangen.de/fau/professor/mueller"
   affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)"
+  abstract: >- 
+    Loss functions are fundamental to deep learning, as they quantify the discrepancy between model predictions and reference targets. They guide the optimization process and have a direct impact on model performance and convergence. Nevertheless, loss design and configuration are often treated as secondary aspects, which can result in unstable training and solutions that fail to capture the structure and objectives of the task. In this presentation, with a focus on audio and music processing, we highlight the importance of well-designed loss functions through three specific case studies. First, we revisit the Multi-Scale Spectral Loss for audio synthesis and analyze how different configurations affect gradient quality and training stability. Second, we introduce a loss function for hierarchical classification that promotes consistency across multiple levels of semantic attributes (e.g., singing activity, gender, and voice type in music audio classification). Third, we discuss a differentiable version of dynamic time warping, designed for learning from weakly aligned data, and discuss strategies for improving training stability. Rather than providing a general overview, we focus on concrete examples to show how incorporating prior knowledge and task-specific structure into loss functions can lead to more robust and interpretable learning outcomes. 
+  bio: >-  
+    Meinard Müller received the Diploma degree (1997) in mathematics and the Ph.D. degree (2001) in computer science from the University of Bonn, Germany. Since 2012, he has held a professorship for Semantic Audio Signal Processing at the International Audio Laboratories Erlangen, a joint institute of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and the Fraunhofer Institute for Integrated Circuits IIS. His recent research interests include music processing, music information retrieval, audio signal processing, and motion processing. He was a member of the IEEE Audio and Acoustic Signal Processing Technical Committee (2010-2015), a member of the Senior Editorial Board of the IEEE Signal Processing Magazine (2018-2022), and a member of the Board of Directors, International Society for Music Information Retrieval (2009-2021, being its president in 2020/2021). In 2020, he was elevated to IEEE Fellow for contributions to music signal processing. Currently, he also serves as Editor-in-Chief for the Transactions of the International Society for Music Information Retrieval (TISMIR). Besides his scientific research, Meinard Müller has been very active in teaching music and audio processing. He gave numerous tutorials at major conferences, including ICASSP (2009, 2011, 2019) and ISMIR (2007, 2010, 2011, 2014, 2017, 2019, 2023, 2024, 2025). Furthermore, he wrote a monograph titled "Information Retrieval for Music and Motion" (Springer 2007) as well as a textbook titled "Fundamentals of Music Processing" (Springer-Verlag 2015).  paper_list:
+  paper_list:
+  - title: "Multi-Scale Spectral Loss Revisited."
+    url: "https://ieeexplore.ieee.org/document/10319088"
+    venue: "IEEE Signal Processing Letters"
+  - title: "Hierarchical Classification for Instrument Activity Detection in Orchestral Music Recordings"
+    url: "https://ieeexplore.ieee.org/abstract/document/10171391"
+    venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+  - title: "TransHierarchical Classification for Singing Activity, Gender, and Type in Complex Music Recordings"
+    url: "https://ieeexplore.ieee.org/document/9747690"
+    venue: "ICASSP 2022"
+  - title: " A Unified Perspective on CTC and Soft-DTW Using Differentiable DTW"
+    url: "https://ieeexplore.ieee.org/document/11362939"
+    venue: "IEEE Transactions on Audio, Speech, and Language Processing (TASLPRO)"
