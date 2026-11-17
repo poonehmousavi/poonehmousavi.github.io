@@ -26,6 +26,8 @@ talks:
   - title: "Moving Speaker Separation via Parallel Spectral-Spatial Processing"
     url: "https://arxiv.org/abs/2602.22487"
     venue: "IEEE Transactions on Audio, Speech and Language Processing 2026"
+  video: "https://youtu.be/qyIM09TjPBs?si=ti1812fWmvJqtS4x"
+  slides: "/assets/slides/Virtanen_Conversational_AI.pdf"
 
 - date: "2026-11-05"
   term: "Fall 2026"
@@ -81,7 +83,7 @@ talks:
     url: "https://arxiv.org/pdf/2607.25716"
     venue: "FLICS 2026"
   video: "https://youtu.be/X7smow9OOqE"
-  # slides: "/assets/slides/Learning_Utterance_Level_Speech_Representations.pdf"
+  slides: "/assets/slides/Conversational_Ai_ Brutti.pdf"
 
 - date: "2026-10-22"
   term: "Fall 2026"
