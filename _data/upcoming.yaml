@@ -24,6 +24,9 @@ talks:
   bio: >-
     Mirco Ravanelli is an Associate Professor at Concordia University and an Associate Member of Mila – Quebec AI Institute. His research focuses on deep learning and Conversational AI, with particular emphasis on speech processing, representation learning, multimodality, and interpretability. He has authored over 100 publications in machine learning and speech processing venues and has received several international awards for his research. He founded and leads SpeechBrain, one of the most widely adopted open-source toolkits for speech and conversational AI, used by researchers and practitioners worldwide. His recent research explores speech tokenization, multimodal LLMs, and efficient foundation models for audio and speech.
   paper_list:
+  - title: "Factorized Self-Supervised Speech Tokenization"
+    url: "https://arxiv.org/html/2611.18898v1"
+    venue: "NeurIPS 2026"
   - title: "HybridCodec: Modeling Discrete and Continuous Representations for Efficient Speech Language Models"
     url: "https://arxiv.org/pdf/2606.27627"
     venue: "Interspeech 2026"
