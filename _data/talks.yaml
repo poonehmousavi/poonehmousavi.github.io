@@ -2,6 +2,31 @@
 # To archive a talk after it happens: move it from upcoming.yaml to the TOP of this list
 # and add video / slides links.
 talks:
+- date: "2026-11-26"
+  term: "Fall 2026"
+  title: "Efficient and Disentangled Speech Representations for LLMs"
+  speakers:
+  - name: "Mirco Ravanelli"
+    url: "https://sites.google.com/site/mircoravanelli/"
+  affiliation: " Mila - Concordia University"
+  abstract: >- 
+    LLMs are transforming conversational AI, enabling systems that can listen, understand, and respond naturally through speech. In this talk, I will explore how speech representations have evolved and why they play a crucial role in modern AI systems. I will then highlight key challenges and present recent advances from our research toward more efficient, compact, controllable, and disentangled speech representations for the next generation of conversational AI.
+  bio: >-
+    Mirco Ravanelli is an Associate Professor at Concordia University and an Associate Member of Mila – Quebec AI Institute. His research focuses on deep learning and Conversational AI, with particular emphasis on speech processing, representation learning, multimodality, and interpretability. He has authored over 100 publications in machine learning and speech processing venues and has received several international awards for his research. He founded and leads SpeechBrain, one of the most widely adopted open-source toolkits for speech and conversational AI, used by researchers and practitioners worldwide. His recent research explores speech tokenization, multimodal LLMs, and efficient foundation models for audio and speech.
+  paper_list:
+  - title: "Factorized Self-Supervised Speech Tokenization"
+    url: "https://arxiv.org/html/2611.18898v1"
+    venue: "NeurIPS 2026"
+  - title: "HybridCodec: Modeling Discrete and Continuous Representations for Efficient Speech Language Models"
+    url: "https://arxiv.org/pdf/2606.27627"
+    venue: "Interspeech 2026"
+  - title: "WavSLM: Single-Stream Speech Language Modeling via WavLM Distillation"
+    url: "https://arxiv.org/pdf/2603.05299"
+    venue: "Interspeech 2026"
+  video: "https://youtu.be/JtXymHCUxsM"
+  slides: "/assets/slides/Speech_Representation_in_the_Era_of_LLMs_ConvAI_Nov2026.pdf"
+
+
 - date: "2026-11-19"
   term: "Fall 2026"
   title: "Audio Processing with Large Language Models"
